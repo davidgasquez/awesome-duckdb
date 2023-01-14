@@ -5,27 +5,22 @@
 [DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system.
 
 ## Contents
+- [Awesome DuckDB ](#awesome-duckdb-)
+  - [Contents](#contents)
+  - [Resources](#resources)
+  - [Integrations](#integrations)
+  - [Contribute](#contribute)
 
-- [Section](#section)
-- [Another Section](#another-section)
+## Resources
 
+- [Documentation](https://duckdb.org/docs/) - Official DuckDB documentation.
+- [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
 
-## Section
+## Integrations
 
-About this section. Optional. Keep this short and focus on the list.
-
-- [List item](http://example.com)
-- [List item](http://example.com)
-
-
-## Another Section
-
-### Subsection
-
-- [List item](http://example.com)
-- [List item](http://example.com)
-
+- [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - dbt adapter for DuckDB.
+- [DuckDB Deltatable Extension](https://github.com/Mause/duckdb-deltatable-extension) - Experimental DuckDB Deltalake extension.
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
