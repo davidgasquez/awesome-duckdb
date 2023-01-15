@@ -20,7 +20,7 @@
 
 ## Tools Powered by DuckDB
 
-- [Rill Developer](https://github.com/rilldata/rill-developer) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL. BI-as-code.
+- [Rill Developer](https://github.com/rilldata/rill-developer) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [MotherDuck Blog](https://motherduck.com/) - Supercharge DuckDB experience with the cloud.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 
