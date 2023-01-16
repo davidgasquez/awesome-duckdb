@@ -4,7 +4,9 @@
 
 [DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system.
 
-## Contents <!-- omit in toc -->
+<!-- omit in toc -->
+## Contents
+
 - [Resources](#resources)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
 - [Integrations](#integrations)
