@@ -24,7 +24,7 @@
 
 ## Integrations
 
-- [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - dbt adapter for DuckDB.
+- [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
 - [DuckDB Deltatable Extension](https://github.com/Mause/duckdb-deltatable-extension) - Experimental DuckDB Deltalake extension.
 
 ## Contribute
