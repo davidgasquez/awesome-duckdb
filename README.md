@@ -1,16 +1,14 @@
-# Awesome DuckDB [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome DuckDB [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <!-- omit in toc -->
 
 > A curated list of awesome DuckDB libraries, tools and resources.
 
 [DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system.
 
-## Contents
-- [Awesome DuckDB ](#awesome-duckdb-)
-  - [Contents](#contents)
-  - [Resources](#resources)
-  - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
-  - [Integrations](#integrations)
-  - [Contribute](#contribute)
+## Contents <!-- omit in toc -->
+- [Resources](#resources)
+- [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+- [Integrations](#integrations)
+- [Contribute](#contribute)
 
 ## Resources
 
