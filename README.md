@@ -21,7 +21,7 @@
 ## Tools Powered by DuckDB
 
 - [Rill Developer](https://github.com/rilldata/rill-developer) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
-- [Ibis Project](ibis-project.or) - The flexibility of Python analytics with the scale and performance of modern SQL.
+- [Ibis Project](https://ibis-project.org/) - The flexibility of Python analytics with the scale and performance of modern SQL.
 - [MotherDuck](https://motherduck.com/) - Supercharge DuckDB experience with the cloud.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 
