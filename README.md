@@ -34,7 +34,6 @@
 ## Integrations
 
 - [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
-- [DuckDB Deltatable Extension](https://github.com/Mause/duckdb-deltatable-extension) - Experimental DuckDB Deltalake extension.
 - [data load tool - DuckDB destination](https://dlthub.com/docs/destinations#duckdb) - Extract and load data from APIs to DuckDB using dlt.
 
 ## Extensions
