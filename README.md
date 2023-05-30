@@ -34,7 +34,7 @@
 ## Integrations
 
 - [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
-- [data load tool - DuckDB destination](https://dlthub.com/docs/destinations#duckdb) - Extract and load data from APIs to DuckDB using dlt.
+- [data load tool - DuckDB destination](https://dlthub.com/docs/destinations/duckdb) - Extract and load data from APIs to DuckDB using dlt.
 
 ## Extensions
 
