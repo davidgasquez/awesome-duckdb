@@ -1,0 +1,31 @@
+name: Check links in the README
+
+on: [push, pull_request]
+
+jobs:
+  LinkChecker:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: pandoc
+
+      - name: Convert Markdown to HTML format
+        run: pandoc README.md --standalone --output README.html
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - run: pip install linkchecker --user
+
+      - name: Link Checker
+        run: linkchecker README.html --config .github/linkchecker/linkchecker.conf --file-output html/utf-8/report.html
+
+      - run: cat report.html >> ${GITHUB_STEP_SUMMARY}
+        if: success() || failure()
