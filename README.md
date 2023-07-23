@@ -22,6 +22,7 @@
 - [Official Blog](https://duckdb.org/news/) - Official DuckDB blog.
 - [DuckDB Clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
 - [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
+- [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
 
 ## Tools Powered by DuckDB
