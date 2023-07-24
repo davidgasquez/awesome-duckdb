@@ -47,6 +47,9 @@
 
 ### Talks
 
+- [DuckDB: Bringing analytical SQL directly to your Python shell @ EuroPython](https://www.youtube.com/watch?v=egN4TwVyJss) - Pedro Holanda.
+- [DuckDB keynote @ Data + AI Summit 2023](https://www.youtube.com/watch?v=GaHWuQ_cBhA) - Hannes Mühleisen.
+- [DuckCon #3 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhy6QG4Eqoe9k9NgBa-w67Y)
 - [DuckDB: Bringing Analytical SQL Directly To Your Python Shell @ FOSDEM](https://www.youtube.com/watch?v=-rCZQHXSunc&ab_channel=DuckDBLabs) - Pedro Holanda.
 - [State Of The Duck @ DuckCon](https://www.youtube.com/watch?v=rdnPkLSkoyU&ab_channel=DuckDBLabs) - Hannes Mühleisen & Mark Raasveldt.
 - [DuckDB Extensions @ DuckCon](https://www.youtube.com/watch?v=UKo_LQyLTko&ab_channel=DuckDBLabs) - Pedro Holanda & Sam Ansmink.
