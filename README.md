@@ -41,9 +41,9 @@
 
 - [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdblabs/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
-  - [`postgres_scanner`](https://github.com/duckdblabs/postgres_scanner) – Allows DuckDB to directly read data from a running Postgres instance.
-  - [`spatial`](https://github.com/duckdblabs/duckdb_spatial) - Enables geospatial processing.
-  - [`sqlite_scanner`](https://github.com/duckdblabs/sqlite_scanner) – To read and write to SQLite databases.
+  - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) – Allows DuckDB to directly read data from a running Postgres instance.
+  - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
+  - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) – To read and write to SQLite databases.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
