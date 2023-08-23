@@ -44,6 +44,8 @@
 - [data load tool - DuckDB destination](https://dlthub.com/docs/dlt-ecosystem/destinations/duckdb) - Extract and load data from APIs to DuckDB using dlt.
 - [target-duckdb](https://hub.meltano.com/loaders/target-duckdb/) - Load data to DuckDB based on Singer spec.
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
+- [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) — run queries with DuckDB to [schedule data transformations](https://demo.kestra.io/ui/blueprints/community?selectedTag=35) and process automations, and [run event-driven anomaly detection pipelines](https://motherduck.com/blog/motherduck-kestra-etl-pipelines/)
+
 
 ## Extensions
 
