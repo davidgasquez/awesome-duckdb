@@ -33,6 +33,11 @@
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/logic-cell-types/sql-cells/overview) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
+
+## Libraries Powered by DuckDB
+
+- [Mosaic](https://uwdata.github.io/mosaic/) - An extensible framework for linking databases and interactive views.
+
 ## Integrations
 
 - [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
