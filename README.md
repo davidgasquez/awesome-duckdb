@@ -32,6 +32,10 @@
 - [MotherDuck](https://motherduck.com/) - Supercharge DuckDB experience with the cloud.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 
+## Libraries Powered by DuckDB
+
+- [Mosaic](https://uwdata.github.io/mosaic/) - An extensible framework for linking databases and interactive views.
+
 ## Integrations
 
 - [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
