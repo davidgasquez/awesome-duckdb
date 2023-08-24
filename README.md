@@ -39,9 +39,14 @@
 
 - [Mosaic](https://uwdata.github.io/mosaic/) - An extensible framework for linking databases and interactive views.
 
+## Projects Powered by DuckDB
+
+- [NBA Monte Carlo](https://github.com/matsonj/nba-monte-carlo) - Monte Carlo simulation of the NBA season, leveraging Meltano, dbt, DuckDB and Evidence.
+- [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
+
 ## Integrations
 
-- [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter.
+- [dbt-duckdb](https://github.com/jwills/dbt-duckdb) - DuckDB dbt adapter. 
 - [data load tool - DuckDB destination](https://dlthub.com/docs/dlt-ecosystem/destinations/duckdb) - Extract and load data from APIs to DuckDB using dlt.
 - [target-duckdb](https://hub.meltano.com/loaders/target-duckdb/) - Load data to DuckDB based on Singer spec.
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
@@ -82,6 +87,10 @@
 - [Software Engineering Daily: DuckDB](https://softwareengineeringdaily.com/2022/03/18/duckdb-with-hannes-muleisen/) - Hannes Mühleisen.
 - [Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
 - [The Personal Data Warehouse](https://podcasts.apple.com/gb/podcast/the-personal-data-warehouse-w-jordan-tigani-of-motherduck/id1574755368?i=1000568408959) - Jordan Tigani.
+
+### Blog Posts
+
+- [Modern Data Stack in a Box](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html) -  Fast, free, and open-source Modern Data Stack deployed on a laptop using the combination of DuckDB, Meltano, dbt, and Apache Superset.
 
 ## Contribute
 
