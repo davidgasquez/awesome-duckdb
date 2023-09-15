@@ -35,10 +35,17 @@
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/logic-cell-types/sql-cells/overview) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
+- [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 
 ## Libraries Powered by DuckDB
 
 - [Mosaic](https://uwdata.github.io/mosaic/) - An extensible framework for linking databases and interactive views.
+- [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
+
+## SQL Clients and IDE that Support DuckDB
+
+- [Harlequin](https://harlequin.sh) - The DuckDB IDE for your terminal. ([GitHub](https://github.com/tconbeer/harlequin)).
+- [qStudio](https://www.timestored.com/qstudio/) - A free SQL tool specialized for data analysts. It runs on every operating system and allows easy browsing of tables and charting of results.
 
 ## Projects Powered by DuckDB
 
