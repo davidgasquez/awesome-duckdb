@@ -45,12 +45,9 @@
 
 ## SQL Clients and IDE that Support DuckDB
 
-- [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) - Free DuckDB SQL Tools for VS Code IDE.
-- [DuckDB Pro Tools](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) - Premium DuckDB Tools for VS Code IDE with advanced DuckDB connection features and extended database schema views.
 - [Harlequin](https://harlequin.sh) - The DuckDB IDE for your terminal. ([GitHub](https://github.com/tconbeer/harlequin)).
 - [qStudio](https://www.timestored.com/qstudio/) - A free SQL tool specialized for data analysts. It runs on every operating system and allows easy browsing of tables and charting of results.
-- [PRQL Pro Tools](https://github.com/RandomFractals/pro-data-tools/tree/main#prql-pro-tools) - Premium PRQL Tools for VS Code IDE with PRQL Run Query Code Lens and DuckDB SQL Tools support.
-- [Markdown SQL Pro Tools](https://github.com/RandomFractals/pro-data-tools/tree/main#markdown-sql-pro-tools) - Premium Markdown SQL Tools for VS Code IDE with SQL Code Lenses and DuckDB SQL Tools integration.
+- [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) - Free DuckDB SQL Tools for VS Code IDE. [Premium version available](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) with advanced features.
 
 ## Projects Powered by DuckDB
 
