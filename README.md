@@ -38,6 +38,7 @@
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 - [Honeycomb Maps](https://docs.honeycomb.place/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
+- [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 
 ## Libraries Powered by DuckDB
 
