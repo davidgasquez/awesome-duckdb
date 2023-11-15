@@ -9,11 +9,15 @@
 
 - [Resources](#resources)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 - [Integrations](#integrations)
 - [Extensions](#extensions)
 - [Media](#media)
   - [Talks](#talks)
   - [Podcasts](#podcasts)
+  - [Blog Posts](#blog-posts)
 - [Contribute](#contribute)
 
 ## Resources
@@ -63,7 +67,7 @@
 - [target-duckdb](https://hub.meltano.com/loaders/target-duckdb/) - Load data to DuckDB based on Singer spec.
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
 - [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) — Run queries with DuckDB to schedule data transformations and process automations, and run event-driven anomaly detection pipelines.
-
+- [Arrow Flight SQL Server](https://github.com/voltrondata/flight-sql-server-example) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) what runs in a client-server setup with DuckDB or SQLite as backends.
 
 ## Extensions
 
