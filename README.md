@@ -8,6 +8,7 @@
 ## Contents
 
 - [Resources](#resources)
+- [Client APIs](#client-apis)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
 - [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
 - [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
@@ -30,6 +31,22 @@
 - [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
 - [Serverless DuckDB over S3](https://github.com/BauplanLabs/quack-reduce/) - Running DuckDB over a data lake on S3 using lambda.
+
+## Client APIs
+
+- [C](https://duckdb.org/docs/api/c/overview)
+- [C++](https://duckdb.org/docs/api/cpp)
+- [CLI](https://duckdb.org/docs/api/cli)
+- [Go](https://github.com/marcboeker/go-duckdb)
+- [Julia](https://duckdb.org/docs/api/julia)
+- [Node.js](https://duckdb.org/docs/api/nodejs/overview)
+- [Python](https://duckdb.org/docs/api/python/overview)
+- [R](https://duckdb.org/docs/api/r)
+- [Rust](https://duckdb.org/docs/api/rust)
+- [Swift](https://duckdb.org/docs/api/swift)
+- [Wasm](https://duckdb.org/docs/api/wasm/overview)
+- [ADBC](https://duckdb.org/docs/api/adbc)
+- [ODBC](https://duckdb.org/docs/api/odbc/overview)
 
 ## Tools Powered by DuckDB
 
