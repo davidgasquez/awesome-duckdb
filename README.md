@@ -9,11 +9,15 @@
 
 - [Resources](#resources)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 - [Integrations](#integrations)
 - [Extensions](#extensions)
 - [Media](#media)
   - [Talks](#talks)
   - [Podcasts](#podcasts)
+  - [Blog Posts](#blog-posts)
 - [Contribute](#contribute)
 
 ## Resources
