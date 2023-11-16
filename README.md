@@ -31,6 +31,7 @@
 - [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
 - [Serverless DuckDB over S3](https://github.com/BauplanLabs/quack-reduce/) - Running DuckDB over a data lake on S3 using lambda.
+- [DuckDB snippets](https://duckdbsnippets.com/) - Collection of snippets curated by MotherDuck.
 
 ## Client APIs
 
