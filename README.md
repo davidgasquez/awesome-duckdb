@@ -70,10 +70,12 @@
 
 - [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdblabs/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
+  - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - DuckDB extension for handling AWS credentials.
+  - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - DuckDB extension for using the Azure Blob storage.
   - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) – Allows DuckDB to directly read data from a running Postgres instance.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
   - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) – To read and write to SQLite databases.
-  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
