@@ -8,6 +8,7 @@
 ## Contents
 
 - [Resources](#resources)
+- [Client APIs](#client-apis)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
 - [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
 - [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
@@ -23,12 +24,30 @@
 ## Resources
 
 - [Official Documentation](https://duckdb.org/docs/) - Official DuckDB documentation.
-- [Official Blog](https://duckdb.org/news/) - Official DuckDB blog.
-- [DuckDB Clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
+  - [Official Blog](https://duckdb.org/news/) - Official DuckDB blog.
+  - [DuckDB Clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
+  - [DuckDB Documentation PDF](https://duckdb.org/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
 - [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
 - [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
 - [Serverless DuckDB over S3](https://github.com/BauplanLabs/quack-reduce/) - Running DuckDB over a data lake on S3 using lambda.
+- [DuckDB snippets](https://duckdbsnippets.com/) - Collection of snippets curated by MotherDuck.
+
+## Client APIs
+
+- [C](https://duckdb.org/docs/api/c/overview)
+- [C++](https://duckdb.org/docs/api/cpp)
+- [CLI](https://duckdb.org/docs/api/cli)
+- [Go](https://github.com/marcboeker/go-duckdb)
+- [Julia](https://duckdb.org/docs/api/julia)
+- [Node.js](https://duckdb.org/docs/api/nodejs/overview)
+- [Python](https://duckdb.org/docs/api/python/overview)
+- [R](https://duckdb.org/docs/api/r)
+- [Rust](https://duckdb.org/docs/api/rust)
+- [Swift](https://duckdb.org/docs/api/swift)
+- [Wasm](https://duckdb.org/docs/api/wasm/overview)
+- [ADBC](https://duckdb.org/docs/api/adbc)
+- [ODBC](https://duckdb.org/docs/api/odbc/overview)
 
 ## Tools Powered by DuckDB
 
@@ -73,10 +92,12 @@
 
 - [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdblabs/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
+  - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - DuckDB extension for handling AWS credentials.
+  - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - DuckDB extension for using the Azure Blob storage.
   - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) – Allows DuckDB to directly read data from a running Postgres instance.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
   - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) – To read and write to SQLite databases.
-  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
@@ -89,6 +110,7 @@
 
 ### Talks
 
+- [DuckDB: The Power of a Data Warehouse in your Python Process @ PyData Yerevan](https://www.youtube.com/watch?v=q_SKaOeRiOI) – Gábor Szárnyas.
 - [DuckDB: Bringing analytical SQL directly to your Python shell @ EuroPython](https://www.youtube.com/watch?v=egN4TwVyJss) - Pedro Holanda.
 - [DuckDB keynote @ Data + AI Summit 2023](https://www.youtube.com/watch?v=GaHWuQ_cBhA) - Hannes Mühleisen.
 - [DuckCon #3 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhy6QG4Eqoe9k9NgBa-w67Y)
