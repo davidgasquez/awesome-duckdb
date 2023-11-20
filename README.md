@@ -62,6 +62,7 @@
 - [Honeycomb Maps](https://docs.honeycomb.place/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
+- [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery and Postgres, and natively supports DuckDB.
 
 ## Libraries Powered by DuckDB
 
