@@ -64,6 +64,7 @@
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery and Postgres, and natively supports DuckDB.
+- [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, csv, parquet and json.
 
 ## Libraries Powered by DuckDB
 
