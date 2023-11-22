@@ -33,6 +33,10 @@
 - [Serverless DuckDB over S3](https://github.com/BauplanLabs/quack-reduce/) - Running DuckDB over a data lake on S3 using lambda.
 - [DuckDB snippets](https://duckdbsnippets.com/) - Collection of snippets curated by MotherDuck.
 - [DuckDB tldr page](https://tldr.inbrowser.app/pages/common/duckdb) - DuckDB's entry in [tldr pages](https://tldr.sh/), available in CLI via the `tldr duckdb` command.
+- [DuckDB AWS Lambda layer](https://github.com/tobilg/duckdb-nodejs-layer) - Run DuckDB in AWS Lambda functions.
+- [Compatible DuckDB Extensions for AWS Lambda](https://extensions.quacking.cloud/) - Extensions specifically compiled for the AWS Lambda runtime (GLIBC 2.26).
+- [Serverless DuckDB as API](https://github.com/tobilg/serverless-duckdb) - Use DuckDB as API with Amazon API Gateway and AWS Lambda.
+- [Serverless Parquet Repartitioner](https://github.com/tobilg/serverless-parquet-repartitioner) - Use DuckDB to repartition data in S3-based Data Lakes.
 
 ## Client APIs
 
@@ -65,6 +69,7 @@
 - [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery and Postgres, and natively supports DuckDB.
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, csv, parquet and json.
+ - [SQL Playground](https://sql.quacking.cloud) - DuckDB-WASM based SQL playground for running queries on local or remote data, being able to show data as tables or visually as graphs.
 
 ## Libraries Powered by DuckDB
 
