@@ -105,9 +105,9 @@
   - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
   - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - DuckDB extension for handling AWS credentials.
   - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - DuckDB extension for using the Azure Blob storage.
-  - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) – Allows DuckDB to directly read data from a running Postgres instance.
+  - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) - Allows DuckDB to directly read data from a running Postgres instance.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
-  - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) – To read and write to SQLite databases.
+  - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) - To read and write to SQLite databases.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
@@ -123,7 +123,7 @@
 ### Talks
 
 - [In-Process Analytical Data Management with DuckDB @ PyData Amsterdam](https://www.youtube.com/watch?v=5ddoZR6PYNU) - Hannes Mühleisen.
-- [DuckDB: The Power of a Data Warehouse in your Python Process @ PyData Yerevan](https://www.youtube.com/watch?v=q_SKaOeRiOI) – Gábor Szárnyas.
+- [DuckDB: The Power of a Data Warehouse in your Python Process @ PyData Yerevan](https://www.youtube.com/watch?v=q_SKaOeRiOI) - Gábor Szárnyas.
 - [DuckDB: Bringing analytical SQL directly to your Python shell @ EuroPython](https://www.youtube.com/watch?v=egN4TwVyJss) - Pedro Holanda.
 - [DuckDB keynote @ Data + AI Summit 2023](https://www.youtube.com/watch?v=GaHWuQ_cBhA) - Hannes Mühleisen.
 - [DuckCon #3 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhy6QG4Eqoe9k9NgBa-w67Y)
