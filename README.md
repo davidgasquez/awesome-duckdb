@@ -97,6 +97,7 @@
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
 - [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) — Run queries with DuckDB to schedule data transformations and process automations, and run event-driven anomaly detection pipelines.
 - [Arrow Flight SQL Server](https://github.com/voltrondata/flight-sql-server-example) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) what runs in a client-server setup with DuckDB or SQLite as backends.
+- [SQLFlow](https://github.com/turbolytics/sql-flow): Enables SQL-based stream-processing, powered by DuckDB.
 
 ## Extensions
 
