@@ -61,7 +61,7 @@
 - [Ibis Project](https://ibis-project.org/) - The flexibility of Python analytics with the scale and performance of modern SQL.
 - [MotherDuck](https://motherduck.com/) - Supercharge DuckDB experience with the cloud.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
-- [Hex Dataframe SQL](https://learn.hex.tech/docs/logic-cell-types/sql-cells/overview) - Hex's Dataframe SQL cells are powered by DuckDB.
+- [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
