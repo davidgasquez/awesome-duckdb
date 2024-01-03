@@ -51,6 +51,7 @@
 - [R](https://duckdb.org/docs/api/r)
 - [Rust](https://duckdb.org/docs/api/rust)
 - [Swift](https://duckdb.org/docs/api/swift)
+- [TypeScript](https://www.npmjs.com/package/duckdb-async)
 - [Wasm](https://duckdb.org/docs/api/wasm/overview)
 - [ADBC](https://duckdb.org/docs/api/adbc)
 - [ODBC](https://duckdb.org/docs/api/odbc/overview)
