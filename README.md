@@ -72,7 +72,8 @@
 - [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery and Postgres, and natively supports DuckDB.
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, csv, parquet and json.
- - [SQL Playground](https://sql.quacking.cloud) - DuckDB-WASM based SQL playground for running queries on local or remote data, being able to show data as tables or visually as graphs.
+- [SQL Playground](https://sql.quacking.cloud) - DuckDB-WASM based SQL playground for running queries on local or remote data, being able to show data as tables or visually as graphs.
+- [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
 
 ## Libraries Powered by DuckDB
 
