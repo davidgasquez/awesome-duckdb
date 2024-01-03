@@ -55,6 +55,7 @@
 - [Wasm](https://duckdb.org/docs/api/wasm/overview)
 - [ADBC](https://duckdb.org/docs/api/adbc)
 - [ODBC](https://duckdb.org/docs/api/odbc/overview)
+- [.NET](https://github.com/Giorgi/DuckDB.NET/)
 
 ## Tools Powered by DuckDB
 
