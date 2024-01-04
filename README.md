@@ -79,6 +79,7 @@
 - [Mosaic](https://uwdata.github.io/mosaic/) - An extensible framework for linking databases and interactive views.
 - [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
 - [Splink](http://github.com/moj-analytical-services/splink) - A free Python library for fast, accurate data deduplication and record linkage.
+- [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
 
 ## SQL Clients and IDE that Support DuckDB
 
