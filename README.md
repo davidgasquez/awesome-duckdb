@@ -137,6 +137,15 @@
 - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 
+## Ready to use Kaggle datasets
+
+- `duckdb` is an awesome way to build data
+- [`Kaggle`](https://www.kaggle.com/) is an awesome way to store & share data
+
+Here are some Datasets you can play with and learn more about `duckdb` features:
+
+- [⏳ `endoflife.date` database (`duckdb`)](https://www.kaggle.com/datasets/adriensales/endoflife-date-database)
+
 ## Media
 
 ### Talks
