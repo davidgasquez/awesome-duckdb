@@ -116,12 +116,13 @@
 
 - [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdblabs/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
-  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - DuckDB extension for reading Iceberg tables.
-  - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - DuckDB extension for handling AWS credentials.
-  - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - DuckDB extension for using the Azure Blob storage.
-  - [`postgres_scanner`](https://duckdb.org/docs/extensions/postgres_scanner) - Allows DuckDB to directly read data from a running Postgres instance.
+  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - For reading Iceberg tables.
+  - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - For handling AWS credentials.
+  - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - For using the Azure Blob storage.
+  - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
+  - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
-  - [`sqlite_scanner`](https://duckdb.org/docs/extensions/sqlite_scanner) - To read and write to SQLite databases.
+  - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to MySQL databases.
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
