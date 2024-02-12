@@ -104,6 +104,7 @@
 
 - [NBA Monte Carlo](https://github.com/matsonj/nba-monte-carlo) - Monte Carlo simulation of the NBA season, leveraging Meltano, dbt, DuckDB and Evidence.
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
+- [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database)
 
 ## Integrations
 
