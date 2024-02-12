@@ -104,6 +104,7 @@
 
 - [NBA Monte Carlo](https://github.com/matsonj/nba-monte-carlo) - Monte Carlo simulation of the NBA season, leveraging Meltano, dbt, DuckDB and Evidence.
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
+- [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database)
 
 ## Integrations
 
@@ -136,15 +137,6 @@
 - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
 - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
-
-## Ready to use Kaggle datasets
-
-- `duckdb` is an awesome way to build data
-- [`Kaggle`](https://www.kaggle.com/) is an awesome way to store & share data
-
-Here are some Datasets you can play with and learn more about `duckdb` features:
-
-- [⏳ `endoflife.date` database (`duckdb`)](https://www.kaggle.com/datasets/adriensales/endoflife-date-database)
 
 ## Media
 
