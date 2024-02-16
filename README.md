@@ -127,7 +127,7 @@
   - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
   - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
-  - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to MySQL databases.
+  - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
 - [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
