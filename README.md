@@ -38,7 +38,7 @@
 - [Serverless DuckDB as API](https://github.com/tobilg/serverless-duckdb) - Use DuckDB as API with Amazon API Gateway and AWS Lambda.
 - [Serverless Parquet Repartitioner](https://github.com/tobilg/serverless-parquet-repartitioner) - Use DuckDB to repartition data in S3-based Data Lakes.
 - [Observable notebooks](https://observablehq.com/search?query=duckdb&sort=created&direction=desc&useES=true) - Notebooks using DuckDB on the Observable data visualization platform.
-- [duckdb-nf](https://github.com/edmundmiller/duckdb-nf) - Example uses of DuckDB with Nextflow
+- [duckdb-nf](https://github.com/edmundmiller/duckdb-nf) - Example uses of DuckDB with Nextflow.
 
 ## Client APIs
 
