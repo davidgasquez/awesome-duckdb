@@ -117,9 +117,9 @@
 - [data load tool - DuckDB destination](https://dlthub.com/docs/dlt-ecosystem/destinations/duckdb) - Extract and load data from APIs to DuckDB using dlt.
 - [target-duckdb](https://hub.meltano.com/loaders/target-duckdb/) - Load data to DuckDB based on Singer spec.
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
-- [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) — Run queries with DuckDB to schedule data transformations and process automations, and run event-driven anomaly detection pipelines.
+- [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) - Run queries with DuckDB to schedule data transformations and process automations, and run event-driven anomaly detection pipelines.
 - [Arrow Flight SQL Server](https://github.com/voltrondata/flight-sql-server-example) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) what runs in a client-server setup with DuckDB or SQLite as backends.
-- [SQLFlow](https://github.com/turbolytics/sql-flow): Enables SQL-based stream-processing, powered by DuckDB.
+- [SQLFlow](https://github.com/turbolytics/sql-flow) - Enables SQL-based stream-processing, powered by DuckDB.
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
 
 ## Extensions
@@ -172,8 +172,8 @@
 ### Blog Posts
 
 - [Modern Data Stack in a Box](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html) -  Fast, free, and open-source Modern Data Stack deployed on a laptop using the combination of DuckDB, Meltano, dbt, and Apache Superset.
-- [How to use DuckDB, Motherduck and Kestra for ETL](https://motherduck.com/blog/motherduck-kestra-etl-pipelines/) - how DuckDB can transform data, mask sensitive PII information, detect anomalies in event-driven workflows, and streamline reporting use cases.
-- [DuckDB vs. MotherDuck — how do they compare](https://kestra.io/blogs/2023-07-28-duckdb-vs-motherduck) - what are key differences between them, and when to choose each of these options.
+- [How to use DuckDB, Motherduck and Kestra for ETL](https://motherduck.com/blog/motherduck-kestra-etl-pipelines/) - How DuckDB can transform data, mask sensitive PII information, detect anomalies in event-driven workflows, and streamline reporting use cases.
+- [DuckDB vs. MotherDuck — how do they compare](https://kestra.io/blogs/2023-07-28-duckdb-vs-motherduck) - What are key differences between them, and when to choose each of these options.
 
 ## Contribute
 
