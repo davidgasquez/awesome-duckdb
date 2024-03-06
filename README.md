@@ -95,6 +95,7 @@
 - [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
+- [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 
 ## SQL Clients and IDE that Support DuckDB
 
