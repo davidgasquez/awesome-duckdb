@@ -57,6 +57,7 @@
 - [ADBC](https://duckdb.org/docs/api/adbc)
 - [ODBC](https://duckdb.org/docs/api/odbc/overview)
 - [.NET](https://github.com/Giorgi/DuckDB.NET/)
+- [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 
 ## Tools Powered by DuckDB
 
