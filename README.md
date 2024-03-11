@@ -50,7 +50,7 @@
 - [Node.js](https://duckdb.org/docs/api/nodejs/overview)
 - [Python](https://duckdb.org/docs/api/python/overview)
 - [R](https://duckdb.org/docs/api/r)
-- [Rust](https://duckdb.org/docs/api/rust)
+- [Rust](https://github.com/duckdb/duckdb-rs)
 - [Swift](https://duckdb.org/docs/api/swift)
 - [TypeScript](https://www.npmjs.com/package/duckdb-async)
 - [Wasm](https://duckdb.org/docs/api/wasm/overview)
