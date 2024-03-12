@@ -148,6 +148,7 @@
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [ERPL](https://erpl.io) - DuckDB SAP connector using RFC, ODP, or BICS.
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
+- [DuckPGQ](https://github.com/cwida/duckpgq-extension) - DuckDB extension for graph workloads that supports the SQL/PGQ standard.
 
 ## Media
 
