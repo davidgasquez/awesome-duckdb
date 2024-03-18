@@ -13,6 +13,7 @@
   - [Web Clients](#web-clients)
 - [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
 - [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+- [NoSQL Clients and Libraries](#nosql-clients-and-libraries)
 - [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 - [Integrations](#integrations)
 - [Extensions](#extensions)
@@ -108,6 +109,10 @@
 - [DBeaver](https://dbeaver.com) - DBeaver is a universal database access and development tool that can be used to connect almost any type of database.
 - [DataGrip](https://www.jetbrains.com/datagrip/) - Paid SQL IDE by Jetbrains that supports many different database technologies, including DuckDB.
 - [Duckling](https://github.com/l1xnan/duckling) - A fast viewer for CSV/Parquet files and DuckDB/SQLite, based on Tauri.
+
+## NoSQL Clients and Libraries
+
+- [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB
 
 ## Projects Powered by DuckDB
 
