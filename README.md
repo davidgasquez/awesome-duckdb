@@ -13,7 +13,6 @@
   - [Web Clients](#web-clients)
 - [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
 - [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
-- [NoSQL Clients and Libraries](#nosql-clients-and-libraries)
 - [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 - [Integrations](#integrations)
 - [Extensions](#extensions)
@@ -111,15 +110,12 @@
 - [DataGrip](https://www.jetbrains.com/datagrip/) - Paid SQL IDE by Jetbrains that supports many different database technologies, including DuckDB.
 - [Duckling](https://github.com/l1xnan/duckling) - A fast viewer for CSV/Parquet files and DuckDB/SQLite, based on Tauri.
 
-## NoSQL Clients and Libraries
-
-- [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB
-
 ## Projects Powered by DuckDB
 
 - [NBA Monte Carlo](https://github.com/matsonj/nba-monte-carlo) - Monte Carlo simulation of the NBA season, leveraging Meltano, dbt, DuckDB and Evidence.
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database)
+- [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB
 
 ## Integrations
 
