@@ -172,6 +172,9 @@
 - [DuckDB tutorials playlist by Learn Data with Mark](https://www.youtube.com/watch?v=fZj6kTwXN1U&list=PLw2SS5iImhEThtiGNPiNenOr2tVvLj6H7) - Mark Needham.
 - [DuckDB tutorials playlist by MotherDuck](https://www.youtube.com/playlist?list=PLIYcNkSjh-0wlrFUE2VvQilLU2aBPns0K) - Mehdi Ouazza (MotherDuck).
 - [Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond](https://youtu.be/GknH1u3NtGI?si=PKnF__cQJ_citMUi) - Edmund Miller.
+- [Why should you care about DuckDB? @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=q55UMyQapKA) - Mihai Bojin
+- [Exploring Monte Carlo Simulations With DuckDB @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=oh0Y3MN2Tas) - James McNeill
+- [DuckDB and recommenders : a lightning fast synergy @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=Y3aJe8MRKAI) - Khalil Muhammad
 
 ### Podcasts
 
@@ -188,6 +191,7 @@
 - [DuckDB vs. MotherDuck — how do they compare](https://kestra.io/blogs/2023-07-28-duckdb-vs-motherduck) - What are key differences between them, and when to choose each of these options.
 - [Building DuckDB Extensions with Zig and Nix](https://rupurt.github.io/posts/building-duckdb-extensions-with-zig-and-nix) - For Nix users and Zig developers familiar with DuckDB looking to extend it’s capabilities with custom extensions.
 - [Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit](https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6) - Example project using DuckDB to persist API data, but also explains how to use DuckDB as a versatile data manipulation tool in data wrangling scripts.
+- [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 
 ## Contribute
 
