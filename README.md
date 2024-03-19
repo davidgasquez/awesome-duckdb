@@ -79,6 +79,7 @@
 - [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on .parquet, .csv, .json files and .duckdb tables in the browser based on DuckDB WASM. Open source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 - [Iceburst](https://iceburst.io) - The real-time data lake for monitoring & security.
+- [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 
 ### Web Clients
 
