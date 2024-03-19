@@ -155,25 +155,30 @@
 
 ### Talks
 
+- [DuckCon #4 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhZcTiEFZIAxPpB6RE9TmgC)
+– [State of the Duck @ DuckCon #4](https://www.youtube.com/watch?v=cyZfpXxXojE) - Hannes Mühleisen and Mark Raasveldt.
 - [In-Process Analytical Data Management with DuckDB @ PyData Amsterdam](https://www.youtube.com/watch?v=5ddoZR6PYNU) - Hannes Mühleisen.
 - [DuckDB: The Power of a Data Warehouse in your Python Process @ PyData Yerevan](https://www.youtube.com/watch?v=q_SKaOeRiOI) - Gábor Szárnyas.
 - [DuckDB: Bringing analytical SQL directly to your Python shell @ EuroPython](https://www.youtube.com/watch?v=egN4TwVyJss) - Pedro Holanda.
 - [DuckDB keynote @ Data + AI Summit 2023](https://www.youtube.com/watch?v=GaHWuQ_cBhA) - Hannes Mühleisen.
+- [State of the Duck @ DuckCon #3](https://www.youtube.com/watch?v=LlkEnaOkzdk) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #3 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhy6QG4Eqoe9k9NgBa-w67Y)
-- [DuckDB: Bringing Analytical SQL Directly To Your Python Shell @ FOSDEM](https://www.youtube.com/watch?v=-rCZQHXSunc&ab_channel=DuckDBLabs) - Pedro Holanda.
-- [State Of The Duck @ DuckCon](https://www.youtube.com/watch?v=rdnPkLSkoyU&ab_channel=DuckDBLabs) - Hannes Mühleisen & Mark Raasveldt.
-- [DuckDB Extensions @ DuckCon](https://www.youtube.com/watch?v=UKo_LQyLTko&ab_channel=DuckDBLabs) - Pedro Holanda & Sam Ansmink.
-- [Developing Systems in Academia: The Good, the Bad, and the not-so-Ugly Duckling @ CIDR](https://www.youtube.com/watch?v=dv4A2LIFG80&ab_channel=CIDRDB) - Hannes Mühleisen.
-- [DuckDB An Embeddable Analytical Database @ FOSDEM](https://www.youtube.com/watch?v=nPDomZQ8jI4&ab_channel=FOSDEM) - Hannes Mühleisen.
+- [DuckDB: Bringing Analytical SQL Directly To Your Python Shell @ FOSDEM](https://www.youtube.com/watch?v=-rCZQHXSunc) - Pedro Holanda.
+- [State of the Duck @ DuckCon #2](https://www.youtube.com/watch?v=rdnPkLSkoyU) - Hannes Mühleisen & Mark Raasveldt.
+- [DuckDB Extensions @ DuckCon](https://www.youtube.com/watch?v=UKo_LQyLTko) - Pedro Holanda & Sam Ansmink.
+- [Developing Systems in Academia: The Good, the Bad, and the not-so-Ugly Duckling @ CIDR](https://www.youtube.com/watch?v=dv4A2LIFG80) - Hannes Mühleisen.
+- [DuckDB An Embeddable Analytical Database @ FOSDEM](https://www.youtube.com/watch?v=nPDomZQ8jI4) - Hannes Mühleisen.
 - [DuckDB tutorials playlist by Learn Data with Mark](https://www.youtube.com/watch?v=fZj6kTwXN1U&list=PLw2SS5iImhEThtiGNPiNenOr2tVvLj6H7) - Mark Needham.
 - [DuckDB tutorials playlist by MotherDuck](https://www.youtube.com/playlist?list=PLIYcNkSjh-0wlrFUE2VvQilLU2aBPns0K) - Mehdi Ouazza (MotherDuck).
 - [Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond](https://youtu.be/GknH1u3NtGI?si=PKnF__cQJ_citMUi) - Edmund Miller.
 
 ### Podcasts
 
+- [Developer Voices: Implementing Hardware-Friendly Databases](https://www.youtube.com/watch?v=pZV9FvdKmLc) - Hannes Mühleisen.
+- [The Geek Narrator: DuckDB Internals](https://www.youtube.com/watch?v=f9QlkXW4H9A) - Mark Raasveldt.
 - [Software Engineering Daily: DuckDB](https://softwareengineeringdaily.com/2022/03/18/duckdb-with-hannes-muleisen/) - Hannes Mühleisen.
-- [Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
-- [The Personal Data Warehouse](https://podcasts.apple.com/gb/podcast/the-personal-data-warehouse-w-jordan-tigani-of-motherduck/id1574755368?i=1000568408959) - Jordan Tigani.
+- [Data Engineering Podcast: Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
+- [The Analytics Engineering Podcast: The Personal Data Warehouse](https://podtail.com/en/podcast/the-analytics-engineering-podcast/the-personal-data-warehouse-w-jordan-tigani-of-mot/) - Jordan Tigani.
 
 ### Blog Posts
 
