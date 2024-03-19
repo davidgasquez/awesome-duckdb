@@ -63,7 +63,7 @@
 
 - [Rill Developer](https://github.com/rilldata/rill-developer) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [Ibis Project](https://ibis-project.org/) - A DataFrame API for interacting with DuckDB (and other compute engines).
-- [MotherDuck](https://motherduck.com/) - Supercharge DuckDB experience with the cloud.
+- [MotherDuck](https://motherduck.com/) - Serverless data warehouse powered by DuckDB.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
