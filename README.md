@@ -80,6 +80,7 @@
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 - [Iceburst](https://iceburst.io) - The real-time data lake for monitoring & security.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
+- [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
 
 ### Web Clients
 
