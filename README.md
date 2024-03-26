@@ -1,3 +1,4 @@
+<!--lint disable awesome-git-repo-age-->
 # Awesome DuckDB [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <!-- omit in toc -->
 
 > A curated list of awesome DuckDB libraries, tools and resources.
