@@ -5,6 +5,10 @@
 
 [DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system.
 
+## Chat with this page
+
+You can chat with this page's content on [HuggingChat](https://hf.co/chat/assistant/662583ebe039fc836ce74dee).
+
 <!-- omit in toc -->
 ## Contents
 
