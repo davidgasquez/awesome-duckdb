@@ -86,6 +86,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Iceburst](https://iceburst.io) - The real-time data lake for monitoring & security.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
+- [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake.
 
 ### Web Clients
 
