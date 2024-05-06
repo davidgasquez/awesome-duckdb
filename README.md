@@ -74,7 +74,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
-- [Honeycomb Maps](https://docs.honeycomb.place/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
+- [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery and Postgres, and natively supports DuckDB.
