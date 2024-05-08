@@ -137,6 +137,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Arrow Flight SQL Server](https://github.com/voltrondata/flight-sql-server-example) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) what runs in a client-server setup with DuckDB or SQLite as backends.
 - [SQLFlow](https://github.com/turbolytics/sql-flow) - Enables SQL-based stream-processing, powered by DuckDB.
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
+- [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
 
 ## Extensions
 
@@ -205,10 +206,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit](https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6) - Example project using DuckDB to persist API data, but also explains how to use DuckDB as a versatile data manipulation tool in data wrangling scripts.
 - [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
-
-  ### Third-Party Tools
-
-  - [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
 
 ## Contribute
 
