@@ -95,7 +95,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Sekuel Playground](https://sekuel.com/playground/) - Query your local parquet, csv, json. Your data will not be sent out of the device you are using.
 - [CSVFiddle](https://csvfiddle.io/) - Free tool to explore and share insights from CSV files using SQL. Import data, write SQL, then instantly share it with anyone.
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
-- [QuackDB](https://app.quackdb.com/) - Open-source online DuckDB SQL playground and editor.
+- [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
 - [WhatTheDuck](https://whattheduck.incentius.com/) - WhatTheDuck is an open-source web application built on DuckDB. It allows users to upload CSV files, store them in tables, and perform SQL queries on the data.
 
 ## Libraries Powered by DuckDB
