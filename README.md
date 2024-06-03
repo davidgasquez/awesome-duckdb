@@ -3,7 +3,9 @@
 
 > A curated list of awesome DuckDB libraries, tools and resources.
 
-[DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system.
+[DuckDB](https://duckdb.org/) is an analytical in-process SQL database management system.
+
+DuckDB 1.0.0 was released on 2024-06-03: see the [announcement blog post](https://duckdb.org/2024/06/03/announcing-duckdb-100).
 
 ## Chat with this page
 
