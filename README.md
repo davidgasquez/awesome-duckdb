@@ -46,6 +46,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Serverless Parquet Repartitioner](https://github.com/tobilg/serverless-parquet-repartitioner) - Use DuckDB to repartition data in S3-based Data Lakes.
 - [Observable notebooks](https://observablehq.com/search?query=duckdb&sort=created&direction=desc&useES=true) - Notebooks using DuckDB on the Observable data visualization platform.
 - [duckdb-nf](https://github.com/edmundmiller/duckdb-nf) - Example uses of DuckDB with Nextflow.
+- [DuckDB version manager (`duckman`)](https://github.com/NiclasHaderer/duckdb-version-manager) – Cross-platform installer and version manager for DuckDB.
 
 ## Client APIs
 
