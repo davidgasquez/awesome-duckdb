@@ -91,6 +91,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
 - [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake.
 - [Definite](https://www.definite.app/) - pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
+- [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
 
 ### Web Clients
 
@@ -111,7 +112,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
-- [PyGWalker](https://kanaries.net/pygwalker) - A Pyhon library that turns your dataframe into an interactive UI for data visualization.
 
 ## SQL Clients and IDE that Support DuckDB
 
