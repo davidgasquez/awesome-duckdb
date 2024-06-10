@@ -14,6 +14,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 <!-- omit in toc -->
 ## Contents
 
+- [Chat with this page](#chat-with-this-page)
 - [Resources](#resources)
 - [Client APIs](#client-apis)
 - [Tools Powered by DuckDB](#tools-powered-by-duckdb)
@@ -161,6 +162,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
   - [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
+- [Kùzu](https://github.com/kuzudb/kuzu/tree/master/extension/duckdb) - Scan DuckDB tables in Kùzu, an embeddable property graph database management system.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
 - [Scrooge-McDuck](https://github.com/pdet/Scrooge-McDuck) - DuckDB extension to support a set of aggregation functions and data scanners on financial data.
