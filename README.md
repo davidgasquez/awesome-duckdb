@@ -149,17 +149,17 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 ## Extensions
 
 - [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
-  - [`arrow`](https://github.com/duckdblabs/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
-  - [`duckdb_iceberg`](https://github.com/duckdblabs/duckdb_iceberg) - For reading Iceberg tables.
-  - [`duckdb_aws`](https://github.com/duckdblabs/duckdb_aws) - For handling AWS credentials.
-  - [`duckdb_azure`](https://github.com/duckdblabs/duckdb_azure) - For using the Azure Blob storage.
+  - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+  - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
+  - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
+  - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
+  - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
   - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
   - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
   - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
   - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
   - [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
-- [Deltatable](https://github.com/Mause/duckdb-deltatable-extension) - DuckDB extension for reading Delta tables.
 - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [PRQL](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
