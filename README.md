@@ -111,6 +111,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
+- [PyGWalker](https://kanaries.net/pygwalker) - A Pyhon library that turns your dataframe into an interactive UI for data visualization.
 
 ## SQL Clients and IDE that Support DuckDB
 
