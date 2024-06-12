@@ -59,6 +59,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Node.js](https://duckdb.org/docs/api/nodejs/overview)
 - [Python](https://duckdb.org/docs/api/python/overview)
 - [R](https://duckdb.org/docs/api/r)
+- [Ruby](https://github.com/suketa/ruby-duckdb)
 - [Rust](https://github.com/duckdb/duckdb-rs)
 - [Swift](https://duckdb.org/docs/api/swift)
 - [TypeScript](https://www.npmjs.com/package/duckdb-async)
