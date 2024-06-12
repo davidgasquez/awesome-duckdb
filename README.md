@@ -208,7 +208,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [The Geek Narrator: DuckDB Internals](https://www.youtube.com/watch?v=f9QlkXW4H9A) - Mark Raasveldt.
 - [Software Engineering Daily: DuckDB](https://softwareengineeringdaily.com/2022/03/18/duckdb-with-hannes-muleisen/) - Hannes Mühleisen.
 - [Data Engineering Podcast: Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
-- [The Analytics Engineering Podcast: The Personal Data Warehouse](https://podtail.com/en/podcast/the-analytics-engineering-podcast/the-personal-data-warehouse-w-jordan-tigani-of-mot/) - Jordan Tigani.
+- [The Analytics Engineering Podcast: The Personal Data Warehouse](https://open.spotify.com/episode/3CmeFOuIOg91xApdjbWqey) - Jordan Tigani.
 
 ### Blog Posts
 
