@@ -134,6 +134,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
+- [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 
 ## Integrations
 
