@@ -129,6 +129,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [rsql](https://github.com/theseus-rs/rsql) - CLI for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, SQLite3 and SQL Server.
 - [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB compatible SQL.
 - [jOOQ](https://www.jooq.org/) - Type safe querying of DuckDB (and many other RDBMS) from Java. A [transpiler](https://www.jooq.org/translate/) from and to DuckDB is also available.
+- [SQL DATA LENS](https://sqldatalens.com/build-in-support-for-duckdb/) - A lightweight, commercial SQL IDE that supports different DBMS, including DuckDB. The focus on performance and special DBMS features.
 
 ## Projects Powered by DuckDB
 
