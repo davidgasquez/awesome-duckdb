@@ -152,7 +152,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Extensions
 
-- [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
+- [Official Extensions](https://duckdb.org/docs/extensions/official_extensions) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
   - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
   - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
