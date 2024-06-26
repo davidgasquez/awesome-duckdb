@@ -178,6 +178,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
 - [DuckPGQ](https://github.com/cwida/duckpgq-extension) - DuckDB extension for graph workloads that supports the SQL/PGQ standard.
 - [h3-duckdb](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
+- [duckdb-shellfs-extension](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 
 ## Media
 
