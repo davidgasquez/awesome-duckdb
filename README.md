@@ -155,11 +155,12 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Extensions
 
-- [Official Extensions](https://duckdb.org/docs/extensions/overview.html) - Official DuckDB extensions.
+- [Official Extensions](https://duckdb.org/docs/extensions/official_extensions) - Official DuckDB extensions.
   - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
   - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
   - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
-  - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
+  - [`delta`](https://github.com/duckdb/duckdb_delta) - To support full text search.
+  - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - For Delta Lake support.
   - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
   - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
   - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
@@ -180,6 +181,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
 - [DuckPGQ](https://github.com/cwida/duckpgq-extension) - DuckDB extension for graph workloads that supports the SQL/PGQ standard.
 - [h3-duckdb](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
+- [duckdb-shellfs-extension](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 
 ## Media
 
