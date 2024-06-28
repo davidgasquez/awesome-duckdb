@@ -82,7 +82,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 - [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
-- [Excalichart.com](http://www.excalichart.com/) - A fast, free dashboard for exploring your data.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, csv, parquet and json.
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
