@@ -159,8 +159,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
   - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
   - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
   - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
-  - [`delta`](https://github.com/duckdb/duckdb_delta) - To support full text search.
-  - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - For Delta Lake support.
+  - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
+  - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full text search.
   - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
   - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
   - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
