@@ -94,6 +94,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake.
 - [Definite](https://www.definite.app/) - pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
 - [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
+- [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
 
 ### Web Clients
 
