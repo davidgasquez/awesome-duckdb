@@ -138,7 +138,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
-- [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 
 ## Integrations
@@ -153,6 +152,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
 - [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
 - [Sqlite2Duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
+- [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
+- [duckplyr](https://duckdblabs.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
 
 ## Extensions
 
