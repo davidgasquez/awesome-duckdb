@@ -95,7 +95,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Definite](https://www.definite.app/) - pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
 - [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
-- [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB
 
 ### Web Clients
 
@@ -156,6 +155,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Sqlite2Duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckplyr](https://duckdblabs.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
+- [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB
 
 ## Extensions
 
