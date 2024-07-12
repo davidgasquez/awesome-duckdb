@@ -155,7 +155,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Sqlite2Duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckplyr](https://duckdblabs.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
-- [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB
+- [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB.
 
 ## Extensions
 
