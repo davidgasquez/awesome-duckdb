@@ -187,6 +187,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [DuckPGQ](https://github.com/cwida/duckpgq-extension) - DuckDB extension for graph workloads that supports the SQL/PGQ standard.
 - [h3-duckdb](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
 - [duckdb-shellfs-extension](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
+- [duckdb-bigquery](https://github.com/hafenkran/duckdb-bigquery) - Enables seamless integration and querying of BigQuery datasets within DuckDB.
 
 ## Media
 
