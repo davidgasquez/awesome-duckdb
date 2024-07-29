@@ -95,6 +95,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Definite](https://www.definite.app/) - pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
 - [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
+- [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
 
 ### Web Clients
 
@@ -112,6 +113,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
 - [Splink](http://github.com/moj-analytical-services/splink) - A free Python library for fast, accurate data deduplication and record linkage.
 - [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
+- [pg_lakehouse](https://github.com/paradedb/paradedb/tree/dev/pg_lakehouse) - PostgreSQL extension embedding DuckDB-in-Postgres for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB.
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
@@ -230,6 +232,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit](https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6) - Example project using DuckDB to persist API data, but also explains how to use DuckDB as a versatile data manipulation tool in data wrangling scripts.
 - [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
+- [Putting DuckDB in Postgres to Query Iceberg](https://blog.paradedb.com/pages/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 
 ### Books
  - [DuckDB in Action](https://github.com/duckdb-in-action/examples) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB. 
