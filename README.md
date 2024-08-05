@@ -190,7 +190,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [h3-duckdb](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
 - [duckdb-shellfs-extension](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [duckdb-bigquery](https://github.com/hafenkran/duckdb-bigquery) - Enables seamless integration and querying of BigQuery datasets within DuckDB.
-- [duckdb-protobuf](https://github.com/0xcaff/duckdb_protobuf) - plugin for querying encoded protobuf messages (both sequences and individual messages per file)
+- [duckdb-protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
 
 ## Media
 
