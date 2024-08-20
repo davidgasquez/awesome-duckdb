@@ -14,22 +14,22 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 <!-- omit in toc -->
 ## Contents
 
-- [Chat with this page](#chat-with-this-page)
-- [Resources](#resources)
-- [Client APIs](#client-apis)
-- [Tools Powered by DuckDB](#tools-powered-by-duckdb)
-  - [Web Clients](#web-clients)
-- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
-- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
-- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
-- [Integrations](#integrations)
-- [Extensions](#extensions)
-- [Media](#media)
-  - [Talks](#talks)
-  - [Podcasts](#podcasts)
-  - [Blog Posts](#blog-posts)
-  - [Books](#books)
-- [Contribute](#contribute)
+* [Chat with this page](#chat-with-this-page)
+* [Resources](#resources)
+* [Client APIs](#client-apis)
+* [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+  * [Web Clients](#web-clients)
+* [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+* [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+* [Projects Powered by DuckDB](#projects-powered-by-duckdb)
+* [Integrations](#integrations)
+* [Extensions](#extensions)
+* [Media](#media)
+  * [Talks](#talks)
+  * [Podcasts](#podcasts)
+  * [Blog Posts](#blog-posts)
+  * [Books](#books)
+* [Contribute](#contribute)
 
 ## Resources
 
@@ -97,7 +97,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
 - [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
 - [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
-
 
 ### Web Clients
 
@@ -238,6 +237,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Putting DuckDB in Postgres to Query Iceberg](https://blog.paradedb.com/pages/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 
 ### Books
+
  - [DuckDB in Action](https://github.com/duckdb-in-action/examples) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB. 
 
 ## Contribute
