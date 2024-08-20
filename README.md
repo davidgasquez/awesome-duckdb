@@ -160,6 +160,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckplyr](https://duckdblabs.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
 - [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB.
+- [PSDuckDB](https://github.com/dfinke/PSDuckDB) - A PowerShell module for DuckDB integration.
 
 ## Extensions
 
