@@ -89,7 +89,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
 - [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on .parquet, .csv, .json files and .duckdb tables in the browser based on DuckDB WASM. Open source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
-- [Iceburst](https://iceburst.io) - The real-time data lake for monitoring & security.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
 - [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake.
@@ -226,7 +225,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [The Geek Narrator: DuckDB Internals](https://www.youtube.com/watch?v=f9QlkXW4H9A) - Mark Raasveldt.
 - [Software Engineering Daily: DuckDB](https://softwareengineeringdaily.com/2022/03/18/duckdb-with-hannes-muleisen/) - Hannes Mühleisen.
 - [Data Engineering Podcast: Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
-- [The Analytics Engineering Podcast: The Personal Data Warehouse](https://open.spotify.com/episode/3CmeFOuIOg91xApdjbWqey) - Jordan Tigani.
+- [The Analytics Engineering Podcast: The Personal Data Warehouse](https://www.youtube.com/watch?v=4aRdCfrNjMk) - Jordan Tigani.
 
 ### Blog Posts
 
