@@ -24,6 +24,9 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 * [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 * [Integrations](#integrations)
 * [Extensions](#extensions)
+  * [Official Extensions](#official-extensions)
+  * [Community Extensions](#community-extensions)
+  * [Other Extensions](#other-extensions)
 * [Media](#media)
   * [Talks](#talks)
   * [Podcasts](#podcasts)
@@ -162,47 +165,58 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckplyr](https://tidyverse.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
 - [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB.
 - [PSDuckDB](https://github.com/dfinke/PSDuckDB) - A PowerShell module for DuckDB integration.
+- [duckdb-tableau-connector](https://github.com/MotherDuck-Open-Source/duckdb-tableau-connector) - DuckDB Tableau connector.
+- [duckdb-power-query-connector](https://github.com/MotherDuck-Open-Source/duckdb-power-query-connector) - DuckDB Power Query Custom Connector.
+- [metabase_duckdb_driver](https://github.com/MotherDuck-Open-Source/metabase_duckdb_driver) - Metabase DuckDB Driver shipped as 3rd party plugin.
 
 ## Extensions
 
-### [Official Extensions](https://duckdb.org/docs/extensions/official_extensions) - Official DuckDB extensions.
-  - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
-  - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
-  - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
-  - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
-  - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full text search.
-  - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
-  - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
-  - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
-  - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
-  - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
-  - [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
+### [Official Extensions](https://duckdb.org/docs/extensions/official_extensions)
 
-### [Community Extensions](https://community-extensions.duckdb.org) - Community-contributed DuckDB extensions, easy to install and use.
-  - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB
-  - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC
-  - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Graph workloads that supports the SQL/PGQ standard.
-  - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
-  - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
-  - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves
-  - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
-  - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
-  - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
-  - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
+Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name⟩`.
+
+- [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+- [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
+- [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
+- [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
+- [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full text search.
+- [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
+- [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
+- [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
+- [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
+- [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
+- [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
+
+### [Community Extensions](https://community-extensions.duckdb.org)
+
+Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
+
+- [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB
+- [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC
+- [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Graph workloads that supports the SQL/PGQ standard.
+- [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
+- [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
+- [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves
+- [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
+- [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
+- [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
+- [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
+- [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the delta extension with Unity Catalog.
 
 ### Other Extensions
-  - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
-  - [duckdb-bigquery](https://github.com/hafenkran/duckdb-bigquery) - Enables seamless integration and querying of BigQuery datasets within DuckDB.
-  - [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
-  - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
-  - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
-  - [duckdb-protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
-  - [duckdb-pytables](https://github.com/MarkRoddy/duckdb-pytables) - DuckDB extension to allow running SQL on arbitrary data sources.
-  - [ERPL](https://erpl.io) - DuckDB SAP connector using RFC, ODP, or BICS.
-  - [Kùzu](https://github.com/kuzudb/kuzu/tree/master/extension/duckdb) - Scan DuckDB tables in Kùzu, an embeddable property graph database management system.
-  - [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
-  - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
-  - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
+
+- [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
+- [duckdb-bigquery](https://github.com/hafenkran/duckdb-bigquery) - Enables seamless integration and querying of BigQuery datasets within DuckDB.
+- [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
+- [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
+- [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
+- [duckdb-protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
+- [duckdb-pytables](https://github.com/MarkRoddy/duckdb-pytables) - DuckDB extension to allow running SQL on arbitrary data sources.
+- [ERPL](https://erpl.io) - DuckDB SAP connector using RFC, ODP, or BICS.
+- [Kùzu](https://github.com/kuzudb/kuzu/tree/master/extension/duckdb) - Scan DuckDB tables in Kùzu, an embeddable property graph database management system.
+- [Lance](https://github.com/eto-ai/lance/tree/main/integration/duckdb_lance) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
+- [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
+- [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 
 ## Media
 
@@ -245,11 +259,12 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit](https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6) - Example project using DuckDB to persist API data, but also explains how to use DuckDB as a versatile data manipulation tool in data wrangling scripts.
 - [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
-- [Putting DuckDB in Postgres to Query Iceberg](https://blog.paradedb.com/pages/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
+- [Putting DuckDB in Postgres to Query Iceberg](https://www.paradedb.com/blog/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 
 ### Books
 
- - [DuckDB in Action](https://github.com/duckdb-in-action/examples) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB.
+- [DuckDB in Action](https://www.manning.com/books/duckdb-in-action) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB.
+- [Getting Started with DuckDB](https://www.packtpub.com/en-us/product/getting-started-with-duckdb-9781803241005) - A practical guide for accelerating your data science, data analytics, and data engineering workflows.
 
 ## Contribute
 
