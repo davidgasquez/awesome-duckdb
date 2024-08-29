@@ -259,7 +259,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Exploring StarCraft 2 data with Airflow, DuckDB and Streamlit](https://medium.com/data-engineer-things/exploring-starcraft-2-data-with-airflow-duckdb-and-streamlit-7c0ad79f9ca6) - Example project using DuckDB to persist API data, but also explains how to use DuckDB as a versatile data manipulation tool in data wrangling scripts.
 - [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
-- [Putting DuckDB in Postgres to Query Iceberg](https://blog.paradedb.com/pages/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
+- [Putting DuckDB in Postgres to Query Iceberg](https://www.paradedb.com/blog/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 
 ### Books
 
