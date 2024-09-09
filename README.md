@@ -102,6 +102,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
+- [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
 
 ### Web Clients
 
