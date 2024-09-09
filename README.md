@@ -5,7 +5,7 @@
 
 [DuckDB](https://duckdb.org/) is an analytical in-process SQL database management system.
 
-DuckDB 1.0.0 was released on 2024-06-03: see the [announcement blog post](https://duckdb.org/2024/06/03/announcing-duckdb-100).
+DuckDB 1.1.0 was released on 2024-09-09: see the [announcement blog post](https://duckdb.org/2024/09/09/announcing-duckdb-110).
 
 ## Chat with this page
 
