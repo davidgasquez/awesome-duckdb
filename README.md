@@ -184,6 +184,7 @@ Official DuckDB extensions, which can installed via `INSTALL ‚ü®extension_name‚ü
 - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
 - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full text search.
 - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
+- [`inet`](https://github.com/duckdb/duckdb_inet) - For storing and handling IPv4 and IPv6 Internet addresses.
 - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
 - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
 - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
