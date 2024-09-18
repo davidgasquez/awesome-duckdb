@@ -149,7 +149,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
 - [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
-- [DuckDB PyPI stats live dashboard](https://github.com/mehd-io/pypi-duck-flow) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
+- [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) ([GitHub repository](https://github.com/mehd-io/pypi-duck-flow)) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 
 ## Integrations
 
