@@ -151,7 +151,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
 - [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 - [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) ([GitHub repository](https://github.com/mehd-io/pypi-duck-flow)) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
-- [Specter](https://github.com/JDBraun/specter) - Specter is a CLI tool that lets you simply and quickly search and monitor your Databricks audit logs.
+- [Specter](https://github.com/JDBraun/specter) - Specter is a CLI tool to search and monitor Databricks audit logs.
 
 ## Integrations
 
