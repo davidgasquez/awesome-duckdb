@@ -224,6 +224,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
+- [duckdb-flockmtl](https://github.com/dsg-polymtl/duckdb-flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
 
 ## Media
 
