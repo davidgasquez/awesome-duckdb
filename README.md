@@ -229,6 +229,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 ### Talks
 
+- [DuckDB: Crunching data anywhere from laptops to servers @ GOTO Amsterdam 2024](https://www.youtube.com/watch?v=9Rdwh0rNaf0) - Gábor Szárnyas.
 - [DuckDB – Overview and latest developments (DuckCon #5)](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #5 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhbacz4PWGuCUSxizmLei8Y)
 - [DuckCon #4 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhZcTiEFZIAxPpB6RE9TmgC)
