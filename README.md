@@ -193,7 +193,7 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
 - [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
 
-### [Community Extensions](https://community-extensions.duckdb.org)
+### [Community Extensions](https://duckdb.org/community_extensions/)
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
