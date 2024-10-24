@@ -74,6 +74,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [.NET](https://github.com/Giorgi/DuckDB.NET/)
 - [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
+- [Dart](https://github.com/TigerEyeLabs/duckdb-dart)
 
 ## Tools Powered by DuckDB
 
@@ -105,6 +106,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
 - [sqlglot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 23 different SQL dialects including DuckDB.
+- [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 
 ### Web Clients
 
@@ -193,7 +195,7 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
 - [`vss`](https://duckdb.org/docs/extensions/vss) - Add support for vector similarity search.
 
-### [Community Extensions](https://community-extensions.duckdb.org)
+### [Community Extensions](https://duckdb.org/community_extensions/)
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
@@ -230,7 +232,8 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 ### Talks
 
-- [DuckDB – Overview and latest developments (DuckCon #5)](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
+- [DuckDB: Crunching data anywhere from laptops to servers @ GOTO Amsterdam 2024](https://www.youtube.com/watch?v=9Rdwh0rNaf0) - Gábor Szárnyas.
+- [DuckDB – Overview and latest developments @ DuckCon #5](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #5 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhbacz4PWGuCUSxizmLei8Y)
 - [DuckCon #4 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhZcTiEFZIAxPpB6RE9TmgC)
 - [DuckCon #3 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhy6QG4Eqoe9k9NgBa-w67Y)
