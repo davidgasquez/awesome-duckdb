@@ -106,6 +106,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
 - [sqlglot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 23 different SQL dialects including DuckDB.
+- [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 
 ### Web Clients
 
