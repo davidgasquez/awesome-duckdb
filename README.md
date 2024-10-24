@@ -74,6 +74,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [.NET](https://github.com/Giorgi/DuckDB.NET/)
 - [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
+- [Dart](https://github.com/TigerEyeLabs/duckdb-dart)
 
 ## Tools Powered by DuckDB
 
