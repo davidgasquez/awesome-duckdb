@@ -129,6 +129,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Pyhon library that turns your dataframe into an interactive UI for data visualization.
+- [https://github.com/DataZooDE/flapi] API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps
 
 ## SQL Clients and IDE that Support DuckDB
 
@@ -227,6 +228,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
 - [duckdb-flockmtl](https://github.com/dsg-polymtl/duckdb-flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
+- [https://github.com/DataZooDE/erpl-web] ERPL WEB is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 
 ## Media
 
