@@ -212,6 +212,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
+- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
 
 ### Other Extensions
 
