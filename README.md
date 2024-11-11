@@ -19,6 +19,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 * [Client APIs](#client-apis)
 * [Tools Powered by DuckDB](#tools-powered-by-duckdb)
   * [Web Clients](#web-clients)
+  * [Backends](#backends)
 * [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
 * [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
 * [Projects Powered by DuckDB](#projects-powered-by-duckdb)
@@ -117,6 +118,12 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
 - [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
 - [WhatTheDuck](https://whattheduck.incentius.com/) - WhatTheDuck is an open-source web application built on DuckDB. It allows users to upload CSV files, store them in tables, and perform SQL queries on the data.
+
+### Backends
+
+- [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses
+- [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and support queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format
+- [duckdb-server](https://lib.rs/crates/duckdb-server) - A Rust-based server that runs a local DuckDB instance and support queries over Web Sockets or HTTP/HTTPS, returning data in either Apache Arrow or JSON format.
 
 ## Libraries Powered by DuckDB
 
