@@ -118,6 +118,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
 - [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
 - [WhatTheDuck](https://whattheduck.incentius.com/) - WhatTheDuck is an open-source web application built on DuckDB. It allows users to upload CSV files, store them in tables, and perform SQL queries on the data.
+- [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
 
 ### Backends
 
