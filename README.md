@@ -41,6 +41,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
   - [Official Blog](https://duckdb.org/news/) - Official DuckDB blog.
   - [DuckDB Clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
   - [DuckDB Documentation PDF](https://duckdb.org/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
+  - [DuckDB Documentation MD](https://duckdb.org/duckdb-docs.md) - The DuckDB documentation as a single Markdown file.
 - [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
 - [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
 - [Serverless DuckDB over S3](https://github.com/BauplanLabs/quack-reduce/) - Running DuckDB over a data lake on S3 using lambda.
