@@ -187,6 +187,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb-tableau-connector](https://github.com/MotherDuck-Open-Source/duckdb-tableau-connector) - DuckDB Tableau connector.
 - [duckdb-power-query-connector](https://github.com/MotherDuck-Open-Source/duckdb-power-query-connector) - DuckDB Power Query Custom Connector.
 - [metabase_duckdb_driver](https://github.com/MotherDuck-Open-Source/metabase_duckdb_driver) - Metabase DuckDB Driver shipped as 3rd party plugin.
+- [xlDuckDb](https://github.com/RusselWebber/xlDuckDb) - Excel addin to run DuckDB queries in Excel.
 
 ## Extensions
 
