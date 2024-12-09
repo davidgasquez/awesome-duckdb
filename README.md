@@ -83,7 +83,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 - [Rill Developer](https://github.com/rilldata/rill-developer) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [Ibis Project](https://ibis-project.org/) - A DataFrame API for interacting with DuckDB (and other compute engines).
-- [MotherDuck](https://motherduck.com/) - Serverless data warehouse powered by DuckDB.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
@@ -103,8 +102,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
 - [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and Motherduck support.
-- [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
-- [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
@@ -139,7 +136,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
-- [PyGWalker](https://kanaries.net/pygwalker) - A Pyhon library that turns your dataframe into an interactive UI for data visualization.
+- [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
 - [https://github.com/DataZooDE/flapi] API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps
 
 ## SQL Clients and IDE that Support DuckDB
@@ -176,7 +173,6 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [target-duckdb](https://hub.meltano.com/loaders/target-duckdb/) - Load data to DuckDB based on Singer spec.
 - [Airbyte DuckDB destination](https://docs.airbyte.com/integrations/destinations/duckdb/) - Load data to DuckDB with Airbyte.
 - [Kestra DuckDB plugin](https://kestra.io/plugins/plugin-jdbc-duckdb) - Run queries with DuckDB to schedule data transformations and process automations, and run event-driven anomaly detection pipelines.
-- [SQLFlite - Arrow Flight SQL Server](https://github.com/voltrondata/sqlflite) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
 - [SQLFlow](https://github.com/turbolytics/sql-flow) - Enables SQL-based stream-processing, powered by DuckDB.
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
 - [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
@@ -189,6 +185,16 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb-power-query-connector](https://github.com/MotherDuck-Open-Source/duckdb-power-query-connector) - DuckDB Power Query Custom Connector.
 - [metabase_duckdb_driver](https://github.com/MotherDuck-Open-Source/metabase_duckdb_driver) - Metabase DuckDB Driver shipped as 3rd party plugin.
 - [xlDuckDb](https://github.com/RusselWebber/xlDuckDb) - Excel addin to run DuckDB queries in Excel.
+
+## Client-Server Setups
+
+- [Crunchy Bridge for Analytics](https://www.crunchydata.com/products/crunchy-bridge-for-analytics) - Fully managed DBaaS based in Postgres integrated with DuckDB.
+- [MotherDuck](https://motherduck.com/) - A serverless cloud data warehouse powered by DuckDB.
+- [MyDuck Server](https://github.com/apecloud/myduckserver) - A server wrapping DuckDB with MySQL and PostgreSQL wire protocol support.
+- [ParadeDB](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics, powered by DuckDB-embedded-in-Postgres.
+- [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered Postgres for high performance apps & analytics.
+- [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
+- [SQLFlite - Arrow Flight SQL Server](https://github.com/voltrondata/sqlflite) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
 
 ## Extensions
 
