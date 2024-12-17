@@ -16,6 +16,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 * [Chat with this page](#chat-with-this-page)
 * [Resources](#resources)
+* [Logos and Icons](#logos-and-icons)
 * [Client APIs](#client-apis)
 * [Tools Powered by DuckDB](#tools-powered-by-duckdb)
   * [Web Clients](#web-clients)
@@ -56,6 +57,11 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [DuckDB version manager (`duckman`)](https://github.com/NiclasHaderer/duckdb-version-manager) – Cross-platform installer and version manager for DuckDB.
 - [DuckERD CLI](https://github.com/tobilg/duckerd) – A CLI tool to create an ER Diagram from DuckDB database files.
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
+
+## Logos and Icons
+
+- [Logos](https://duckdb.org/faq#where-do-i-find-the-duckdb-logo) - DuckDB logos.
+- [Iconify](https://icon-sets.iconify.design/simple-icons/duckdb/) - Monochrome DuckDB icon in Iconify.
 
 ## Client APIs
 
