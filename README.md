@@ -114,6 +114,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [sqlglot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 23 different SQL dialects including DuckDB.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
+- [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
 
 ### Web Clients
 
