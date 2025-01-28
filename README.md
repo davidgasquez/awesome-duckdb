@@ -25,6 +25,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 * [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
 * [Projects Powered by DuckDB](#projects-powered-by-duckdb)
 * [Integrations](#integrations)
+* [Client-Server Setups](#client-server-setups)
 * [Extensions](#extensions)
   * [Official Extensions](#official-extensions)
   * [Community Extensions](#community-extensions)
