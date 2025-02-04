@@ -258,7 +258,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
 - [duckdb-flockmtl](https://github.com/dsg-polymtl/duckdb-flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
-- [erpl-web](https://github.com/DataZooDE/erpl-web) - ERPL WEB is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
+- [erpl-web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 
 ## Media
 
