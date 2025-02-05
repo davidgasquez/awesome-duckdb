@@ -314,3 +314,5 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+duckdb ui
