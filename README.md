@@ -117,6 +117,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
 - [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
+- [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 
 ### Web Clients
 
@@ -314,5 +315,3 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
-
-duckdb ui
