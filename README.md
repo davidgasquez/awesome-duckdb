@@ -146,7 +146,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
-- [https://github.com/DataZooDE/flapi] API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps
+- [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps
 
 ## SQL Clients and IDE that Support DuckDB
 
