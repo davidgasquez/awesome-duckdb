@@ -196,7 +196,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [metabase_duckdb_driver](https://github.com/MotherDuck-Open-Source/metabase_duckdb_driver) - Metabase DuckDB Driver shipped as 3rd party plugin.
 - [xlDuckDb](https://github.com/RusselWebber/xlDuckDb) - Excel addin to run DuckDB queries in Excel.
 - [Hasura DuckDB Connector](https://github.com/hasura/ndc-duckdb) - Allows connecting to a DuckDB database or a MotherDuck hosted DuckDB database through a GraphQL API.
-- [Ontop](https://ontop-vkg.org/guide/databases/duckdb.html) - Allows to create Virtual Knowledge Graphs directly from DuckDB 
+- [Ontop](https://ontop-vkg.org/guide/databases/duckdb.html) - Allows to create Virtual Knowledge Graphs directly from DuckDB.
 
 ## Client-Server Setups
 
