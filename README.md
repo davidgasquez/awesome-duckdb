@@ -42,7 +42,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Official documentation](https://duckdb.org/docs/) - Official DuckDB documentation.
   - [Official blog](https://duckdb.org/news/) - Official DuckDB blog.
   - [DuckDB RSS feed](https://duckdb.org/feed.xml) - Feed for the official DuckDB blog.
-  - [DuckDB clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
+  - [DuckDB clients](https://duckdb.org/docs/clients/overview) - Client APIs for DuckDB.
   - [DuckDB documentation PDF](https://duckdb.org/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
   - [DuckDB documentation MD](https://duckdb.org/duckdb-docs.md) - The DuckDB documentation as a single Markdown file.
 - [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
@@ -68,21 +68,21 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Client APIs
 
-- [C](https://duckdb.org/docs/api/c/overview)
-- [C++](https://duckdb.org/docs/api/cpp)
-- [CLI](https://duckdb.org/docs/api/cli)
+- [C](https://duckdb.org/docs/clients/c/overview)
+- [C++](https://duckdb.org/docs/clients/cpp)
+- [CLI](https://duckdb.org/docs/clients/cli)
 - [Go](https://github.com/marcboeker/go-duckdb)
-- [Julia](https://duckdb.org/docs/api/julia)
-- [Node.js](https://duckdb.org/docs/api/nodejs/overview)
-- [Python](https://duckdb.org/docs/api/python/overview)
-- [R](https://duckdb.org/docs/api/r)
+- [Julia](https://duckdb.org/docs/clients/julia)
+- [Node.js](https://duckdb.org/docs/clients/nodejs/overview)
+- [Python](https://duckdb.org/docs/clients/python/overview)
+- [R](https://duckdb.org/docs/clients/r)
 - [Ruby](https://github.com/suketa/ruby-duckdb)
 - [Rust](https://github.com/duckdb/duckdb-rs)
-- [Swift](https://duckdb.org/docs/api/swift)
+- [Swift](https://duckdb.org/docs/clients/swift)
 - [TypeScript](https://www.npmjs.com/package/duckdb-async)
-- [Wasm](https://duckdb.org/docs/api/wasm/overview)
-- [ADBC](https://duckdb.org/docs/api/adbc)
-- [ODBC](https://duckdb.org/docs/api/odbc/overview)
+- [Wasm](https://duckdb.org/docs/clients/wasm/overview)
+- [ADBC](https://duckdb.org/docs/clients/adbc)
+- [ODBC](https://duckdb.org/docs/clients/odbc/overview)
 - [.NET](https://github.com/Giorgi/DuckDB.NET/)
 - [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
