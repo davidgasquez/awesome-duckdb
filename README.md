@@ -250,7 +250,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 ### Other Extensions
 
-- [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
 - [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
 - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
@@ -264,6 +263,11 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
 - [duckdb-flockmtl](https://github.com/dsg-polymtl/flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
 - [erpl-web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
+
+### Extension Statistics
+
+- [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
+- [DuckDB extension weekly downloads](https://duckdb-ce-analysis.evidence.app/) - Statistics of weekly downloads for core extensions and community extensions. Refreshed daily.
 
 ## Media
 
