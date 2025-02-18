@@ -103,7 +103,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON.
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
-- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on .parquet, .csv, .json files and .duckdb tables in the browser based on DuckDB-Wasm. Open source (MIT). Zero install!
+- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. Open source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
@@ -124,7 +124,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by DuckDB-Wasm.
 - [SQL Workbench](https://sql-workbench.com) - DuckDB-Wasm based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
-- [Sekuel Playground](https://sekuel.com/playground/) - Query your local parquet, csv, json. Your data will not be sent out of the device you are using.
+- [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
 - [CSVFiddle](https://csvfiddle.io/) - Free tool to explore and share insights from CSV files using SQL. Import data, write SQL, then instantly share it with anyone.
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
 - [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
@@ -173,7 +173,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
-- [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
+- [duckdb-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 - [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) ([GitHub repository](https://github.com/mehd-io/pypi-duck-flow)) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 
 ## Integrations
@@ -186,7 +186,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [SQLFlow](https://github.com/turbolytics/sql-flow) - Enables SQL-based stream-processing, powered by DuckDB.
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
 - [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
-- [Sqlite2Duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
+- [sqlite2duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckplyr](https://tidyverse.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
 - [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB.
