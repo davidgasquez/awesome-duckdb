@@ -61,6 +61,11 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
 - [Snap package](https://github.com/habedi/duckdb-snap) - Snap package of DuckDB. E.g. for Ubuntu.
 
+## Newsletters
+
+* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monhtly newsletter by MotherDuck.
+* [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
+
 ## Logos and Icons
 
 - [Logos](https://duckdb.org/faq#where-do-i-find-the-duckdb-logo) - DuckDB logos.
