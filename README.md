@@ -262,13 +262,14 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
-- [duckdb-flockmtl](https://github.com/dsg-polymtl/duckdb-flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
+- [duckdb-flockmtl](https://github.com/dsg-polymtl/flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
 - [erpl-web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 
 ## Media
 
 ### Talks
 
+- [DuckCon #6 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjggaDzjPP542En2R5SV0WiZ)
 - [DuckDB: Crunching data anywhere from laptops to servers @ GOTO Amsterdam 2024](https://www.youtube.com/watch?v=9Rdwh0rNaf0) - Gábor Szárnyas.
 - [DuckDB – Overview and latest developments @ DuckCon #5](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #5 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhbacz4PWGuCUSxizmLei8Y)
