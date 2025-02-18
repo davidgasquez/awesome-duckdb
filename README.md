@@ -100,7 +100,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
-- [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, csv, parquet and json.
+- [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON.
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
 - [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on .parquet, .csv, .json files and .duckdb tables in the browser based on DuckDB WASM. Open source (MIT). Zero install!
@@ -133,8 +133,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ### Backends
 
-- [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses
-- [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and support queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format
+- [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses.
+- [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and support queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format.
 - [duckdb-server](https://lib.rs/crates/duckdb-server) - A Rust-based server that runs a local DuckDB instance and support queries over Web Sockets or HTTP/HTTPS, returning data in either Apache Arrow or JSON format.
 
 ## Libraries Powered by DuckDB
@@ -148,7 +148,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
-- [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps
+- [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
 
 ## SQL Clients and IDE that Support DuckDB
 
@@ -233,14 +233,14 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 - [`avro`](https://github.com/hannes/duckdb_avro) - Enables reading Avro files.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
-- [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB
-- [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC
+- [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
+- [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Graph workloads that supports the SQL/PGQ standard.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
-- [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves
-- [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease. 
+- [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
+- [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
