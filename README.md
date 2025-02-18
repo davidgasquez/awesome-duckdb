@@ -75,7 +75,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 - [C](https://duckdb.org/docs/clients/c/overview)
 - [C++](https://duckdb.org/docs/clients/cpp)
-- [CLI](https://duckdb.org/docs/clients/cli)
+- [CLI](https://duckdb.org/docs/clients/cli/overview)
 - [Go](https://github.com/marcboeker/go-duckdb)
 - [Julia](https://duckdb.org/docs/clients/julia)
 - [Node.js](https://duckdb.org/docs/clients/nodejs/overview)
