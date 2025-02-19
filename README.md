@@ -42,7 +42,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Official documentation](https://duckdb.org/docs/) - Official DuckDB documentation.
   - [Official blog](https://duckdb.org/news/) - Official DuckDB blog.
   - [DuckDB RSS feed](https://duckdb.org/feed.xml) - Feed for the official DuckDB blog.
-  - [DuckDB clients](https://duckdb.org/docs/api/overview) - Client APIs for DuckDB.
+  - [DuckDB clients](https://duckdb.org/docs/clients/overview) - Client APIs for DuckDB.
   - [DuckDB documentation PDF](https://duckdb.org/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
   - [DuckDB documentation MD](https://duckdb.org/duckdb-docs.md) - The DuckDB documentation as a single Markdown file.
 - [docker-duckdb](https://github.com/davidgasquez/docker-duckdb) - Docker image for DuckDB CLI.
@@ -61,6 +61,11 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
 - [Snap package](https://github.com/habedi/duckdb-snap) - Snap package of DuckDB. E.g. for Ubuntu.
 
+## Newsletters
+
+* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monhtly newsletter by MotherDuck.
+* [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
+
 ## Logos and Icons
 
 - [Logos](https://duckdb.org/faq#where-do-i-find-the-duckdb-logo) - DuckDB logos.
@@ -68,21 +73,21 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Client APIs
 
-- [C](https://duckdb.org/docs/api/c/overview)
-- [C++](https://duckdb.org/docs/api/cpp)
-- [CLI](https://duckdb.org/docs/api/cli)
+- [C](https://duckdb.org/docs/clients/c/overview)
+- [C++](https://duckdb.org/docs/clients/cpp)
+- [CLI](https://duckdb.org/docs/clients/cli/overview)
 - [Go](https://github.com/marcboeker/go-duckdb)
-- [Julia](https://duckdb.org/docs/api/julia)
-- [Node.js](https://duckdb.org/docs/api/nodejs/overview)
-- [Python](https://duckdb.org/docs/api/python/overview)
-- [R](https://duckdb.org/docs/api/r)
+- [Julia](https://duckdb.org/docs/clients/julia)
+- [Node.js](https://duckdb.org/docs/clients/nodejs/overview)
+- [Python](https://duckdb.org/docs/clients/python/overview)
+- [R](https://duckdb.org/docs/clients/r)
 - [Ruby](https://github.com/suketa/ruby-duckdb)
 - [Rust](https://github.com/duckdb/duckdb-rs)
-- [Swift](https://duckdb.org/docs/api/swift)
+- [Swift](https://duckdb.org/docs/clients/swift)
 - [TypeScript](https://www.npmjs.com/package/duckdb-async)
-- [Wasm](https://duckdb.org/docs/api/wasm/overview)
-- [ADBC](https://duckdb.org/docs/api/adbc)
-- [ODBC](https://duckdb.org/docs/api/odbc/overview)
+- [WebAssembly (Wasm)](https://duckdb.org/docs/clients/wasm/overview)
+- [ADBC](https://duckdb.org/docs/clients/adbc)
+- [ODBC](https://duckdb.org/docs/clients/odbc/overview)
 - [.NET](https://github.com/Giorgi/DuckDB.NET/)
 - [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
@@ -97,13 +102,13 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
-- [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB Wasm.
+- [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB-Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON.
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
-- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on .parquet, .csv, .json files and .duckdb tables in the browser based on DuckDB WASM. Open source (MIT). Zero install!
+- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. Open source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
@@ -120,11 +125,11 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
 - [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 
-### Web Clients
+### Web Clients (WebAssembly)
 
-- [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by WebAssembly.
-- [SQL Workbench](https://sql-workbench.com) - DuckDB-WASM based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
-- [Sekuel Playground](https://sekuel.com/playground/) - Query your local parquet, csv, json. Your data will not be sent out of the device you are using.
+- [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by DuckDB-Wasm.
+- [SQL Workbench](https://sql-workbench.com) - DuckDB-Wasm based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
+- [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
 - [CSVFiddle](https://csvfiddle.io/) - Free tool to explore and share insights from CSV files using SQL. Import data, write SQL, then instantly share it with anyone.
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
 - [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
@@ -145,7 +150,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
 - [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-Postgres for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB.
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
-- [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and duckdb-wasm.
+- [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and DuckDB-Wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
 - [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
@@ -173,7 +178,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
-- [duckDB-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
+- [duckdb-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 - [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) ([GitHub repository](https://github.com/mehd-io/pypi-duck-flow)) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 
 ## Integrations
@@ -186,7 +191,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [SQLFlow](https://github.com/turbolytics/sql-flow) - Enables SQL-based stream-processing, powered by DuckDB.
 - [nf-sqldb](https://github.com/nextflow-io/nf-sqldb) - This plugin provides support for interacting with SQL databases in Nextflow scripts.
 - [MindsDB](https://github.com/mindsdb/mindsdb) - The platform for customizing AI from enterprise data. [MindsDB integrates with DuckDB](https://docs.mindsdb.com/integrations/data-integrations/duckdb), making data from DuckDB accessible to a diverse range of AI/ML models.
-- [Sqlite2Duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
+- [sqlite2duckdb](https://github.com/dridk/sqlite2duckdb) - A CLI tool to convert SQLite database to DuckDB.
 - [nodbi](https://docs.ropensci.org/nodbi/) - NoSQL Database Connector for R, providing a common API across Elasticsearch, CouchDB, MongoDB, SQLite, PostgreSQL, and DuckDB.
 - [duckplyr](https://tidyverse.github.io/duckplyr/) - Drop-in replacement for dplyr in R that uses DuckDB for performance.
 - [kwack](https://github.com/rayokota/kwack) - In-Memory Analytics for Kafka using DuckDB.
@@ -238,37 +243,42 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Graph workloads that supports the SQL/PGQ standard.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
+- [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
+- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
 - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
-- [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
-- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
 
 ### Other Extensions
 
-- [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
-- [duckdb-engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
+- [duckdb_engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
 - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
-- [duckdb-protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
+- [duckdb_protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
 - [duckdb-pytables](https://github.com/MarkRoddy/duckdb-pytables) - DuckDB extension to allow running SQL on arbitrary data sources.
 - [ERPL](https://erpl.io) - DuckDB SAP connector using RFC, ODP, or BICS.
 - [Kùzu](https://github.com/kuzudb/kuzu/tree/master/extension/duckdb) - Scan DuckDB tables in Kùzu, an embeddable property graph database management system.
 - [Lance](https://lancedb.github.io/lancedb/python/duckdb/) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
-- [`uc_catalog`](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
-- [duckdb-flockmtl](https://github.com/dsg-polymtl/duckdb-flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
-- [erpl-web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
+- [UC Catalog Extension](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
+- [FlockMTL](https://github.com/dsg-polymtl/flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
+- [ERPL Web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
+
+### Extension Statistics
+
+- [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
+- [DuckDB extension weekly downloads](https://duckdb-ce-analysis.evidence.app/) - Statistics of weekly downloads for core extensions and community extensions. Refreshed daily.
 
 ## Media
 
 ### Talks
 
+- [DuckCon #6 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjggaDzjPP542En2R5SV0WiZ)
 - [DuckDB: Crunching data anywhere from laptops to servers @ GOTO Amsterdam 2024](https://www.youtube.com/watch?v=9Rdwh0rNaf0) - Gábor Szárnyas.
 - [DuckDB – Overview and latest developments @ DuckCon #5](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #5 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjhbacz4PWGuCUSxizmLei8Y)
