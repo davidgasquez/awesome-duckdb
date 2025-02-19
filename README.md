@@ -63,7 +63,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Newsletters
 
-* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monhtly newsletter by MotherDuck.
+* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monthly newsletter by MotherDuck.
 * [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
 
 ## Logos and Icons
