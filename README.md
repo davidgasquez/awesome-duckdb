@@ -60,6 +60,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [DuckERD CLI](https://github.com/tobilg/duckerd) – A CLI tool to create an ER Diagram from DuckDB database files.
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
 - [Snap package](https://github.com/habedi/duckdb-snap) - Snap package of DuckDB. E.g. for Ubuntu.
+- [DuckDB execution plan visualizer](https://db.cs.uni-tuebingen.de/explain/) - Visualizing and understanding DuckDB EXPLAIN plans made easy.
 
 ## Newsletters
 
