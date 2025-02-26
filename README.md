@@ -319,6 +319,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [DuckDB: The Rising Star in the Big Data Landscape](https://mihaibojin.medium.com/duckdb-the-big-data-rising-star-71916f953f18)
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
 - [Putting DuckDB in Postgres to Query Iceberg](https://www.paradedb.com/blog/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
+- [DuckDB Doesn't Need Data To Be a Database](https://www.nikolasgoebel.com/2024/05/28/duckdb-doesnt-need-data) - How DuckDB can provide a view over data stored in S3.
 
 ### Books
 
