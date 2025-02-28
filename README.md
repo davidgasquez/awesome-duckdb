@@ -155,6 +155,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
 - [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
+- [smallpond](https://github.com/deepseek-ai/smallpond) - A distributed data processing framework by DeepSeek built on DuckDB and 3FS.
 
 ## SQL Clients and IDE that Support DuckDB
 
