@@ -149,16 +149,17 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
 - [Splink](http://github.com/moj-analytical-services/splink) - A free Python library for fast, accurate data deduplication and record linkage.
 - [Simple-data-analysis](https://github.com/nshiab/simple-data-analysis) - Easy-to-use and high-performance JavaScript library for data analysis.
-- [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB.
 - [duckdb_fdw](https://github.com/alitrack/duckdb_fdw) - DuckDB Foreign Data Wrapper for PostgreSQL.
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and DuckDB-Wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
 - [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
+- [smallpond](https://github.com/deepseek-ai/smallpond) - A distributed data processing framework by DeepSeek built on DuckDB and 3FS.
+- [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
 
 ## SQL Clients and IDE that Support DuckDB
 
-- [Harlequin](https://harlequin.sh) - The DuckDB IDE for your terminal. ([GitHub](https://github.com/tconbeer/harlequin)).
+- [Harlequin](https://harlequin.sh) - The DuckDB IDE for your terminal.
 - [qStudio](https://www.timestored.com/qstudio/) - A free SQL tool specialized for data analysts. It runs on every operating system and allows easy browsing of tables and charting of results.
 - [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) - Free DuckDB SQL Tools for VS Code IDE. [Premium version available](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) with advanced features.
 - [VSCode SQLTools (Free)](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver) - Free open-source VSCode extension to query and explore your DuckDB databases with latest DuckDB support.
@@ -180,7 +181,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
 - [duckdb-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
-- [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) ([GitHub repository](https://github.com/mehd-io/pypi-duck-flow)) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
+- [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 
 ## Integrations
 
@@ -209,7 +210,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Crunchy Data Warehouse](https://www.crunchydata.com/products/warehouse) - Fully managed DBaaS based in PostgreSQL integrated with DuckDB.
 - [MotherDuck](https://motherduck.com/) - A serverless cloud data warehouse powered by DuckDB.
 - [MyDuck Server](https://github.com/apecloud/myduckserver) - A server wrapping DuckDB with MySQL and PostgreSQL wire protocol support.
-- [pg_analytics](https://github.com/paradedb/pg_analytics) - DuckDB-powered data lake analytics from PostgreSQL. Integrates easily with ParadeDB.
+- [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB. Integrates easily with ParadeDB.
 - [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered PostgreSQL for high-performance apps & analytics.
 - [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
 - [SQLFlite - Arrow Flight SQL Server](https://github.com/voltrondata/sqlflite) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
