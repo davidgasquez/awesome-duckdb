@@ -138,6 +138,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [WhatTheDuck](https://whattheduck.incentius.com/) - WhatTheDuck is an open-source web application built on DuckDB. It allows users to upload CSV files, store them in tables, and perform SQL queries on the data.
 - [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
 - [DuckDB UI](https://duckdb.org/docs/stable/extensions/ui) - A local web-based notebook interface for DuckDB.
+- [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
+
 
 ### Backends
 
