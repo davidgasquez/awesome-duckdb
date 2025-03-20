@@ -220,6 +220,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name⟩`.
 
 - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+- [`avro`](https://github.com/duckdb/duckdb-avro) - For reading Avro files.
 - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
 - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
 - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
@@ -236,7 +237,6 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
-- [`avro`](https://github.com/hannes/duckdb_avro) - Enables reading Avro files.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
