@@ -120,28 +120,13 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
-- [sqlglot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 24 different SQL dialects including DuckDB.
+- [SQLGlot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 24 different SQL dialects including DuckDB.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
 - [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
-- [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 - [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
 
-### Web Clients (WebAssembly)
-
-- [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by DuckDB-Wasm.
-- [SQL Workbench](https://sql-workbench.com) - DuckDB-Wasm based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
-- [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
-- [CSVFiddle](https://csvfiddle.io/) - Free tool to explore and share insights from CSV files using SQL. Import data, write SQL, then instantly share it with anyone.
-- [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
-- [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
-- [WhatTheDuck](https://whattheduck.incentius.com/) - WhatTheDuck is an open-source web application built on DuckDB. It allows users to upload CSV files, store them in tables, and perform SQL queries on the data.
-- [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
-- [DuckDB UI](https://duckdb.org/docs/stable/extensions/ui) - A local web-based notebook interface for DuckDB.
-- [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
-
-
-### Backends
+## Backends
 
 - [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses.
 - [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and supports queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format.
@@ -157,27 +142,36 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [@jetblack/duckdb-react](https://github.com/rob-blackbourn/jetblack-duckdb-react) - A context manager for React and DuckDB-Wasm.
 - [QuackOSM](https://github.com/kraina-ai/quackosm) - A Python library for downloading and transforming raw OpenStreetMap data into GeoParquet files.
 - [PyGWalker](https://kanaries.net/pygwalker) - A Python library that turns your dataframe into an interactive UI for data visualization.
-- [flapi](https://github.com/DataZooDE/flapi) - API Framework heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
+- [flapi](https://github.com/DataZooDE/flapi) - An API Framework that heavily relies on the power of DuckDB and DuckDB extensions. Ready to build performant and cost-efficient APIs on top of BigQuery or Snowflake for AI Agents and Data Apps.
 - [smallpond](https://github.com/deepseek-ai/smallpond) - A distributed data processing framework by DeepSeek built on DuckDB and 3FS.
 - [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
+- [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
+
+## DuckDB Clients and UIs
+
+### Web Clients (WebAssembly)
+
+- [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by DuckDB-Wasm.
+- [SQL Workbench](https://sql-workbench.com) - DuckDB-Wasm based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
+- [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
+- [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
+- [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
+- [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
+- [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 - [SQLRooms](https://sqlrooms.org/) – React app framework for small to mid-sized data analytics powered by DuckDB-WASM.
 
 ## SQL Clients and IDE that Support DuckDB
 
-- [Harlequin](https://harlequin.sh) - The DuckDB IDE for your terminal.
+- [Harlequin](https://harlequin.sh) - The DuckDB IDE (TUI) for your terminal.
 - [qStudio](https://www.timestored.com/qstudio/) - A free SQL tool specialized for data analysts. It runs on every operating system and allows easy browsing of tables and charting of results.
 - [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) - Free DuckDB SQL Tools for VS Code IDE. [Premium version available](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) with advanced features.
-- [VSCode SQLTools (Free)](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver) - Free open-source VSCode extension to query and explore your DuckDB databases with latest DuckDB support.
+- [VSCode SQLTools (free)](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver) - Free open-source VSCode extension to query and explore your DuckDB databases with latest DuckDB support.
 - [DBeaver](https://dbeaver.com) - DBeaver is a universal database access and development tool that can be used to connect almost any type of database.
 - [DataGrip](https://www.jetbrains.com/datagrip/) - Paid SQL IDE by JetBrains that supports many different database technologies, including DuckDB.
 - [Duckling](https://github.com/l1xnan/duckling) - A fast viewer for CSV/Parquet files and DuckDB/SQLite, based on Tauri.
 - [rsql](https://github.com/theseus-rs/rsql) - CLI for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, SQLite3 and SQL Server.
-- [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
-- [jOOQ](https://www.jooq.org/) - Type safe querying of DuckDB (and many other RDBMS) from Java. A [transpiler](https://www.jooq.org/translate/) from and to DuckDB is also available.
 - [SQL DATA LENS](https://sqldatalens.com/build-in-support-for-duckdb/) - A lightweight, commercial SQL IDE that supports different DBMS, including DuckDB. The focus is on performance and special DBMS features.
 - [Dataflare](https://dataflare.app) - Simple easy-to-use database manager, supports DuckDB, PostgreSQL, MySQL, SQL Server, SQLite etc.
-- [manifold-sql (DuckDB for Java)](https://github.com/manifold-systems/manifold/blob/master/docs/articles/duckdb_info.md) - Use native DuckDB SQL of any complexity directly & type-safely in Java source with comprehensive IntelliJ support.
-- [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
 
 ## Projects Powered by DuckDB
 
@@ -209,6 +203,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [xlDuckDb](https://github.com/RusselWebber/xlDuckDb) - Excel addin to run DuckDB queries in Excel.
 - [Hasura DuckDB Connector](https://github.com/hasura/ndc-duckdb) - Allows connecting to a DuckDB database or a MotherDuck-hosted DuckDB database through a GraphQL API.
 - [Ontop](https://ontop-vkg.org/guide/databases/duckdb.html) - Allows to create Virtual Knowledge Graphs directly from DuckDB.
+- [jOOQ](https://www.jooq.org/) - Type safe querying of DuckDB (and many other RDBMS) from Java. A [transpiler](https://www.jooq.org/translate/) from and to DuckDB is also available.
+- [manifold-sql (DuckDB for Java)](https://github.com/manifold-systems/manifold/blob/master/docs/articles/duckdb_info.md) - Use native DuckDB SQL of any complexity directly & type-safely in Java source with comprehensive IntelliJ support.
 
 ## Client-Server Setups
 
@@ -220,6 +216,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
 - [SQLFlite - Arrow Flight SQL Server](https://github.com/voltrondata/sqlflite) - An example implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
 
+- [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
+
 ## Extensions
 
 ### [Official Extensions](https://duckdb.org/docs/extensions/official_extensions)
@@ -227,6 +225,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name⟩`.
 
 - [`arrow`](https://github.com/duckdb/arrow) - A zero-copy data integration between Apache Arrow and DuckDB.
+- [`avro`](https://github.com/duckdb/duckdb-avro) - For reading Avro files.
 - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
 - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
 - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
@@ -243,7 +242,6 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
-- [`avro`](https://github.com/hannes/duckdb_avro) - Enables reading Avro files.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
