@@ -124,10 +124,11 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
 - [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
+- [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
 
 ## Backends
 
-- [DuckDB API](https://github.com/tobilg/duckdb-api) - A TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses.
+- [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses.
 - [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and supports queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format.
 - [duckdb-server](https://lib.rs/crates/duckdb-server) - A Rust-based server that runs a local DuckDB instance and supports queries over Web Sockets or HTTP/HTTPS, returning data in either Apache Arrow or JSON format.
 
@@ -157,6 +158,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
 - [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
 - [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
+- [SQLRooms](https://sqlrooms.org/) – React app framework for small to mid-sized data analytics powered by DuckDB-WASM.
 
 ## SQL Clients and IDE that Support DuckDB
 
@@ -323,6 +325,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [How to Make a DuckDB Extension for a Table Function?](https://blog.debug.sexy/duckdb/extension/dbms/2024/04/09/How-to-make-a-DuckDB-extension-for-a-table-function.html) - How to make a DuckDB extension to fetch data from external sources.
 - [Putting DuckDB in Postgres to Query Iceberg](https://www.paradedb.com/blog/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 - [DuckDB Doesn't Need Data To Be a Database](https://www.nikolasgoebel.com/2024/05/28/duckdb-doesnt-need-data) - How DuckDB can provide a view over data stored in S3.
+- [Securing DuckDB, Improving Startup Time, and Working Offline](https://blog.colinbreck.com/securing-duckdb-improving-startup-time-and-working-offline/) - How to set up DuckDB and how to work with extensions in an offline (and potentially sensitive) environment.
 
 ### Books
 
