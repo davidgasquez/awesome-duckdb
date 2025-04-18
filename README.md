@@ -14,28 +14,31 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 <!-- omit in toc -->
 ## Contents
 
-* [Chat with this page](#chat-with-this-page)
-* [Resources](#resources)
-* [Logos and Icons](#logos-and-icons)
-* [Client APIs](#client-apis)
-* [Tools Powered by DuckDB](#tools-powered-by-duckdb)
-  * [Web Clients](#web-clients)
-  * [Backends](#backends)
-* [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
-* [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
-* [Projects Powered by DuckDB](#projects-powered-by-duckdb)
-* [Integrations](#integrations)
-* [Client-Server Setups](#client-server-setups)
-* [Extensions](#extensions)
-  * [Official Extensions](#official-extensions)
-  * [Community Extensions](#community-extensions)
-  * [Other Extensions](#other-extensions)
-* [Media](#media)
-  * [Talks](#talks)
-  * [Podcasts](#podcasts)
-  * [Blog Posts](#blog-posts)
-  * [Books](#books)
-* [Contribute](#contribute)
+- [Chat with this page](#chat-with-this-page)
+- [Resources](#resources)
+- [Newsletters](#newsletters)
+- [Logos and Icons](#logos-and-icons)
+- [Client APIs](#client-apis)
+- [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+- [Backends](#backends)
+- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+- [DuckDB Clients and UIs](#duckdb-clients-and-uis)
+  - [Web Clients (WebAssembly)](#web-clients-webassembly)
+- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
+- [Integrations](#integrations)
+- [Client-Server Setups](#client-server-setups)
+- [Extensions](#extensions)
+  - [Official Extensions](#official-extensions)
+  - [Community Extensions](#community-extensions)
+  - [Other Extensions](#other-extensions)
+  - [Extension Statistics](#extension-statistics)
+- [Media](#media)
+  - [Talks](#talks)
+  - [Podcasts](#podcasts)
+  - [Blog Posts](#blog-posts)
+  - [Books](#books)
+- [Contribute](#contribute)
 
 ## Resources
 
@@ -64,8 +67,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 
 ## Newsletters
 
-* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monthly newsletter by MotherDuck.
-* [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
+- [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monthly newsletter by MotherDuck.
+- [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
 
 ## Logos and Icons
 
