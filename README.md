@@ -306,7 +306,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Nextflow and database uses: powering data engineering, exploring DuckDB, and beyond](https://youtu.be/GknH1u3NtGI?si=PKnF__cQJ_citMUi) - Edmund Miller.
 - [Why should you care about DuckDB? @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=q55UMyQapKA) - Mihai Bojin.
 - [Exploring Monte Carlo Simulations With DuckDB @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=oh0Y3MN2Tas) - James McNeill.
-- [DuckDB and recommenders : a lightning fast synergy @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=Y3aJe8MRKAI) - Khalil Muhammad.
+- [DuckDB and recommenders: A lightning fast synergy @ Dublin DuckDB meetup](https://www.youtube.com/watch?v=Y3aJe8MRKAI) - Khalil Muhammad.
 
 ### Podcasts
 
@@ -315,6 +315,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Software Engineering Daily: DuckDB](https://softwareengineeringdaily.com/2022/03/18/duckdb-with-hannes-muleisen/) - Hannes Mühleisen.
 - [Data Engineering Podcast: Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
 - [The Analytics Engineering Podcast: The Personal Data Warehouse](https://www.youtube.com/watch?v=4aRdCfrNjMk) - Jordan Tigani.
+- [DuckDB in Research](https://shows.acast.com/disseminate) - Series in Disseminate, the Computer Science Research Podcast, with host Jack Waudby.
 
 ### Blog Posts
 
@@ -329,6 +330,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Putting DuckDB in Postgres to Query Iceberg](https://www.paradedb.com/blog/iceberg_lakehouse) - How ParadeDB embedded DuckDB in Postgres to achieve fast analytics and Apache Iceberg compatibility from Postgres.
 - [DuckDB Doesn't Need Data To Be a Database](https://www.nikolasgoebel.com/2024/05/28/duckdb-doesnt-need-data) - How DuckDB can provide a view over data stored in S3.
 - [Securing DuckDB, Improving Startup Time, and Working Offline](https://blog.colinbreck.com/securing-duckdb-improving-startup-time-and-working-offline/) - How to set up DuckDB and how to work with extensions in an offline (and potentially sensitive) environment.
+- [Datalore 2025.2 Is Out With Report Tabs, Extended DuckDB Support, and Snowflake Key Pair Authentication](https://blog.jetbrains.com/datalore/2025/04/17/datalore-2025-2-is-out-with-report-tabs-extended-duckdb-support-and-snowflake-key-pair-authentication/) - Improved DuckDB support in JetBrains' Datalore collaborative data science platform
 
 ### Books
 
