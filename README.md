@@ -14,28 +14,32 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 <!-- omit in toc -->
 ## Contents
 
-* [Chat with this page](#chat-with-this-page)
-* [Resources](#resources)
-* [Logos and Icons](#logos-and-icons)
-* [Client APIs](#client-apis)
-* [Tools Powered by DuckDB](#tools-powered-by-duckdb)
-  * [Web Clients](#web-clients)
-  * [Backends](#backends)
-* [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
-* [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
-* [Projects Powered by DuckDB](#projects-powered-by-duckdb)
-* [Integrations](#integrations)
-* [Client-Server Setups](#client-server-setups)
-* [Extensions](#extensions)
-  * [Official Extensions](#official-extensions)
-  * [Community Extensions](#community-extensions)
-  * [Other Extensions](#other-extensions)
-* [Media](#media)
-  * [Talks](#talks)
-  * [Podcasts](#podcasts)
-  * [Blog Posts](#blog-posts)
-  * [Books](#books)
-* [Contribute](#contribute)
+- [Chat with this page](#chat-with-this-page)
+- [Resources](#resources)
+- [Installers](#installers)
+- [Newsletters](#newsletters)
+- [Logos and Icons](#logos-and-icons)
+- [Client APIs](#client-apis)
+- [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+- [Backends](#backends)
+- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+- [DuckDB Clients and UIs](#duckdb-clients-and-uis)
+  - [Web Clients (WebAssembly)](#web-clients-webassembly)
+- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
+- [Integrations](#integrations)
+- [Client-Server Setups](#client-server-setups)
+- [Extensions](#extensions)
+  - [Official Extensions](#official-extensions)
+  - [Community Extensions](#community-extensions)
+  - [Other Extensions](#other-extensions)
+  - [Extension Statistics](#extension-statistics)
+- [Media](#media)
+  - [Talks](#talks)
+  - [Podcasts](#podcasts)
+  - [Blog Posts](#blog-posts)
+  - [Books](#books)
+- [Contribute](#contribute)
 
 ## Resources
 
@@ -56,16 +60,23 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Serverless Parquet Repartitioner](https://github.com/tobilg/serverless-parquet-repartitioner) - Use DuckDB to repartition data in S3-based Data Lakes.
 - [Observable notebooks](https://observablehq.com/search?query=duckdb&sort=created&direction=desc&useES=true) - Notebooks using DuckDB on the Observable data visualization platform.
 - [duckdb-nf](https://github.com/edmundmiller/duckdb-nf) - Example uses of DuckDB with Nextflow.
-- [DuckDB version manager (`duckman`)](https://github.com/NiclasHaderer/duckdb-version-manager) – Cross-platform installer and version manager for DuckDB.
 - [DuckERD CLI](https://github.com/tobilg/duckerd) – A CLI tool to create an ER Diagram from DuckDB database files.
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
-- [Snap package](https://github.com/habedi/duckdb-snap) - Snap package of DuckDB. E.g. for Ubuntu.
 - [DuckDB execution plan visualizer](https://db.cs.uni-tuebingen.de/explain/) - Visualizing and understanding DuckDB EXPLAIN plans made easy.
+
+## Installers
+
+- [Official installation page](https://duckdb.org/docs/installation/)
+- [Brew formula](https://formulae.brew.sh/formula/duckdb)
+- Third-party installation options. Note: these are not maintained by the core DuckDB team – proceed with caution.
+    - [DuckDB version manager (`duckman`)](https://github.com/NiclasHaderer/duckdb-version-manager) – Cross-platform installer and version manager for DuckDB.
+    - [Snap package](https://github.com/habedi/duckdb-snap) - Snap package of DuckDB, e.g., for Ubuntu Linux.
+    - [Chocolatey packages](https://community.chocolatey.org/packages/duckdb) - Chocolatey package for Windows.
 
 ## Newsletters
 
-* [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monthly newsletter by MotherDuck.
-* [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
+- [DuckDB Newsletter](https://motherduck.com/duckdb-news/) - Monthly newsletter by MotherDuck.
+- [Learn DuckDB by example](https://learningduckdb.com/) - Newsletter by Tobias Müller.
 
 ## Logos and Icons
 
