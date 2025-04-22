@@ -172,6 +172,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
 - [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 - [SQLRooms](https://sqlrooms.org/) – React app framework for small to mid-sized data analytics powered by DuckDB-WASM.
+- [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 
 ## SQL Clients and IDE that Support DuckDB
 
