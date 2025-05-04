@@ -104,6 +104,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Common Lisp](https://github.com/ak-coram/cl-duckdb)
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
 - [Dart](https://github.com/TigerEyeLabs/duckdb-dart)
+- [PHP](https://github.com/satur-io/duckdb-php)
 
 ## Tools Powered by DuckDB
 
