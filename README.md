@@ -257,7 +257,6 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
-- [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
@@ -274,6 +273,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
+- [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
 
 ### Other Extensions
 
