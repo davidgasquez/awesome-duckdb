@@ -140,6 +140,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [duckdb.yazi](https://github.com/wylie102/duckdb.yazi) - Preview csv/tsv, json, and Parquet files in the yazi file manager using duckdb. View the raw data, or a "summarized" view with data-types, min, max, avg etc. for all columns.
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries.
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
+- [Tailpipe](https://github.com/turbot/tailpipe) - An open source SIEM for instant log insights.
 
 ## Backends
 
@@ -175,6 +176,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 - [SQLRooms](https://sqlrooms.org/) – React app framework for small to mid-sized data analytics powered by DuckDB-WASM.
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
+- [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
+- [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
 
 ## SQL Clients and IDE that Support DuckDB
 
