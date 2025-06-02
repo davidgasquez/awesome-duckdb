@@ -233,7 +233,8 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB. Integrates easily with ParadeDB.
 - [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered PostgreSQL for high-performance apps & analytics.
 - [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
-- [GizmoSQL - Arrow Flight SQL Server](https://github.com/gizmodata/gizmosql) - An implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
+- [GizmoSQL - Arrow Flight SQL Server](https://github.com/gizmodata/gizmosql) - A C++ implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
+- [Hatch](https://github.com/TFMV/hatch) - A Go-based implementation of a DuckDB Arrow Flight SQL Server.  More info at: [Medium](https://medium.com/@mcgeehan/hatch-aa75c7ccad86)
 
 - [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
 
