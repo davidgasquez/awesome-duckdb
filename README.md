@@ -141,6 +141,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries.
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
 - [Tailpipe](https://github.com/turbot/tailpipe) - An open source SIEM for instant log insights.
+- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool writen in go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 
 ## Backends
 
