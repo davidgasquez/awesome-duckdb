@@ -164,6 +164,7 @@ You can chat with this page's content on [HuggingChat](https://hf.co/chat/assist
 - [smallpond](https://github.com/deepseek-ai/smallpond) - A distributed data processing framework by DeepSeek built on DuckDB and 3FS.
 - [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
 - [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
+- [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
 
 ## DuckDB Clients and UIs
 
