@@ -7,9 +7,7 @@
 
 DuckDB 1.3.0 was released on 2025-05-21: see the [announcement blog post](https://duckdb.org/2025/05/21/announcing-duckdb-130).
 
-## Chat with this page
-
-You can chat with this page's content on [HuggingChat](https://hf.co/chat/assistant/662583ebe039fc836ce74dee).
+The DuckLake file format was released on 2025-05-27: see the [announcement blog post](https://duckdb.org/2025/05/27/ducklake).
 
 <!-- omit in toc -->
 ## Contents
