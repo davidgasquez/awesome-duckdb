@@ -28,7 +28,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Integrations](#integrations)
 - [Client-Server Setups](#client-server-setups)
 - [Extensions](#extensions)
-  - [Official Extensions](#official-extensions)
+  - [Core Extensions](#core-extensions)
   - [Community Extensions](#community-extensions)
   - [Other Extensions](#other-extensions)
   - [Extension Statistics](#extension-statistics)
@@ -236,13 +236,12 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered PostgreSQL for high-performance apps & analytics.
 - [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
 - [GizmoSQL - Arrow Flight SQL Server](https://github.com/gizmodata/gizmosql) - A C++ implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
-- [Hatch](https://github.com/TFMV/hatch) - A Go-based implementation of a DuckDB Arrow Flight SQL Server [giving DuckDB wings](https://medium.com/@mcgeehan/hatch-aa75c7ccad86).
-
+- [Hatch](https://github.com/TFMV/hatch) - A Go-based implementation of a DuckDB Arrow Flight SQL Server.
 - [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
 
 ## Extensions
 
-### [Official Extensions](https://duckdb.org/docs/extensions/official_extensions)
+### [Core Extensions](https://duckdb.org/docs/stable/core_extensions/overview)
 
 Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name⟩`.
 
