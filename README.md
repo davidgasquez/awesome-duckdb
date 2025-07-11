@@ -141,6 +141,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
 - [Tailpipe](https://github.com/turbot/tailpipe) - An open source SIEM for instant log insights.
 - [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool writen in go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
+- [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 
 ## Backends
 
