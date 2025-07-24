@@ -180,6 +180,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
+- [TabulaStudio](https://tabulastudio.com) - Browser-only enterprise data analytics platform with Jupyter-style notebooks, AI-powered visualizations, and enterprise performance (10M+ rows/second). Direct access to files and live databases like (Neon and Supabase ) without servers, cloud uploads, or setup—your data never leaves your browser.
 
 ## SQL Clients and IDE that Support DuckDB
 
