@@ -252,6 +252,7 @@ Official DuckDB extensions, which can installed via `INSTALL ‚ü®extension_name‚ü
 - [`aws`](https://github.com/duckdb/duckdb_aws) - For handling AWS credentials.
 - [`azure`](https://github.com/duckdb/duckdb_azure) - For using the Azure Blob storage.
 - [`delta`](https://github.com/duckdb/duckdb_delta) - For Delta Lake support.
+- [`ducklake`](https://github.com/duckdb/ducklake) - For DuckLake support.
 - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full-text search.
 - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
 - [`inet`](https://github.com/duckdb/duckdb_inet) - For storing and handling IPv4 and IPv6 Internet addresses.
