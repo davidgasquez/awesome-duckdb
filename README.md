@@ -120,7 +120,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON.
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
-- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. Open source (MIT). Zero install!
+- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. open-source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 - [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
@@ -135,12 +135,12 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
 - [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
-- [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
+- [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open-source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
 - [duckdb.yazi](https://github.com/wylie102/duckdb.yazi) - Preview csv/tsv, json, and Parquet files in the yazi file manager using duckdb. View the raw data, or a "summarized" view with data-types, min, max, avg etc. for all columns.
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries.
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
-- [Tailpipe](https://github.com/turbot/tailpipe) - An open source SIEM for instant log insights.
-- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool writen in go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
+- [Tailpipe](https://github.com/turbot/tailpipe) - An open-source SIEM for instant log insights.
+- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 
 ## Backends
@@ -198,7 +198,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 ## Projects Powered by DuckDB
 
 - [NBA Monte Carlo](https://github.com/matsonj/nba-monte-carlo) - Monte Carlo simulation of the NBA season, leveraging Meltano, dbt, DuckDB and Evidence.
-- [Datadex](https://github.com/davidgasquez/datadex/) - Open source and local friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
+- [Datadex](https://github.com/davidgasquez/datadex/) - Open-source and local-friendly data platform to collaborate on Open Data using DuckDB, Dagster, dbt, and Quarto.
 - [`endoflife.date` database](https://www.kaggle.com/datasets/adriensales/endoflife-date-database) - Daily dumps of endoflife.date data.
 - [`transfermarkt-datasets`](https://github.com/dcaribou/transfermarkt-datasets) - Curated football datasets from [Transfermarkt](https://www.transfermarkt.co.uk/).
 - [duckdb-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
