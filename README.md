@@ -142,6 +142,8 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Tailpipe](https://github.com/turbot/tailpipe) - An open-source SIEM for instant log insights.
 - [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
+- [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach.
+- [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
 
 ## Backends
 
@@ -228,6 +230,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Ontop](https://ontop-vkg.org/guide/databases/duckdb.html) - Allows to create Virtual Knowledge Graphs directly from DuckDB.
 - [jOOQ](https://www.jooq.org/) - Type safe querying of DuckDB (and many other RDBMS) from Java. A [transpiler](https://www.jooq.org/translate/) from and to DuckDB is also available.
 - [manifold-sql (DuckDB for Java)](https://github.com/manifold-systems/manifold/blob/master/docs/articles/duckdb_info.md) - Use native DuckDB SQL of any complexity directly & type-safely in Java source with comprehensive IntelliJ support.
+- [The Quack is Back: SAS/ACCESS Meets DuckDB](https://communities.sas.com/t5/SAS-Communities-Library/The-Quack-is-Back-SAS-ACCESS-Meets-DuckDB/ta-p/969374) - SAS/ACCESS engine support for DuckDB.
 
 ## Client-Server Setups
 
@@ -310,6 +313,8 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 ### Talks
 
+- [DuckLake - The SQL-Powered Lakehouse Format for the Rest of Us](https://www.youtube.com/watch?v=YQEUkFWa69o) - Hannes Mühleisen.
+- [Introducing DuckLake](https://www.youtube.com/watch?v=zeonmOO9jm4) - Hannes Mühleisen and Mark Raasveldt.
 - [DuckCon #6 playlist](https://www.youtube.com/playlist?list=PLzIMXBizEZjggaDzjPP542En2R5SV0WiZ)
 - [DuckDB: Crunching data anywhere from laptops to servers @ GOTO Amsterdam 2024](https://www.youtube.com/watch?v=9Rdwh0rNaf0) - Gábor Szárnyas.
 - [DuckDB – Overview and latest developments @ DuckCon #5](https://www.youtube.com/watch?v=xX6qnP2H5wk) - Hannes Mühleisen and Mark Raasveldt.
