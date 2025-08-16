@@ -144,6 +144,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 - [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach.
 - [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
+- [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process. 
 
 ## Backends
 
