@@ -197,6 +197,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [rsql](https://github.com/theseus-rs/rsql) - CLI for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, SQLite3 and SQL Server.
 - [SQL DATA LENS](https://sqldatalens.com/build-in-support-for-duckdb/) - A lightweight, commercial SQL IDE that supports different DBMS, including DuckDB. The focus is on performance and special DBMS features.
 - [Dataflare](https://dataflare.app) - Simple easy-to-use database manager, supports DuckDB, PostgreSQL, MySQL, SQL Server, SQLite etc.
+- [rainfrog](https://github.com/achristmascarl/rainfrog) - A database TUI with experimental support for DuckDB.
 
 ## Projects Powered by DuckDB
 
