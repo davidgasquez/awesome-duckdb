@@ -62,7 +62,8 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [DuckERD CLI](https://github.com/tobilg/duckerd) – A CLI tool to create an ER Diagram from DuckDB database files.
 - [SQLNotebook](https://www.timestored.com/sqlnotebook/) - SQL notebooks by TimerStored powered by DuckDB.
 - [DuckDB execution plan visualizer](https://db.cs.uni-tuebingen.de/explain/) - Visualizing and understanding DuckDB EXPLAIN plans made easy.
-- [Awesome DuckLake](https://github.com/esadek/awesome-ducklake) - A curated list of awesome DuckLake tools and resources
+- [Awesome DuckLake](https://github.com/esadek/awesome-ducklake) - A curated list of awesome DuckLake tools and resources.
+- [DuckDB in Science](https://duckdb.org/science/) - A collection of scientific papers building on DuckDB.
 
 ## Installers
 
