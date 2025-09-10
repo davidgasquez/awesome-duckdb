@@ -32,6 +32,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
   - [Community Extensions](#community-extensions)
   - [Other Extensions](#other-extensions)
   - [Extension Statistics](#extension-statistics)
+- [Tutorials](#tutorials)
 - [Media](#media)
   - [Talks](#talks)
   - [Podcasts](#podcasts)
@@ -312,6 +313,10 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
 - [DuckDB extension weekly downloads](https://duckdb-ce-analysis.evidence.app/) - Statistics of weekly downloads for core extensions and community extensions. Refreshed daily.
+
+## Tutorials
+
+- [DBQuacks](https://dbquacks.com/tutorial/1) - An interactive SQL tutorial powered by DuckDB.
 
 ## Media
 
