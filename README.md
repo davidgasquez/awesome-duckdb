@@ -315,7 +315,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 ## Tutorials
 
-- [DBQuacks](https://dbquacks.com/tutorial/) - An interactive SQL tutorial powered by DuckDB.
+- [DBQuacks](https://dbquacks.com/tutorial/1) - An interactive SQL tutorial powered by DuckDB.
 
 ## Media
 
