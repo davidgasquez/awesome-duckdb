@@ -348,6 +348,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Data Engineering Podcast: Move Your Database To The Data And Speed Up Your Analytics With DuckDB](https://www.dataengineeringpodcast.com/duckdb-in-process-olap-database-episode-270/) - Hannes Mühleisen.
 - [The Analytics Engineering Podcast: The Personal Data Warehouse](https://www.youtube.com/watch?v=4aRdCfrNjMk) - Jordan Tigani.
 - [DuckDB in Research](https://shows.acast.com/disseminate) - Series in Disseminate, the Computer Science Research Podcast, with host Jack Waudby.
+- [DuckDB, Apache Arrow, & the Future of Data Engineering](https://www.youtube.com/watch?v=qngRL-ozCCw) - Rusty Conover.
 
 ### Blog Posts
 
