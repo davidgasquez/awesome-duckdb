@@ -170,6 +170,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
 - [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
 - [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
+- [Unleasharp.DB.DuckDB](https://github.com/TraberSoftware/Unleasharp.DB.DuckDB) — Lightweight DuckDB query-building client for C#.
 
 ## DuckDB Clients and UIs
 
