@@ -148,7 +148,6 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach.
 - [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process. 
-- [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management, originally developed for multi-omic analysis but equally suitable for projects that involve diverse data. It wraps the APIs of SQLite and DuckDB, offering a high-level interface for frequent and repetitive analytical tasks that involve fast storage, processing and retrieval of data.
 
 ## Backends
 
@@ -171,6 +170,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
 - [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
 - [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
+- [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management, originally developed for multi-omic analysis but equally suitable for projects that involve diverse data. It wraps the APIs of SQLite and DuckDB, offering a high-level interface for frequent and repetitive analytical tasks that involve fast storage, processing and retrieval of data.
 
 ## DuckDB Clients and UIs
 
