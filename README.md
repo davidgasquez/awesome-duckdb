@@ -5,9 +5,9 @@
 
 [DuckDB](https://duckdb.org/) is an analytical in-process SQL database management system.
 
-DuckDB 1.3.0 was released on 2025-05-21: see the [announcement blog post](https://duckdb.org/2025/05/21/announcing-duckdb-130).
+DuckDB 1.4.0 was released on 2025-09-16: see the [announcement blog post](https://duckdb.org/2025/09/16/announcing-duckdb-140).
 
-The DuckLake file format was released on 2025-05-27: see the [announcement blog post](https://duckdb.org/2025/05/27/ducklake).
+The DuckLake file format was released on 2025-05-27: see the [website](https://ducklake.select/).
 
 <!-- omit in toc -->
 ## Contents
