@@ -170,7 +170,7 @@ The DuckLake file format was released on 2025-05-27: see the [announcement blog 
 - [BemiDB](https://github.com/BemiHQ/BemiDB) - PostgreSQL read replica optimized for analytics, using DuckDB.
 - [jsqltranspiler](https://github.com/starlake-ai/jsqltranspiler) - Rewrite BigQuery, Redshift, Snowflake and Databricks queries into DuckDB-compatible SQL.
 - [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
-- [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management, originally developed for multi-omic analysis but equally suitable for projects that involve diverse data. It wraps the APIs of SQLite and DuckDB, offering a high-level interface for frequent and repetitive analytical tasks that involve fast storage, processing and retrieval of data.
+- [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management that wraps the APIs of SQLite and DuckDB and offers a high-level interface analytical tasks that involve fast storage, processing and retrieval of data.
 
 ## DuckDB Clients and UIs
 
