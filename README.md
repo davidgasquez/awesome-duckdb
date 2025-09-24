@@ -238,6 +238,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [manifold-sql (DuckDB for Java)](https://github.com/manifold-systems/manifold/blob/master/docs/articles/duckdb_info.md) - Use native DuckDB SQL of any complexity directly & type-safely in Java source with comprehensive IntelliJ support.
 - [The Quack is Back: SAS/ACCESS Meets DuckDB](https://communities.sas.com/t5/SAS-Communities-Library/The-Quack-is-Back-SAS-ACCESS-Meets-DuckDB/ta-p/969374) - SAS/ACCESS engine support for DuckDB.
 - [duckdb-teradata](https://github.com/duckdb/duckdb-teradata) - Teradata connector.
+- [Kotlin DataFrame](https://kotlin.github.io/dataframe/duckdb.html) - Supports reading from DuckDB databases using JDBC.
 
 ## Client-Server Setups
 
