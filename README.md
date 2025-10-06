@@ -240,6 +240,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [The Quack is Back: SAS/ACCESS Meets DuckDB](https://communities.sas.com/t5/SAS-Communities-Library/The-Quack-is-Back-SAS-ACCESS-Meets-DuckDB/ta-p/969374) - SAS/ACCESS engine support for DuckDB.
 - [duckdb-teradata](https://github.com/duckdb/duckdb-teradata) - Teradata connector.
 - [Kotlin DataFrame](https://kotlin.github.io/dataframe/duckdb.html) - Supports reading from DuckDB databases using JDBC.
+- [Sidemantic](https://github.com/sidequery/sidemantic) - A semantic layer with DuckDB integration.
 
 ## Client-Server Setups
 
