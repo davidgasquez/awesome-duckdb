@@ -148,6 +148,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process. 
 - [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files.
+- [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB.
 
 ## Backends
 
