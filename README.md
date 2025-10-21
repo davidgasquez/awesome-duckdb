@@ -46,8 +46,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
   - [Official blog](https://duckdb.org/news/) - Official DuckDB blog.
   - [DuckDB RSS feed](https://duckdb.org/feed.xml) - Feed for the official DuckDB blog.
   - [DuckDB clients](https://duckdb.org/docs/clients/overview) - Client APIs for DuckDB.
-  - [DuckDB documentation PDF](https://duckdb.org/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
-  - [DuckDB documentation MD](https://duckdb.org/duckdb-docs.md) - The DuckDB documentation as a single Markdown file.
+  - [DuckDB documentation PDF](https://blobs.duckdb.org/docs/duckdb-docs.pdf) - The DuckDB documentation as a single PDF file.
+  - [DuckDB documentation MD](https://blobs.duckdb.org/docs/duckdb-docs.md) - The DuckDB documentation as a single Markdown file.
 - [DuckLake](https://ducklake.select/) - A lakehouse format from the team behind DuckDB.
 - [duckdb-docker](https://github.com/duckdb/duckdb-docker) - Official Docker image for the DuckDB CLI.
 - [DuckDB setup](https://github.com/marketplace/actions/duckdb-setup) - GitHub Action to install DuckDB in CI.
