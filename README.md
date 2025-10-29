@@ -150,6 +150,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process. 
 - [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files.
 - [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB.
+- [Shaper](https://github.com/taleshape-com/shaper) - Open Source, SQL-driven Data Dashboards powered by DuckDB.
 
 ## Backends
 
