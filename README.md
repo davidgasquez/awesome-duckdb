@@ -217,6 +217,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [duckdb-embedding-search](https://github.com/patricktrainer/duckdb-embedding-search) - A search engine for DuckDB that uses embedding vectors to find similar documents.
 - [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 - [PyStack't](https://github.com/LienBosmans/pystackt) - Python package that supports data preparation for object-centric process mining.
+- [Georgia State University Book Prices](https://crimede-coder.com/graphs/GSUBooksQuery) - DuckDB powered WASM app where you can search how much students spend on books at Georgia State University
 
 ## Integrations
 
@@ -376,6 +377,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [DuckDB Doesn't Need Data To Be a Database](https://www.nikolasgoebel.com/2024/05/28/duckdb-doesnt-need-data) - How DuckDB can provide a view over data stored in S3.
 - [Securing DuckDB, Improving Startup Time, and Working Offline](https://blog.colinbreck.com/securing-duckdb-improving-startup-time-and-working-offline/) - How to set up DuckDB and how to work with extensions in an offline (and potentially sensitive) environment.
 - [Datalore 2025.2 Is Out With Report Tabs, Extended DuckDB Support, and Snowflake Key Pair Authentication](https://blog.jetbrains.com/datalore/2025/04/17/datalore-2025-2-is-out-with-report-tabs-extended-duckdb-support-and-snowflake-key-pair-authentication-2/) - Improved DuckDB support in JetBrains' Datalore collaborative data science platform
+- [Using DuckDB WASM + Cloudflare R2 to host and query big data (for almost free)](https://andrewpwheeler.com/2025/06/29/using-duckdb-wasm-cloudflare-r2-to-host-and-query-big-data-for-almost-free/) - Demo of using Cloudflare R2 hosting and a WASM DuckDB application to store and query data
 
 ### Books
 
