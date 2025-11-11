@@ -289,6 +289,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
+- [`duckherder`](https://github.com/dentiny/duckdb-distributed-execution) - Distributed execution for DuckDB queries.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
