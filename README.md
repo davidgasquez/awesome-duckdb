@@ -314,7 +314,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [duckdb-pytables](https://github.com/MarkRoddy/duckdb-pytables) - DuckDB extension to allow running SQL on arbitrary data sources.
 - [ERPL](https://erpl.io) - DuckDB SAP connector using RFC, ODP, or BICS.
 - [Kùzu](https://github.com/kuzudb/kuzu/tree/master/extension/duckdb) - Scan DuckDB tables in Kùzu, an embeddable property graph database management system.
-- [Lance](https://lancedb.github.io/lancedb/python/duckdb/) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
+- [Lance](https://lancedb.com/docs/integrations/platforms/duckdb/) - Integrate Lance (modern columnar data format for ML implemented in Rust) with DuckDB.
 - [ODBC Scanner DuckDB Extension](https://github.com/rupurt/odbc-scanner-duckdb-extension) - DuckDB extension to read data directly from databases supporting the ODBC interface.
 - [QDuckDB](https://gitlab.com/Oslandia/qgis/qduckdb) - Plugin for reading DuckDB spatial tables in QGIS software.
 - [UC Catalog Extension](https://github.com/duckdb/uc_catalog) - Proof-of-concept extension combining the `delta` extension with Unity Catalog.
