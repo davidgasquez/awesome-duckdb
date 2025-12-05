@@ -151,6 +151,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files.
 - [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB.
 - [Shaper](https://github.com/taleshape-com/shaper) - Open Source, SQL-driven Data Dashboards powered by DuckDB.
+- [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser.
 
 ## Backends
 
