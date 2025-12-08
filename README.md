@@ -111,7 +111,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 ## Tools Powered by DuckDB
 
 - [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
-- [Ibis Project](https://ibis-project.org/) - A DataFrame API for interacting with DuckDB (and other compute engines).
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
@@ -161,6 +160,9 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 ## Libraries Powered by DuckDB
 
+- [Ibis Project](https://ibis-project.org/) - A DataFrame API for interacting with DuckDB (and other compute engines).
+- [Narwhals](https://github.com/narwhals-dev/narwhals) - Lightweight and extensible compatibility layer between dataframe libraries, supports DuckDB.
+- [SQLFrame](https://github.com/eakmanrq/sqlframe) - Implements the PySpark DataFrame API in order to enable running transformation pipelines directly on database engines such as DuckDB.
 - [Mosaic](https://idl.uw.edu/mosaic/) - An extensible framework for linking databases and interactive views.
 - [Fugue](https://github.com/fugue-project/fugue/) - A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.
 - [Splink](http://github.com/moj-analytical-services/splink) - A free Python library for fast, accurate data deduplication and record linkage.
