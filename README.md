@@ -287,6 +287,7 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
+- [`acp`](https://github.com/sidequery/duckdb-acp) - Embeds AI agents such as Claude Code inside of DuckDB via Agent Client Protocol.
 - [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
