@@ -211,6 +211,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Dataflare](https://dataflare.app) - Simple easy-to-use database manager, supports DuckDB, PostgreSQL, MySQL, SQL Server, SQLite etc.
 - [rainfrog](https://github.com/achristmascarl/rainfrog) - A database TUI with experimental support for DuckDB.
 - [marimo](https://marimo.io) - Unified data & AI platform that lets you work with SQL and Python with native support for DuckDB.
+- [jupysql](https://pypi.org/project/jupysql/) - Run SQL in Jupyter/IPython via a %sql and %%sql magics, with support for DuckDB.
+- [magic_duckdb](https://pypi.org/project/magic-duckdb/) - DuckDB native %dql and %%dql magics for Jupyter/IPython.
 
 ## Projects Powered by DuckDB
 
