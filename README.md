@@ -298,6 +298,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
+- [`curl_httpfs`](https://github.com/dentiny/duckdb-curl-filesystem) - Enhanced HTTP file system with connection pooling, HTTP/2 support, and asynchronous I/O operations.
 - [`duckherder`](https://github.com/dentiny/duckdb-distributed-execution) - Distributed execution for DuckDB queries.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
@@ -307,6 +308,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
 - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
+- [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
