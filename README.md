@@ -225,6 +225,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB PyPI stats live dashboard](https://duckdbstats.com/) - Live dashboard of PyPI downloads using DuckDB, dbt, Evidence and MotherDuck with code source to build your own.
 - [PyStack't](https://github.com/LienBosmans/pystackt) - Python package that supports data preparation for object-centric process mining.
 - [Georgia State University Book Prices](https://crimede-coder.com/graphs/GSUBooksQuery) - DuckDB powered WASM app where you can search how much students spend on books at Georgia State University
+- [duckdb-claude-slack](https://github.com/sidequery/duckdb-claude-slack) - A Slack data analysis agent powered by DuckDB and Claude Code
 
 ## Integrations
 
