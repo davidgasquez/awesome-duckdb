@@ -318,7 +318,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ### Other Extensions
 
 - [duckdb_engine](https://github.com/Mause/duckdb_engine) - SQLAlchemy driver for DuckDB.
-- [DuckDB.ExtensionKit](https://github.com/Giorgi/DuckDB.ExtensionKit) - Build native DuckDB extensions in C#
 - [duckdb-extension-template-zig](https://github.com/rupurt/duckdb-extension-template-zig) - A Zig & Nix toolkit template for building extensions against multiple versions of DuckDB using Zig, C or C++.
 - [duckdb-jfr-extension](https://github.com/ocadaruma/duckdb-jfr-extension) - DuckDB extension to read JFR (Java Flight Recorder) files directly.
 - [duckdb_protobuf](https://github.com/0xcaff/duckdb_protobuf) - Plugin for querying encoded protobuf messages (both sequences and individual messages per file).
@@ -332,6 +331,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [FlockMTL](https://github.com/dsg-polymtl/flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
 - [ERPL Web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 - [quack-zig](https://github.com/mlafeldt/quack-zig) - The infamous DuckDB quack extension rewritten in C and built with Zig. Proof that you can develop DuckDB extensions without drowning in boilerplate.
+- [DuckDB.ExtensionKit](https://github.com/Giorgi/DuckDB.ExtensionKit) - Build native DuckDB extensions in C#
 
 ### Extension Statistics
 
