@@ -152,6 +152,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Shaper](https://github.com/taleshape-com/shaper) - Open Source, SQL-driven Data Dashboards powered by DuckDB.
 - [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser.
 - [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
+- [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
 
 ## Backends
 
