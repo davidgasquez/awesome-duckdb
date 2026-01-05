@@ -90,7 +90,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [C](https://duckdb.org/docs/clients/c/overview)
 - [C++](https://duckdb.org/docs/clients/cpp)
 - [CLI](https://duckdb.org/docs/clients/cli/overview)
-- [Go](https://github.com/marcboeker/go-duckdb)
+- [Go](https://github.com/duckdb/duckdb-go)
 - [Haskell](https://github.com/Tritlo/duckdb-haskell)
 - [Julia](https://duckdb.org/docs/clients/julia)
 - [Node.js](https://duckdb.org/docs/stable/clients/node_neo/overview)
@@ -152,7 +152,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Shaper](https://github.com/taleshape-com/shaper) - Open Source, SQL-driven Data Dashboards powered by DuckDB.
 - [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser.
 - [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
-- [`geol`](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endofife.date` database as a fully featured DuckDB file.
+- [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endofife.date` database as a fully featured DuckDB file.
+- [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
 
 ## Backends
 
@@ -180,6 +181,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
 - [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management that wraps the APIs of SQLite and DuckDB and offers a high-level interface analytical tasks that involve fast storage, processing and retrieval of data.
 - [Unleasharp.DB.DuckDB](https://github.com/TraberSoftware/Unleasharp.DB.DuckDB) - Lightweight DuckDB query-building client for C#.
+- [Snowflake Emulator](https://github.com/nnnkkk7/snowflake-emulator) - A lightweight Snowflake emulator built with Go and DuckDB for local development and testing.
 
 ## DuckDB Clients and UIs
 
@@ -333,6 +335,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [FlockMTL](https://github.com/dsg-polymtl/flockmtl) - Integrate language model (LLM) capabilities directly into your queries and workflows.
 - [ERPL Web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 - [quack-zig](https://github.com/mlafeldt/quack-zig) - The infamous DuckDB quack extension rewritten in C and built with Zig. Proof that you can develop DuckDB extensions without drowning in boilerplate.
+- [DuckDB.ExtensionKit](https://github.com/Giorgi/DuckDB.ExtensionKit) - Build native DuckDB extensions in C#.
 
 ### Extension Statistics
 
