@@ -180,6 +180,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [SQLRooms](https://sqlrooms.org/) - An open-source react framework for single-node data analytics powered by DuckDB.
 - [Omilayers](https://github.com/dkioroglou/omilayers) - A Python library for efficient data management that wraps the APIs of SQLite and DuckDB and offers a high-level interface analytical tasks that involve fast storage, processing and retrieval of data.
 - [Unleasharp.DB.DuckDB](https://github.com/TraberSoftware/Unleasharp.DB.DuckDB) - Lightweight DuckDB query-building client for C#.
+- [Snowflake Emulator](https://github.com/nnnkkk7/snowflake-emulator) - A lightweight Snowflake emulator built with Go and DuckDB for local development and testing.
 
 ## DuckDB Clients and UIs
 
