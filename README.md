@@ -90,7 +90,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [C](https://duckdb.org/docs/clients/c/overview)
 - [C++](https://duckdb.org/docs/clients/cpp)
 - [CLI](https://duckdb.org/docs/clients/cli/overview)
-- [Go](https://github.com/marcboeker/go-duckdb)
+- [Go](https://github.com/duckdb/duckdb-go)
 - [Haskell](https://github.com/Tritlo/duckdb-haskell)
 - [Julia](https://duckdb.org/docs/clients/julia)
 - [Node.js](https://duckdb.org/docs/stable/clients/node_neo/overview)
