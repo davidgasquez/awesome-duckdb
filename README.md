@@ -189,6 +189,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 - [Online DuckDB Shell](https://shell.duckdb.org/) - Online DuckDB shell powered by DuckDB-Wasm.
 - [SQL Workbench](https://sql-workbench.com) - DuckDB-Wasm based SQL Workbench for running queries on local or remote data, being able to show data as tables or visually as graphs, and sharing queries via URLs.
+- [DuckDB Terminal](https://terminal.sql-workbench.com/) - Online DuckDB shell powered by DuckDB WASM and Ghostty.
 - [SQL Workbench Embedded](https://embedded.sql-workbench.com) - A lightweight JavaScript library that turns SQL code blocks into interactive, browser-based database environments. Powered by DuckDB WASM.
 - [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
