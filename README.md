@@ -110,6 +110,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 ## Tools Powered by DuckDB
 
+- [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
 - [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
