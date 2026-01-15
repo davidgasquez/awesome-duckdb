@@ -154,6 +154,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
 - [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endofife.date` database as a fully featured DuckDB file.
 - [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
+- [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
 
 ## Backends
 
