@@ -203,6 +203,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
 - [TabulaStudio](https://tabulastudio.com) - Browser-only enterprise data analytics platform with Jupyter-style notebooks, AI-powered visualizations, and enterprise performance (10M+ rows/second). Direct access to files and live databases like (Neon and Supabase ) without servers, cloud uploads, or setup—your data never leaves your browser.
 - [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
+- [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 
 ## SQL Clients and IDE that Support DuckDB
 
