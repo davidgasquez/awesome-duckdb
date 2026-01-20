@@ -262,6 +262,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [duckdb-teradata](https://github.com/duckdb/duckdb-teradata) - Teradata connector.
 - [Kotlin DataFrame](https://kotlin.github.io/dataframe/duckdb.html) - Supports reading from DuckDB databases using JDBC.
 - [Sidemantic](https://github.com/sidequery/sidemantic) - A semantic layer with DuckDB integration.
+- [Cloudflare R2 Data Catalog connector](https://developers.cloudflare.com/r2/data-catalog/config-examples/duckdb/) - Connect to Cloudflare R2 Data Catalog with DuckDB.
 
 ## Client-Server Setups
 
