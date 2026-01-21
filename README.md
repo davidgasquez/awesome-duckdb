@@ -276,6 +276,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Hatch](https://github.com/TFMV/hatch) - A Go-based implementation of a DuckDB Arrow Flight SQL Server.
 - [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
 - [pg_lake](https://github.com/snowflake-labs/pg_lake) - `pg_lake` integrates Iceberg and data lake files into Postgres. Uses DuckDB to execute queries.
+- [AliSQL](https://github.com/alibaba/AliSQL) - A MySQL branch originated from Alibaba Group. Integrates DuckDB as a native storage engine.
 
 ## Extensions
 
