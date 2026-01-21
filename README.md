@@ -291,7 +291,9 @@ Official DuckDB extensions, which can installed via `INSTALL ‚ü®extension_name‚ü
 - [`fts`](https://duckdb.org/docs/extensions/full_text_search) - To support full-text search.
 - [`iceberg`](https://github.com/duckdb/duckdb_iceberg) - For reading Iceberg tables.
 - [`inet`](https://github.com/duckdb/duckdb_inet) - For storing and handling IPv4 and IPv6 Internet addresses.
+- [`json`](https://duckdb.org/docs/stable/data/json/overview) - For reading and writing JSON data.
 - [`mysql`](https://duckdb.org/docs/extensions/mysql) - To read from and write to MySQL databases.
+- [`parquet`](https://duckdb.org/docs/stable/data/parquet/overview) - For reading and writing Parquet data.
 - [`postgres`](https://duckdb.org/docs/extensions/postgres) - To read from and write to PostgreSQL databases.
 - [`spatial`](https://duckdb.org/docs/extensions/spatial) - Enables geospatial processing.
 - [`sqlite`](https://duckdb.org/docs/extensions/sqlite) - To read from and write to SQLite databases.
