@@ -142,11 +142,11 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries.
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
 - [Tailpipe](https://github.com/turbot/tailpipe) - An open-source SIEM for instant log insights.
-- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev’s syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
+- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 - [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach.
 - [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
-- [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process. 
+- [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process.
 - [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files.
 - [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB.
 - [Shaper](https://github.com/taleshape-com/shaper) - Open-source SQL-driven data dashboards, powering Taleshape, built on DuckDB.
@@ -155,6 +155,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endofife.date` database as a fully featured DuckDB file.
 - [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
+- [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations.
 
 ## Backends
 
