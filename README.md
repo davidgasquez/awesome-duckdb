@@ -328,6 +328,9 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
 - [`yardstick`](https://github.com/sidequery/yardstick) - Implements Measures in SQL paper as a DuckDB extension for centralized metric definitions / en embedded semantic layer.
+- [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
+- [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
+- [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
 
 ### Other Extensions
 
