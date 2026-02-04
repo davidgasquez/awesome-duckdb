@@ -332,6 +332,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
 - [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
 - [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
+- [`elasticsearch`](https://github.com/tlinhart/duckdb-elasticsearch) - Query Elasticsearch indices directly using SQL.
 
 ### Other Extensions
 
