@@ -329,6 +329,9 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
 - [`yardstick`](https://github.com/sidequery/yardstick) - Implements Measures in SQL paper as a DuckDB extension for centralized metric definitions / en embedded semantic layer.
+- [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
+- [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
+- [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
 
 ### Other Extensions
 
@@ -347,6 +350,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [ERPL Web](https://github.com/DataZooDE/erpl-web) - ERPL Web is a DuckDB extension that connects API-based ecosystems via standard interfaces like OData, GraphQL, and REST.
 - [quack-zig](https://github.com/mlafeldt/quack-zig) - The infamous DuckDB quack extension rewritten in C and built with Zig. Proof that you can develop DuckDB extensions without drowning in boilerplate.
 - [DuckDB.ExtensionKit](https://github.com/Giorgi/DuckDB.ExtensionKit) - Build native DuckDB extensions in C#.
+- [template-duckdb-extension-zig](https://github.com/habedi/template-duckdb-extension-zig): A template for developing DuckDB extensions in Zig using DuckDB's C API.
 
 ### Extension Statistics
 
