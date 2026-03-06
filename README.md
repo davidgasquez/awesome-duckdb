@@ -158,6 +158,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations.
 - [Excellent Bi](https://trobee.one/ebi/) - Duck Powered simple analysis and business intelligence dashboard.  Load excel, csv, parquet files, instantly query your data in the query analyzer tool, make multiple simple dashboards.  Data stays local in OPFS local browser storage which is native to Edge and Chrome.
 - [Bonnard](https://bonnard.dev) - Open-source agentic schema for reliable data outputs. Uses DuckDB as a local development warehouse with MCP server for agent connectivity.
+- [connections.duckdb](https://github.com/tomjakubowski/connections.duckdb) - Play the New York Times Connections Puzzle with DuckDB.
 
 ## Backends
 
