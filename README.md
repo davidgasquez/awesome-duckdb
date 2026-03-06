@@ -5,40 +5,39 @@
 
 [DuckDB](https://duckdb.org/) is an analytical in-process SQL database management system.
 
-DuckDB 1.4.0 was released on 2025-09-16: see the [announcement blog post](https://duckdb.org/2025/09/16/announcing-duckdb-140).
+DuckDB 1.5.0 was released on 2026-03-09: see the [announcement blog post](https://duckdb.org/2026/03/09/announcing-duckdb-150).
 
 The DuckLake file format was released on 2025-05-27: see the [website](https://ducklake.select/).
 
 <!-- omit in toc -->
 ## Contents
 
-- [Chat with this page](#chat-with-this-page)
-- [Resources](#resources)
-- [Installers](#installers)
-- [Newsletters](#newsletters)
-- [Logos and Icons](#logos-and-icons)
-- [Client APIs](#client-apis)
-- [Tools Powered by DuckDB](#tools-powered-by-duckdb)
-- [Backends](#backends)
-- [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
-- [DuckDB Clients and UIs](#duckdb-clients-and-uis)
-  - [Web Clients (WebAssembly)](#web-clients-webassembly)
-- [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
-- [Projects Powered by DuckDB](#projects-powered-by-duckdb)
-- [Integrations](#integrations)
-- [Client-Server Setups](#client-server-setups)
-- [Extensions](#extensions)
-  - [Core Extensions](#core-extensions)
-  - [Community Extensions](#community-extensions)
-  - [Other Extensions](#other-extensions)
-  - [Extension Statistics](#extension-statistics)
-- [Tutorials](#tutorials)
-- [Media](#media)
-  - [Talks](#talks)
-  - [Podcasts](#podcasts)
-  - [Blog Posts](#blog-posts)
-  - [Books](#books)
-- [Contribute](#contribute)
+* [Resources](#resources)
+* [Installers](#installers)
+* [Newsletters](#newsletters)
+* [Logos and Icons](#logos-and-icons)
+* [Client APIs](#client-apis)
+* [Tools Powered by DuckDB](#tools-powered-by-duckdb)
+* [Backends](#backends)
+* [Libraries Powered by DuckDB](#libraries-powered-by-duckdb)
+* [DuckDB Clients and UIs](#duckdb-clients-and-uis)
+  * [Web Clients (WebAssembly)](#web-clients-webassembly)
+* [SQL Clients and IDE that Support DuckDB](#sql-clients-and-ide-that-support-duckdb)
+* [Projects Powered by DuckDB](#projects-powered-by-duckdb)
+* [Integrations](#integrations)
+* [Client-Server Setups](#client-server-setups)
+* [Extensions](#extensions)
+  * [Core Extensions](#core-extensions)
+  * [Community Extensions](#community-extensions)
+  * [Other Extensions](#other-extensions)
+  * [Extension Statistics](#extension-statistics)
+* [Tutorials](#tutorials)
+* [Media](#media)
+  * [Talks](#talks)
+  * [Podcasts](#podcasts)
+  * [Blog Posts](#blog-posts)
+  * [Books](#books)
+* [Contribute](#contribute)
 
 ## Resources
 
