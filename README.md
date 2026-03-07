@@ -12,7 +12,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 <!-- omit in toc -->
 ## Contents
 
-- [Chat with this page](#chat-with-this-page)
 - [Resources](#resources)
 - [Installers](#installers)
 - [Newsletters](#newsletters)
@@ -225,6 +224,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [marimo](https://marimo.io) - Unified data & AI platform that lets you work with SQL and Python with native support for DuckDB.
 - [jupysql](https://pypi.org/project/jupysql/) - Run SQL in Jupyter/IPython via a %sql and %%sql magics, with support for DuckDB.
 - [magic_duckdb](https://pypi.org/project/magic-duckdb/) - DuckDB native %dql and %%dql magics for Jupyter/IPython.
+- [AmoxSQL](https://github.com/DSandovalFlavio/AmoxSQL) - The Modern Codex for Local Data Analysis. A high-performance, local-first IDE built specifically for DuckDB.
 
 ## Projects Powered by DuckDB
 
