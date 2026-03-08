@@ -314,6 +314,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
+- [`cache_prewarm`](https://github.com/dentiny/duckdb-cache-prewarm) - A Preloads table data blocks into the buffer pool or OS page cache, inspired by PostgreSQL's pg_prewarm extension.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
 - [`curl_httpfs`](https://github.com/dentiny/duckdb-curl-filesystem) - Enhanced HTTP file system with connection pooling, HTTP/2 support, and asynchronous I/O operations.
