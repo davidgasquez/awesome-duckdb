@@ -156,9 +156,9 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations.
 - [Excellent Bi](https://trobee.one/ebi/) - Duck Powered simple analysis and business intelligence dashboard.  Load excel, csv, parquet files, instantly query your data in the query analyzer tool, make multiple simple dashboards.  Data stays local in OPFS local browser storage which is native to Edge and Chrome.
-- [ReportBurster](https://www.reportburster.com) - ReportBurster is a new open-source, self-hosted alternative to Tableau which uses DuckDB as its inprocess analytics database / engine (for larger workloads works with ClickHouse too).
 - [Bonnard](https://bonnard.dev) - Open-source agentic schema for reliable data outputs. Uses DuckDB as a local development warehouse with MCP server for agent connectivity.
 - [connections.duckdb](https://github.com/tomjakubowski/connections.duckdb) - Play the New York Times Connections Puzzle with DuckDB.
+- [ReportBurster](https://github.com/flowkraft/reportburster) - Business Intelligence Done Right - ReportBurster uses DuckDB as its in-process analytics database engine, and for larger workloads, supports ClickHouse too.
 
 ## Backends
 
