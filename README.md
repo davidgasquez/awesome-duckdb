@@ -319,6 +319,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
 - [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
 - [`curl_httpfs`](https://github.com/dentiny/duckdb-curl-filesystem) - Enhanced HTTP file system with connection pooling, HTTP/2 support, and asynchronous I/O operations.
+- [`dash`](https://github.com/gropaul/dash) - Fully local data canvas and dashboarding app within DuckDB.
 - [`duckherder`](https://github.com/dentiny/duckdb-distributed-execution) - Distributed execution for DuckDB queries.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
@@ -326,6 +327,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
 - [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
+- [`hostfs`](https://github.com/gropaul/hostfs) - Navigate and explore the local filesystem using SQL.
 - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
