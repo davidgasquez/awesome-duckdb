@@ -240,6 +240,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [duckdb-claude-slack](https://github.com/sidequery/duckdb-claude-slack) - A Slack data analysis agent powered by DuckDB and Claude Code.
 - [Ducklings](https://github.com/tobilg/ducklings) - A minimal DuckDB WASM build for browsers and serverless environments like Cloudflare Workers.
 - [msgvault](https://github.com/wesm/msgvault) - Archive a lifetime of email and chat. Offline search, analytics, and AI query over your full message history. Powered by DuckDB.
+- [datagenerator2](https://github.com/uwegeercken/datagenerator2) - Generates random data, allowing to define dependencies between individual fields and varying/definable distribution of field values.
 
 ## Integrations
 
