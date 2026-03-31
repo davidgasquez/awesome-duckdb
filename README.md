@@ -280,7 +280,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [pg_duckdb](https://github.com/duckdb/pg_duckdb) - DuckDB-powered PostgreSQL for high-performance apps & analytics.
 - [pg_mooncake](https://github.com/Mooncake-Labs/pg_mooncake) - A PostgreSQL extension that adds native column store tables with DuckDB.
 - [GizmoSQL - Arrow Flight SQL Server](https://github.com/gizmodata/gizmosql) - A C++ implementation of the [Arrow Flight SQL protocol](https://arrow.apache.org/docs/format/FlightSql.html) that runs in a client-server setup with DuckDB or SQLite as backends.
-- [Hatch](https://github.com/TFMV/hatch) - A Go-based implementation of a DuckDB Arrow Flight SQL Server.
+- [Porter](https://github.com/TFMV/porter) - A Go-based implementation of a DuckDB Arrow Flight SQL Server.
 - [Termux DuckDB package](https://packages.termux.dev/apt/termux-main/pool/main/libd/libduckdb/) - DuckDB CLI client for the Termux Android terminal emulator.
 - [pg_lake](https://github.com/snowflake-labs/pg_lake) - `pg_lake` integrates Iceberg and data lake files into Postgres. Uses DuckDB to execute queries.
 - [AliSQL](https://github.com/alibaba/AliSQL) - A MySQL branch originated from Alibaba Group. Integrates DuckDB as a native storage engine.
