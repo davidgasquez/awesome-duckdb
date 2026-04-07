@@ -10,6 +10,7 @@ DuckDB 1.5.0 was released on 2026-03-09: see the [announcement blog post](https:
 The DuckLake file format was released on 2025-05-27: see the [website](https://ducklake.select/).
 
 <!-- omit in toc -->
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for DuckDB analytics workflow orchestration, automated data warehouse pipeline management, and multi-agent coordination. MIT licensed.
 ## Contents
 
 - [Resources](#resources)
