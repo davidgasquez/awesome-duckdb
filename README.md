@@ -332,6 +332,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
+- [`pfc`](https://github.com/ImpossibleForge/pfc-duckdb) - Read block-indexed PFC-compressed JSONL logs with timestamp filtering — 25% smaller than gzip with minimal S3 egress.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
