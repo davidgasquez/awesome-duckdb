@@ -151,7 +151,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Shaper](https://github.com/taleshape-com/shaper) - Open-source SQL-driven data dashboards, powering Taleshape, built on DuckDB.
 - [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser.
 - [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
-- [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endofife.date` database as a fully featured DuckDB file.
+- [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endoflife.date` database as a fully featured DuckDB file.
 - [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations.
