@@ -111,7 +111,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 - [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
-- [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
@@ -160,6 +159,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Bonnard](https://bonnard.dev) - Open-source agentic schema for reliable data outputs. Uses DuckDB as a local development warehouse with MCP server for agent connectivity.
 - [connections.duckdb](https://github.com/tomjakubowski/connections.duckdb) - Play the New York Times Connections Puzzle with DuckDB.
 - [ReportBurster](https://github.com/flowkraft/reportburster) - Business Intelligence Done Right - ReportBurster uses DuckDB as its in-process analytics database engine, and for larger workloads, supports ClickHouse too.
+- [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
 
 ## Backends
 
