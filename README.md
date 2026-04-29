@@ -109,6 +109,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 ## Tools Powered by DuckDB
 
+- [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL.
 - [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
 - [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
