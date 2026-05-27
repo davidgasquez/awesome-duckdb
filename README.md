@@ -278,6 +278,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Cloudflare R2 Data Catalog connector](https://developers.cloudflare.com/r2/data-catalog/config-examples/duckdb/) - Connect to Cloudflare R2 Data Catalog with DuckDB.
 - [Enrich.sh](https://enrich.sh) - Lightweight event ingestion that stores JSON events as Parquet in R2, queryable directly from DuckDB.
 - [DuckDB VBA](https://github.com/EtienneLenoir/duckdb-vba) - Excel/VBA integration for DuckDB using the native C API through a lightweight DLL bridge. Supports Range/Array ingestion, dictionary lookups, Parquet/CSV/JSON workflows, SQLite/PostgreSQL connectivity, and Access-to-DuckDB migration.
+- [OrionBelt Semantic Layer](https://github.com/ralfbecher/orionbelt-semantic-layer) - Open-source semantic sidecar that compiles YAML semantic models to optimized SQL across 8 engines including DuckDB. Ships with an `ob-duckdb` driver, REST + Arrow Flight SQL + Postgres wire surfaces, and a baked-in DuckDB quickstart on Colab.
 
 ## Client-Server Setups
 
