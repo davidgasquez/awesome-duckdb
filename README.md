@@ -215,7 +215,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 
-
 ## SQL Clients and IDE that Support DuckDB
 
 - [Harlequin](https://harlequin.sh) - The DuckDB IDE (TUI) for your terminal.
