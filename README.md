@@ -215,6 +215,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
 - [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
+- [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 
 ## SQL Clients and IDE that Support DuckDB
 
@@ -435,6 +436,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Datalore 2025.2 Is Out With Report Tabs, Extended DuckDB Support, and Snowflake Key Pair Authentication](https://blog.jetbrains.com/datalore/2025/04/17/datalore-2025-2-is-out-with-report-tabs-extended-duckdb-support-and-snowflake-key-pair-authentication-2/) - Improved DuckDB support in JetBrains' Datalore collaborative data science platform
 - [Using DuckDB WASM + Cloudflare R2 to host and query big data (for almost free)](https://andrewpwheeler.com/2025/06/29/using-duckdb-wasm-cloudflare-r2-to-host-and-query-big-data-for-almost-free/) - Demo of using Cloudflare R2 hosting and a WASM DuckDB application to store and query data
 - [SwanLake](https://www.wangfenjin.com/posts/swanlake-en/) - An Arrow Flight SQL Datalake Service Built on DuckDB + DuckLake
+- [DuckDB-Wasm on a Plain Static Host — Without Breaking AdSense](https://csvtodashboard.com/duckdb-wasm-static-host) - Why a static site ships the single-threaded build: SharedArrayBuffer, COOP/COEP, and the cross-origin isolation tradeoff.
 
 ### Books
 
