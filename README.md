@@ -108,7 +108,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [PowerShell](https://github.com/dfinke/PSDuckDB)
 - [Dart](https://github.com/TigerEyeLabs/duckdb-dart)
 - [PHP](https://github.com/satur-io/duckdb-php)
-- [PHP PDO](https://github.com/thomas-0816/pdo-duckdb-php)
+- [PHP (PDO)](https://github.com/thomas-0816/pdo-duckdb-php)
 
 ## Tools Powered by DuckDB
 
