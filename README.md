@@ -166,7 +166,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL.
 - [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first visual ETL/ELT studio. Drag sources, transforms and sinks onto a canvas; it compiles to plain DuckDB SQL and runs entirely on DuckDB. Open source desktop app, with a built-in MCP server for generating and running pipelines from natural language.
 - [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB.
-- [AnkaFlow](https://github.com/targetta/ankaflow) - A lightweight, YAML-driven data pipeline framework designed to run anywhere from local environments to the browser via Pyodide. By embedding DuckDB engine, it allows developers to extract, transform, and natively join data across APIs, databases, and cloud storage using standard SQL — where the YAML is the documentation, contract, and executable.
+- [AnkaFlow](https://github.com/targetta/ankaflow) - YAML-based data pipeline framework that runs both locally and fully in-browser designed for data engineers, ML teams, and SaaS developers who need flexible, SQL-powered pipelines.
 
 ## Backends
 
