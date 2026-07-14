@@ -214,11 +214,11 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
 - [TabulaStudio](https://tabulastudio.com) - Browser-only enterprise data analytics platform with Jupyter-style notebooks, AI-powered visualizations, and enterprise performance (10M+ rows/second). Direct access to files and live databases like (Neon and Supabase ) without servers, cloud uploads, or setup—your data never leaves your browser.
-- [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
 - [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
 - [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
+- [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
 
 ## SQL Clients and IDE that Support DuckDB
 
