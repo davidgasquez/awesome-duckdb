@@ -117,7 +117,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
 - [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
-- [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 - [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB-Wasm.
 - [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
 - [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
@@ -242,6 +241,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [magic_duckdb](https://pypi.org/project/magic-duckdb/) - DuckDB native %dql and %%dql magics for Jupyter/IPython.
 - [AmoxSQL](https://github.com/DSandovalFlavio/AmoxSQL) - The Modern Codex for Local Data Analysis. A high-performance, local-first IDE built specifically for DuckDB.
 - [tuitab](https://github.com/denisotree/tuitab) - A Rust TUI for fast, in-depth analytics on large datasets (CSV, JSON, Parquet, Excel, SQLite) powered by DuckDB.
+- [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 
 ## Projects Powered by DuckDB
 
