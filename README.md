@@ -445,8 +445,8 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [Datalore 2025.2 Is Out With Report Tabs, Extended DuckDB Support, and Snowflake Key Pair Authentication](https://blog.jetbrains.com/datalore/2025/04/17/datalore-2025-2-is-out-with-report-tabs-extended-duckdb-support-and-snowflake-key-pair-authentication-2/) - Improved DuckDB support in JetBrains' Datalore collaborative data science platform
 - [Using DuckDB WASM + Cloudflare R2 to host and query big data (for almost free)](https://andrewpwheeler.com/2025/06/29/using-duckdb-wasm-cloudflare-r2-to-host-and-query-big-data-for-almost-free/) - Demo of using Cloudflare R2 hosting and a WASM DuckDB application to store and query data
 - [SwanLake](https://www.wangfenjin.com/posts/swanlake-en/) - An Arrow Flight SQL Datalake Service Built on DuckDB + DuckLake
-- [Building duckdb-pst](https://intellekt.fyi/2026/02/03/the-data-warehouse-in-your-email-archive-teaching-duckdb-to-speak-outlook/) - How to go from 0 to a production-ready DuckDB extension for Outlook PSTs, including table functions, MAPI schema serialization, projection/statistics pushdown, concurrent planning, and late materialization.
 - [DuckDB-Wasm on a Plain Static Host — Without Breaking AdSense](https://csvtodashboard.com/duckdb-wasm-static-host) - Why a static site ships the single-threaded build: SharedArrayBuffer, COOP/COEP, and the cross-origin isolation tradeoff.
+- [Building duckdb-pst](https://intellekt.fyi/2026/02/03/the-data-warehouse-in-your-email-archive-teaching-duckdb-to-speak-outlook/) - How to go from 0 to a production-ready DuckDB extension for Outlook PSTs, including table functions, MAPI schema serialization, projection/statistics pushdown, concurrent planning, and late materialization.
 
 ### Books
 
