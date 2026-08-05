@@ -259,6 +259,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Ducklings](https://github.com/tobilg/ducklings) - A minimal DuckDB WASM build for browsers and serverless environments like Cloudflare Workers.
 - [msgvault](https://github.com/wesm/msgvault) - Archive a lifetime of email and chat. Offline search, analytics, and AI query over your full message history. Powered by DuckDB.
 - [datagenerator2](https://github.com/uwegeercken/datagenerator2) - Generates random data, allowing to define dependencies between individual fields and varying/definable distribution of field values.
+- [Overture Places UA](https://github.com/xtrustinfo/overture-places-ua) - Extract all Ukrainian POIs from Overture Maps releases into CSV or Parquet with a single DuckDB query.
 
 ## Integrations
 
