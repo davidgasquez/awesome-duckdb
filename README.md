@@ -395,6 +395,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ## Tutorials
 
 - [DBQuacks](https://dbquacks.com/tutorial/1) - An interactive SQL tutorial powered by DuckDB.
+- [GeoSQL](https://geosql.dev) - Interactive spatial SQL problems powered by DuckDB-WASM, running entirely in the browser.
 
 ## Media
 
