@@ -171,6 +171,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [KoliLang](https://editor.kolistat.com) - A SAS language engine (DATA step, macros, PROCs) that translates programs to DuckDB SQL — runs natively or fully in the browser on DuckDB-Wasm.
 - [DataCharter](https://github.com/datacharter/datacharter) - Local, contract-governed data explorer. Federates files and databases (Postgres, Snowflake, BigQuery, Excel, and more) through DuckDB — SQL editor, charts, profiling — then hands AI agents a PII-masked, read-only query surface over MCP. Apache-2.0.
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
+- [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine.
+
 
 ## Backends
 
