@@ -1,4 +1,4 @@
-name: Check links in the README
+name: Check the README
 
 on:
   push:
@@ -6,11 +6,13 @@ on:
     paths:
       - README.md
       - .github/lychee.toml
+      - .github/scripts/check-readme-order.mjs
       - .github/workflows/linkchecker.yml
   pull_request:
     paths:
       - README.md
       - .github/lychee.toml
+      - .github/scripts/check-readme-order.mjs
       - .github/workflows/linkchecker.yml
   workflow_dispatch:
 
@@ -27,6 +29,15 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Check entry order
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BASE_REF"
+          git show FETCH_HEAD:README.md > "$RUNNER_TEMP/README.base.md"
+          node .github/scripts/check-readme-order.mjs "$RUNNER_TEMP/README.base.md" README.md
 
       - name: Check links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
