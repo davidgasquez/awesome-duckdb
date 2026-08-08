@@ -337,8 +337,8 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
-- [`acp`](https://github.com/sidequery/duckdb-acp) - Embeds AI agents such as Claude Code inside of DuckDB via Agent Client Protocol.
 - [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
+- [`acp`](https://github.com/sidequery/duckdb-acp) - Embeds AI agents such as Claude Code inside of DuckDB via Agent Client Protocol.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
 - [`cache_prewarm`](https://github.com/dentiny/duckdb-cache-prewarm) - A Preloads table data blocks into the buffer pool or OS page cache, inspired by PostgreSQL's pg_prewarm extension.
@@ -348,15 +348,19 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`dash`](https://github.com/gropaul/dash) - Fully local data canvas and dashboarding app within DuckDB.
 - [`duckherder`](https://github.com/dentiny/duckdb-distributed-execution) - Distributed execution for DuckDB queries.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
+- [`elasticsearch`](https://github.com/tlinhart/duckdb-elasticsearch) - Query Elasticsearch indices directly using SQL.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
+- [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
-- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
 - [`hostfs`](https://github.com/gropaul/hostfs) - Navigate and explore the local filesystem using SQL.
+- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
+- [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
 - [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
+- [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
 - [`pfc`](https://github.com/ImpossibleForge/pfc-duckdb) - Read block-indexed PFC-compressed JSONL logs with timestamp filtering — 25% smaller than gzip with minimal S3 egress.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`pst`](https://github.com/intellekthq/duckdb-pst) - Read Microsoft PST files in-place with rich schemas for emails, contacts, appointments, tasks, and more.
@@ -365,10 +369,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`stats_duck`](https://github.com/KoliStat/the-stats-duck) - Statistics for tabular and clinical data: descriptive tables (`table_one`), linear models with robust/clustered standard errors, meta-analysis, bootstrap, and a grammar-of-graphics `VISUALIZE` clause that turns queries into Vega-Lite charts.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
 - [`yardstick`](https://github.com/sidequery/yardstick) - Implements Measures in SQL paper as a DuckDB extension for centralized metric definitions / en embedded semantic layer.
-- [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
-- [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
-- [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
-- [`elasticsearch`](https://github.com/tlinhart/duckdb-elasticsearch) - Query Elasticsearch indices directly using SQL.
 
 ### Other Extensions
 

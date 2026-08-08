@@ -1,25 +1,28 @@
 # Contribution Guidelines
 
-Please note that this project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this
-project you agree to abide by its terms.
+By participating in this project, you agree to abide by its [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 
----
+## Adding an entry
 
-Ensure your pull request adheres to the following guidelines:
+- Check that the project or resource is not already listed.
+- Choose the most specific existing section.
+- Use the canonical project or repository URL.
+- Follow the surrounding Markdown format. Most entries use:
+  `- [Name](https://example.com) - A concise, factual description.`
+- Describe what the project does and how it relates to DuckDB. Avoid promotional claims.
+- Keep the pull request focused and disclose your affiliation when submitting your own project.
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+### Entry order
 
-Thank you for your suggestions!
+Most sections preserve insertion order. **Append new entries to the bottom of the relevant list**, even when another entry seems similar. Do not alphabetize or otherwise reposition existing entries.
 
+The **Community Extensions** section is the exception: insert extensions in case-insensitive lexicographic order by extension name. Community extension names use backticks, for example:
+``- [`extension_name`](https://example.com) - A concise description.``
 
-## Updating your PR
+When updating an existing entry, leave it in its current position. When moving an entry to a different section, place it according to the destination section's rule.
 
-A lot of times, making a PR adhere to the standards above can be difficult.
-If the maintainers notice anything that we'd like changed, we'll ask you to
-edit your PR before we merge it. There's no need to open a new PR, just edit
-the existing one. If you're not sure how to do that,
-[here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
-on the different ways you can update your PR so that we can merge it.
+## Before opening a pull request
+
+- Check the Markdown diff for unrelated changes.
+- Verify that every new URL works without authentication.
+- Confirm that each new entry is appended, or lexicographically placed when it is a Community Extension.

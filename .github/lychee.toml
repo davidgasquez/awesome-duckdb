@@ -1,0 +1,16 @@
+no_progress = true
+max_retries = 3
+retry_wait_time = 2
+
+# These sites reject automated link checks even though the pages are available.
+exclude = [
+  '^https://harlequin\.sh',
+  '^https://.*medium\.com',
+  '^https://ibis-project\.org',
+  '^https://lib\.rs',
+  '^https://enrich\.sh',
+  '^https://streams\.dbconvert\.com',
+  '^https://communities\.sas\.com',
+  '^https://www\.packtpub\.com',
+  '^https://www\.transfermarkt\.co\.uk',
+]
