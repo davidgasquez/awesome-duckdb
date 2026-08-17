@@ -246,6 +246,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [AmoxSQL](https://github.com/DSandovalFlavio/AmoxSQL) - The Modern Codex for Local Data Analysis. A high-performance, local-first IDE built specifically for DuckDB.
 - [tuitab](https://github.com/denisotree/tuitab) - A Rust TUI for fast, in-depth analytics on large datasets (CSV, JSON, Parquet, Excel, SQLite) powered by DuckDB.
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
+- [Mongrel](https://www.visorcraft.com/duckdb) - Paid desktop database workbench with DuckDB support, including isolated transactions, transactional migrations, physical backups, and remote import from Parquet and CSV.
 
 ## Projects Powered by DuckDB
 
