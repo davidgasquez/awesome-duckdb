@@ -296,6 +296,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB VBA](https://github.com/EtienneLenoir/duckdb-vba) - Excel/VBA integration for DuckDB using the native C API through a lightweight DLL bridge. Supports Range/Array ingestion, dictionary lookups, Parquet/CSV/JSON workflows, SQLite/PostgreSQL connectivity, and Access-to-DuckDB migration.
 - [OrionBelt Semantic Layer](https://github.com/ralfbecher/orionbelt-semantic-layer) - Open-source semantic sidecar that compiles YAML semantic models to optimized SQL across 8 engines including DuckDB. Ships with an `ob-duckdb` driver, REST + Arrow Flight SQL + Postgres wire surfaces, and a baked-in DuckDB quickstart on Colab.
 - [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - Native Excel XLL add-in for DuckDB with parameter binding, async execution and Excel range table functions.
+- [Bruin](https://github.com/bruin-data/bruin) - Data pipeline CLI that runs SQL and Python transformations with built-in quality checks, using DuckDB as one of its supported platforms.
+- [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases and SaaS sources, with DuckDB supported as both a source and a destination.
 
 ## Client-Server Setups
 
