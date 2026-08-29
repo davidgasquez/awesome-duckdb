@@ -247,6 +247,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [tuitab](https://github.com/denisotree/tuitab) - A Rust TUI for fast, in-depth analytics on large datasets (CSV, JSON, Parquet, Excel, SQLite) powered by DuckDB.
 - [Tad](https://www.tadviewer.com) - A fast, free, cross-platform tabular data viewer application powered by DuckDB.
 - [Mongrel](https://www.visorcraft.com/duckdb) - Paid desktop database workbench with DuckDB support, including isolated transactions, transactional migrations, physical backups, and remote import from Parquet and CSV.
+- [DuckDB Lens](https://plugins.jetbrains.com/plugin/33853-duckdb-lens-duckdb-database-file-viewer) - Read-only DuckDB database file viewer for JetBrains IDEs: schema tree, paged tables of any size, constant memory. Sibling Lens viewers cover SQLite, Parquet, Excel and Jupyter files.
 
 ## Projects Powered by DuckDB
 
