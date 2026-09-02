@@ -7,6 +7,7 @@ exclude = [
   '^https://harlequin\.sh',
   '^https://.*medium\.com',
   '^https://ibis-project\.org',
+  '^https://observablehq\.com',
   '^https://lib\.rs',
   '^https://enrich\.sh',
   '^https://streams\.dbconvert\.com',
