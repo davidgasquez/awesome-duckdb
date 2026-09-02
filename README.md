@@ -212,14 +212,13 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [SQL Workbench Embedded](https://embedded.sql-workbench.com) - A lightweight JavaScript library that turns SQL code blocks into interactive, browser-based database environments. Powered by DuckDB WASM.
 - [Sekuel Playground](https://sekuel.com/playground/) - Query your local Parquet, CSV, JSON. Your data will not be sent out of the device you are using.
 - [Codapi](https://codapi.org/duckdb/) - Embed executable code snippets directly into your product documentation, online course or blog post.
-- [QuackDB](https://quackdb.com/) - Open-source online DuckDB SQL playground and editor.
+- [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL playground and editor.
 - [Sidequery](https://sidequery.ai) - Sidequery is a privacy-preserving DuckDB-powered query editor & data exploration tool for local & remote data.
-- [Duck-UI](https://demo.duckui.com/) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
+- [Duck-UI](https://github.com/caioricciuti/duck-ui) - Duck-UI is a web-based interface for interacting with DuckDB with a SQL editor, data import/export, data explorer, query history, theme toggle and keyboard shortcuts.
 - [SQLRooms](https://sqlrooms.org/) – React app framework for small to mid-sized data analytics powered by DuckDB-WASM.
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
-- [TabulaStudio](https://tabulastudio.com) - Browser-only enterprise data analytics platform with Jupyter-style notebooks, AI-powered visualizations, and enterprise performance (10M+ rows/second). Direct access to files and live databases like (Neon and Supabase ) without servers, cloud uploads, or setup—your data never leaves your browser.
 - [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
 - [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
