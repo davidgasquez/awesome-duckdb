@@ -249,6 +249,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB Lens](https://plugins.jetbrains.com/plugin/33853-duckdb-lens-duckdb-database-file-viewer) - Read-only DuckDB database file viewer for JetBrains IDEs: schema tree, paged tables of any size, constant memory. Sibling Lens viewers cover SQLite, Parquet, Excel and Jupyter files.
 - [1bench](https://1bench.dev/duckdb) - Paid cross-platform desktop client supporting DuckDB alongside two dozen other databases, including relational, document, key-value, vector and search engines.
 - [LibreDB Studio](https://github.com/libredb/libredb-studio) - Browser-based SQL IDE that opens DuckDB database files alongside PostgreSQL, MySQL, ClickHouse and other engines, with a schema explorer and JSON EXPLAIN plans. MIT licensed, runs as a container or Helm chart.
+- [Beekeeper Studio](https://www.beekeeperstudio.io) - Free, open-source SQL editor and database manager with native support for DuckDB, MySQL, Postgres, SQLite, SQL Server, and more.
 
 ## Projects Powered by DuckDB
 
