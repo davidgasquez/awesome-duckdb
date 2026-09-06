@@ -225,6 +225,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 - [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
 - [Bedevere](https://bedeverewise.app) - Tabular data visualizer and DuckDB SQL editor on DuckDB-Wasm: open CSV/Parquet/JSON/Arrow locally, chart results with a grammar-of-graphics `VISUALIZE` syntax, and embed it anywhere via npm component or a one-line iframe.
+- [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
 
 ## SQL Clients and IDE that Support DuckDB
 
