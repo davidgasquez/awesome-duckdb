@@ -402,7 +402,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ### Extension Statistics
 
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
-- [DuckDB extension weekly downloads](https://duckdb-ce-analysis.evidence.app/) - Statistics of weekly downloads for core extensions and community extensions. Refreshed daily.
 
 ## Tutorials
 
