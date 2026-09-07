@@ -225,6 +225,8 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 - [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
 - [Bedevere](https://bedeverewise.app) - Tabular data visualizer and DuckDB SQL editor on DuckDB-Wasm: open CSV/Parquet/JSON/Arrow locally, chart results with a grammar-of-graphics `VISUALIZE` syntax, and embed it anywhere via npm component or a one-line iframe.
+- [Telemetry SQL Playground](https://telemetry.sh/sql/playground) - Browser-based, read-only SQL playground powered by DuckDB-Wasm, with synthetic structured-event datasets.
+- [ExploreMyData](https://exploremydata.com) - Browser-based data explorer on DuckDB-Wasm: open CSV, Excel, JSON, Parquet, Arrow, Avro, SQLite and DuckDB files up to 1GB, chain filter/join/pivot/aggregate steps that each emit DuckDB SQL, write SQL directly, chart, and export. Files never leave the device.
 - [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
 
 ## SQL Clients and IDE that Support DuckDB
@@ -250,6 +252,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB Lens](https://plugins.jetbrains.com/plugin/33853-duckdb-lens-duckdb-database-file-viewer) - Read-only DuckDB database file viewer for JetBrains IDEs: schema tree, paged tables of any size, constant memory. Sibling Lens viewers cover SQLite, Parquet, Excel and Jupyter files.
 - [1bench](https://1bench.dev/duckdb) - Paid cross-platform desktop client supporting DuckDB alongside two dozen other databases, including relational, document, key-value, vector and search engines.
 - [LibreDB Studio](https://github.com/libredb/libredb-studio) - Browser-based SQL IDE that opens DuckDB database files alongside PostgreSQL, MySQL, ClickHouse and other engines, with a schema explorer and JSON EXPLAIN plans. MIT licensed, runs as a container or Helm chart.
+- [Beekeeper Studio](https://www.beekeeperstudio.io) - Free, open-source SQL editor and database manager with native support for DuckDB, MySQL, Postgres, SQLite, SQL Server, and more.
 
 ## Projects Powered by DuckDB
 
@@ -402,7 +405,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 ### Extension Statistics
 
 - [DuckDB Extension Radar](https://github.com/mehd-io/duckdb-extension-radar) - Repository that contains DuckDB extensions on GitHub. Refreshed daily.
-- [DuckDB extension weekly downloads](https://duckdb-ce-analysis.evidence.app/) - Statistics of weekly downloads for core extensions and community extensions. Refreshed daily.
 
 ## Tutorials
 
