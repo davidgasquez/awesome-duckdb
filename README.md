@@ -377,6 +377,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`pfc`](https://github.com/ImpossibleForge/pfc-duckdb) - Read block-indexed PFC-compressed JSONL logs with timestamp filtering — 25% smaller than gzip with minimal S3 egress.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`pst`](https://github.com/intellekthq/duckdb-pst) - Read Microsoft PST files in-place with rich schemas for emails, contacts, appointments, tasks, and more.
+- [`query_condition_cache`](https://duckdb.org/community_extensions/extensions/query_condition_cache) - Caches query conditions to improve performance for repeated-query workloads.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
 - [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
 - [`stats_duck`](https://github.com/KoliStat/the-stats-duck) - Statistics for tabular and clinical data: descriptive tables (`table_one`), linear models with robust/clustered standard errors, meta-analysis, bootstrap, and a grammar-of-graphics `VISUALIZE` clause that turns queries into Vega-Lite charts.
