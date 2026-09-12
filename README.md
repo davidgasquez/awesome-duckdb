@@ -229,6 +229,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Telemetry SQL Playground](https://telemetry.sh/sql/playground) - Browser-based, read-only SQL playground powered by DuckDB-Wasm, with synthetic structured-event datasets.
 - [ExploreMyData](https://exploremydata.com) - Browser-based data explorer on DuckDB-Wasm: open CSV, Excel, JSON, Parquet, Arrow, Avro, SQLite and DuckDB files up to 1GB, chain filter/join/pivot/aggregate steps that each emit DuckDB SQL, write SQL directly, chart, and export. Files never leave the device.
 - [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
+- [Parquetly](https://www.parquetly.com) - Browser-based Parquet viewer on DuckDB-Wasm. Shows the schema, row groups and column chunk statistics, runs SQL over the file, and exports to CSV or JSON. Files are read locally and are not uploaded.
 
 ## SQL Clients and IDE that Support DuckDB
 
