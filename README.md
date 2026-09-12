@@ -365,6 +365,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
 - [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
+- [`gpudb`](https://github.com/singhpratech/duckdbgpumetaldbram) - GPU-accelerated aggregates, GROUP BY and hash joins on NVIDIA CUDA and Apple Silicon Metal, with GPU-resident columns for repeated queries.
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
 - [`hostfs`](https://github.com/gropaul/hostfs) - Navigate and explore the local filesystem using SQL.
