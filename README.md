@@ -274,6 +274,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [datagenerator2](https://github.com/uwegeercken/datagenerator2) - Generates random data, allowing to define dependencies between individual fields and varying/definable distribution of field values.
 - [Overture Places UA](https://github.com/xtrustinfo/overture-places-ua) - Extract all Ukrainian POIs from Overture Maps releases into CSV or Parquet with a single DuckDB query.
 - [dlt-dbt-duckdb-evidence](https://github.com/Ddscully/dlt-dbt-duckdb-evidence) - End-to-end pipeline over seven public data sources in a single DuckDB file, using dlt, dbt, Polars, Dagster and Evidence. Rebuilds from live sources on every push and publishes the DuckDB file and per-table Parquet monthly.
+- [SixSentences](https://github.com/SixSentences/sixsentences) - Self-hostable research workspace that compiles boolean literature-search queries to SQL and runs them offline with DuckDB over versioned Parquet snapshots of a scholarly corpus.
 
 ## Integrations
 
