@@ -312,6 +312,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - Native Excel XLL add-in for DuckDB with parameter binding, async execution and Excel range table functions.
 - [Bruin](https://github.com/bruin-data/bruin) - Data pipeline CLI that runs SQL and Python transformations with built-in quality checks, using DuckDB as one of its supported platforms.
 - [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases and SaaS sources, with DuckDB supported as both a source and a destination.
+- [Scherlok](https://github.com/rbmuller/scherlok) - Data quality monitoring CLI that profiles tables and detects anomalies (volume, freshness, schema drift, NULL rates, distributions) without configuration; DuckDB is one of its connectors and backs its built-in demo.
 
 ## Client-Server Setups
 
