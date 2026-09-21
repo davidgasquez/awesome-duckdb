@@ -57,7 +57,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB tldr page](https://tldr.inbrowser.app/pages/common/duckdb) - DuckDB's entry in [tldr pages](https://tldr.sh/), available in CLI via the `tldr duckdb` command.
 - [DuckDB AWS Lambda layer (Node.js)](https://github.com/tobilg/duckdb-nodejs-layer) - Run DuckDB in AWS Lambda functions.
 - [DuckDB AWS Lambda layer (Python)](https://github.com/bengeois/aws-layer-duckdb-python) - Run DuckDB in AWS Lambda functions using Python.
-- [Compatible DuckDB extensions for AWS Lambda](https://extensions.quacking.cloud/) - Extensions specifically compiled for the AWS Lambda runtime (GLIBC 2.26).
 - [Serverless DuckDB as API](https://github.com/tobilg/serverless-duckdb) - Use DuckDB as API with Amazon API Gateway and AWS Lambda.
 - [Serverless Parquet Repartitioner](https://github.com/tobilg/serverless-parquet-repartitioner) - Use DuckDB to repartition data in S3-based Data Lakes.
 - [Observable notebooks](https://observablehq.com/search?query=duckdb&sort=created&direction=desc&useES=true) - Notebooks using DuckDB on the Observable data visualization platform.
@@ -474,7 +473,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [SwanLake](https://www.wangfenjin.com/posts/swanlake-en/) - An Arrow Flight SQL Datalake Service Built on DuckDB + DuckLake
 - [DuckDB-Wasm on a Plain Static Host — Without Breaking AdSense](https://csvtodashboard.com/duckdb-wasm-static-host) - Why a static site ships the single-threaded build: SharedArrayBuffer, COOP/COEP, and the cross-origin isolation tradeoff.
 - [Building duckdb-pst](https://intellekt.fyi/2026/02/03/the-data-warehouse-in-your-email-archive-teaching-duckdb-to-speak-outlook/) - How to go from 0 to a production-ready DuckDB extension for Outlook PSTs, including table functions, MAPI schema serialization, projection/statistics pushdown, concurrent planning, and late materialization.
-- [DuckDB in Production: What It's Actually Good At (and What It Isn't)](https://hikmahtechnologies.com/blog/duckdb-in-production-what-its-good-at/) - Where DuckDB fits in production and where it does not: three deployment patterns (in-process in a service, containerised batch job, Parquet lake with read-only readers), plus its limitations around single-process writes, governance and memory spill.
 
 ### Books
 
