@@ -179,6 +179,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB API](https://github.com/tobilg/duckdb-api) - a TypeScript-based Docker image containing DuckDB, and a Hono framework REST API with JSON or streaming Arrow responses.
 - [Mosaic DuckDB Server](https://pypi.org/project/duckdb-server/) - A Python-based server that runs a local DuckDB instance and supports queries over Web Sockets or HTTP, returning data in either Apache Arrow or JSON format.
 - [duckdb-server](https://lib.rs/crates/duckdb-server) - A Rust-based server that runs a local DuckDB instance and supports queries over Web Sockets or HTTP/HTTPS, returning data in either Apache Arrow or JSON format.
+- [Hydra ETL](https://github.com/bejaouibechir/Hydra) - Declarative YAML ETL engine that can run each transformation step on DuckDB or pandas.
 
 ## Libraries Powered by DuckDB
 
