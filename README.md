@@ -277,6 +277,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Caso Abierto](https://caso-abierto.christianvadillo.workers.dev) - Detective game where each case file is a set of Parquet tables queried with SQL, running DuckDB-WASM in the browser.
 - [SixSentences](https://github.com/SixSentences/sixsentences) - Self-hostable research workspace that compiles boolean literature-search queries to SQL and runs them offline with DuckDB over versioned Parquet snapshots of a scholarly corpus.
 - [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard) - Data-quality grades for 2,400+ public transit (GTFS) feed records. DuckDB builds the cross-agency query layer and a public Parquet table that DuckDB can query over HTTP, and the site's SQL page runs DuckDB-WASM in the browser.
+- [PH Catalog](https://github.com/sarthakagrawal927/ph-catalog) - Resumable local Product Hunt catalogue and analytics pipeline that normalizes records into DuckDB and exports verified Parquet snapshots.
 
 ## Integrations
 
