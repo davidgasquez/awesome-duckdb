@@ -482,6 +482,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 - [DuckDB in Action](https://www.manning.com/books/duckdb-in-action) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB.
 - [Getting Started with DuckDB](https://www.packtpub.com/en-us/product/getting-started-with-duckdb-9781803241005) - A practical guide for accelerating your data science, data analytics, and data engineering workflows.
+- [Local-First Analytics](https://hikmahtechnologies.com/book/) - Building an analytics stack on one machine with DuckDB, Parquet and Arrow: performance, partitioning, data quality and orchestration, with runnable code. Chapter one is free to read online.
 
 ## Contribute
 
