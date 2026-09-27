@@ -240,6 +240,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB SQL Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) - Free DuckDB SQL Tools for VS Code IDE. [Premium version available](https://github.com/RandomFractals/pro-data-tools/blob/main/duckdb-tools.md#duckdb-pro-tools) with advanced features.
 - [VSCode SQLTools](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-duckdb-driver) - Free open-source VSCode extension to query and explore your DuckDB databases with latest DuckDB support.
 - [DBeaver](https://dbeaver.com) - DBeaver is a universal database access and development tool that can be used to connect almost any type of database.
+- [VisuaLeaf](https://visualeaf.com/) - Visual database workspace with a GUI query builder, data editor, and database management tools for MongoDB and SQL databases, including PostgreSQL, MySQL, SQLite, SQL Server, and more.
 - [DataGrip](https://www.jetbrains.com/datagrip/) - Paid SQL IDE by JetBrains that supports many different database technologies, including DuckDB.
 - [Duckling](https://github.com/l1xnan/duckling) - A fast viewer for CSV/Parquet files and DuckDB/SQLite, based on Tauri.
 - [rsql](https://github.com/theseus-rs/rsql) - CLI for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, SQLite3 and SQL Server.
