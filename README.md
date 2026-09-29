@@ -289,11 +289,23 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 #### Free & Open Source
 
 - [connections.duckdb](https://github.com/tomjakubowski/connections.duckdb) - Play the New York Times Connections Puzzle with DuckDB.
+- [ReportBurster](https://github.com/flowkraft/reportburster) - Business Intelligence Done Right - ReportBurster uses DuckDB as its in-process analytics database engine, and for larger workloads, supports ClickHouse too.
+- [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
+- [stratif.io](https://stratif.io) - Open-source, self-hosted, warehouse-native product analytics. Runs funnels, retention, and paths on DuckDB (and Postgres, Snowflake, ClickHouse, Databricks).
+- [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL.
+- [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first visual ETL/ELT studio. Drag sources, transforms and sinks onto a canvas; it compiles to plain DuckDB SQL and runs entirely on DuckDB. Open source desktop app, with a built-in MCP server for generating and running pipelines from natural language.
+- [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB.
+- [AnkaFlow](https://github.com/targetta/ankaflow) - YAML-based data pipeline framework that runs both locally and fully in-browser designed for data engineers, ML teams, and SaaS developers who need flexible, SQL-powered pipelines.
+- [KoliLang](https://editor.kolistat.com) - A SAS language engine (DATA step, macros, PROCs) that translates programs to DuckDB SQL — runs natively or fully in the browser on DuckDB-Wasm.
+- [DataCharter](https://github.com/datacharter/datacharter) - Local, contract-governed data explorer. Federates files and databases (Postgres, Snowflake, BigQuery, Excel, and more) through DuckDB — SQL editor, charts, profiling — then hands AI agents a PII-masked, read-only query surface over MCP. Apache-2.0.
+- [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
+- [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine.
+- [Totsum Data Explorer](https://www.totsum.app) - Desktop app (Windows, macOS) for a first look at CSV, Excel, JSON and Parquet files: plain-language questions are turned into DuckDB SQL by a language model that runs on the user's own machine. Can work on a computer with no network connection.
+- [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 
 #### Free (Proprietary / Source-Available)
 
 - [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach. (no LICENSE file in repo)
-
 
 ## Backends
 
