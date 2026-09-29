@@ -112,53 +112,182 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 ## Tools Powered by DuckDB
 
-- [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL.
-- [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes.
-- [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB.
-- [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine.
-- [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
-- [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB-Wasm.
-- [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes.
-- [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
-- [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON.
-- [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light.
-- [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB.
-- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. open-source (MIT). Zero install!
-- [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
-- [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations.
+### Business Intelligence & Dashboards
+
+#### Commercial
+
+- [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform. ([pricing](https://www.definite.app/pricing))
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [Evidence](https://evidence.dev) - Generate reports using SQL and markdown. The DuckDB connector allows querying across DuckDB, CSV, Parquet and JSON. ([Evidence Cloud](https://evidence.studio/pricing))
+- [Rill Data](https://github.com/rilldata/rill) - Tool for effortlessly transforming data sets into powerful, opinionated dashboards using SQL. ([Rill Cloud](https://www.rilldata.com/pricing))
+- [Shaper](https://github.com/taleshape-com/shaper) - Open-source SQL-driven data dashboards, powering Taleshape, built on DuckDB. ([managed hosting](https://taleshape.com/plans-and-pricing))
+
+#### Free & Open Source
+
+- [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
+
+#### Free (Proprietary / Source-Available)
+
+- [Excellent Bi](https://trobee.one/ebi/) - Duck Powered simple analysis and business intelligence dashboard.  Load excel, csv, parquet files, instantly query your data in the query analyzer tool, make multiple simple dashboards.  Data stays local in OPFS local browser storage which is native to Edge and Chrome. (proprietary; free to use)
+- [ReportBurster](https://github.com/flowkraft/reportburster) - Business Intelligence Done Right - ReportBurster uses DuckDB as its in-process analytics database engine, and for larger workloads, supports ClickHouse too. (SSPL v1, source-available)
+
+### Data Exploration & Visualization
+
+#### Commercial
+
+- [Totsum Data Explorer](https://www.totsum.app) - Desktop app (Windows, macOS) for a first look at CSV, Excel, JSON and Parquet files: plain-language questions are turned into DuckDB SQL by a language model that runs on the user's own machine. Can work on a computer with no network connection. ([pricing](https://www.totsum.app/pricing))
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows. ([Enso Cloud](https://www.ensoanalytics.com/pricing))
+- [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light. ([paid cloud](https://latitude.so/pricing))
+
+#### Free & Open Source
+
+- [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
+- [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
+
+#### Free (Proprietary / Source-Available)
+
+- [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser. (proprietary app with a free non-commercial tier; its cosmos.gl library is open source)
+- [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit. (proprietary; free tier)
+- [Kavla](https://kavla.dev/) - A collaborative data analysis tool. (proprietary; free to use)
+- [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations. (proprietary; free to use)
+
+### ETL, Pipelines & Orchestration
+
+#### Commercial
+
+- [Bauplan](https://www.bauplanlabs.com/) - A serverless data transformation platform for data lakes. ([pricing](https://www.bauplanlabs.com/pricing))
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally. ([Tobiko Cloud](https://tobikodata.com))
+
+#### Free & Open Source
+
+- [AnkaFlow](https://github.com/targetta/ankaflow) - YAML-based data pipeline framework that runs both locally and fully in-browser designed for data engineers, ML teams, and SaaS developers who need flexible, SQL-powered pipelines.
 - [DatalakeStudio](https://github.com/javitorres/datalakeStudio) - Load, explore, transform your datasets and expose them via API. Integration with external APIs, S3, PostgreSQL and ChatGPT.
-- [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake.
-- [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform.
-- [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB.
+- [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first visual ETL/ELT studio. Drag sources, transforms and sinks onto a canvas; it compiles to plain DuckDB SQL and runs entirely on DuckDB. Open source desktop app, with a built-in MCP server for generating and running pipelines from natural language.
+- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
+- [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
+
+#### Free (Proprietary / Source-Available)
+
+- [Amphi ETL](https://github.com/amphi-ai/amphi-etl) - Low-code data pipelines for structured and unstructured data. SQL transformations are powered by DuckDB. (Elastic License 2.0, source-available)
+
+### Query Engines, Federation & Warehouses
+
+#### Commercial
+
+- [Boiling Data](https://boilingdata.com/) - Serverless data analytics overlay on top of S3 Data Lakes. ([pricing](https://www.boilingdata.com/))
+- [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL. ([pricing](https://streams.dbconvert.com/pricing))
+- [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries. ([pricing](https://www.greybeam.ai/pricing))
+- [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine. ([pricing](https://varan.cloud/pricing))
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB. ([commercial license](https://github.com/Basekick-Labs/arc))
+- [Spice.ai](https://github.com/spiceai/spiceai) - A unified SQL query interface and portable runtime to locally materialize (using an embedded DuckDB), accelerate, and query datasets from any database, data warehouse, or data lake. ([Spice.ai Cloud](https://spice.ai))
+
+#### Free & Open Source
+
+- [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
+- [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 - [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and MotherDuck support.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
-- [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
+
+#### Free (Proprietary / Source-Available)
+
+- [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files. (proprietary core shipped as binaries, free-forever community tier; SDKs are open source)
+
+### Data APIs, Integration & AI Access
+
+#### Commercial
+
+- [Bonnard](https://bonnard.dev) - Governed, multi-tenant MCP access to customer data. Connects DuckDB (and Snowflake, BigQuery, Postgres) to AI agents as a secure, per-customer MCP server. ([pricing](https://bonnard.ai/pricing))
+- [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB. ([pricing](https://www.fivetran.com/pricing) — Census was acquired by Fivetran)
+
+#### Free & Open Source
+
+- [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
+
+### Product, Web & Application Analytics
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB. ([HitKeep Cloud](https://hitkeep.com/cloud))
+
+#### Free & Open Source
+
 - [Phoenix Analytics](https://github.com/lalabuy948/PhoenixAnalytics) - Plug and play analytics for Phoenix applications, powered by DuckDB.
-- [SQLGlot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 24 different SQL dialects including DuckDB.
-- [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
-- [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally.
-- [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
+- [stratif.io](https://stratif.io) - Open-source, self-hosted, warehouse-native product analytics. Runs funnels, retention, and paths on DuckDB (and Postgres, Snowflake, ClickHouse, Databricks).
+
+### Geospatial
+
+#### Commercial
+
+- [Honeycomb Maps](https://www.honeycombmaps.com/) - A browser-based geospatial analysis tool leveraging DuckDB-Wasm. ([pricing](https://www.honeycombmaps.com/pricing))
+
+#### Free & Open Source
+
 - [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open-source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
-- [duckdb.yazi](https://github.com/wylie102/duckdb.yazi) - Preview csv/tsv, json, and Parquet files in the yazi file manager using duckdb. View the raw data, or a "summarized" view with data-types, min, max, avg etc. for all columns.
-- [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries.
-- [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit.
-- [Tailpipe](https://github.com/turbot/tailpipe) - An open-source SIEM for instant log insights.
-- [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
-- [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
-- [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach.
-- [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
+- [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
+
+### Observability, Logs & Security
+
+#### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
+
+- [Tailpipe](https://github.com/turbot/tailpipe) - An open-source SIEM for instant log insights. ([commercial license](https://turbot.com/open-source))
+
+#### Free & Open Source
+
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process.
-- [Boilstream](https://boilstream.com/) - Manage with SQL, like for creating topics (tables) and derived topics (materialised views) - all landing on object storage in DuckLake as optimised Parquet files.
-- [Arc](https://github.com/Basekick-Labs/arc) - Time-series data warehouse built on DuckDB.
-- [Shaper](https://github.com/taleshape-com/shaper) - Open-source SQL-driven data dashboards, powering Taleshape, built on DuckDB.
-- [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser.
-- [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
+
+### Data Quality & Governance
+
+#### Free & Open Source
+
+- [DataCharter](https://github.com/datacharter/datacharter) - Local, contract-governed data explorer. Federates files and databases (Postgres, Snowflake, BigQuery, Excel, and more) through DuckDB — SQL editor, charts, profiling — then hands AI agents a PII-masked, read-only query surface over MCP. Apache-2.0.
+
+#### Free (Proprietary / Source-Available)
+
+- [DQOps](https://dqops.com) - Data quality platform for data engineers, data quality teams and data operations. (Business Source License 1.1, source-available)
+
+### File Viewers & Pivot Tables
+
+#### Free & Open Source
+
+- [ADPivot](https://github.com/danilo-css/analytics-data-pivot) - No code tool built on top of DuckDB-Wasm and Pyodide that helps build pivot tables from databases of any size with a few clicks.
+- [duckdb.yazi](https://github.com/wylie102/duckdb.yazi) - Preview csv/tsv, json, and Parquet files in the yazi file manager using duckdb. View the raw data, or a "summarized" view with data-types, min, max, avg etc. for all columns.
+- [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. open-source (MIT). Zero install!
+- [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
+
+### Notebooks & Embedded Engines
+
+#### Commercial
+
+- [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB. ([pricing](https://hex.tech/pricing))
+- [Mode](https://mode.com/blog/how-we-switched-in-memory-data-engine-to-duck-db-to-boost-visual-data-exploration-speed/) - Mode uses DuckDB for their in-memory data engine. ([pricing](https://mode.com/compare-plans))
+
+### SQL Tooling & Language Engines
+
+#### Free & Open Source
+
 - [geol](https://github.com/opt-nc/geol) - A command line tool to efficiently show end-of-life dates for a number of products in your terminal using the [`endoflife.date`](https://endoflife.date) API, makes it possible to export the whole `endoflife.date` database as a fully featured DuckDB file.
-- [Kavla](https://kavla.dev/) - A collaborative data analysis tool.
-- [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows.
-- [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations.
-- [Excellent Bi](https://trobee.one/ebi/) - Duck Powered simple analysis and business intelligence dashboard.  Load excel, csv, parquet files, instantly query your data in the query analyzer tool, make multiple simple dashboards.  Data stays local in OPFS local browser storage which is native to Edge and Chrome.
-- [Bonnard](https://bonnard.dev) - Governed, multi-tenant MCP access to customer data. Connects DuckDB (and Snowflake, BigQuery, Postgres) to AI agents as a secure, per-customer MCP server.
+- [Malloy](https://www.malloydata.dev/) - Malloy is an experimental language for describing data relationships and transformations. Malloy connects to BigQuery, Snowflake, Trino, and Postgres, and natively supports DuckDB.
+- [SQLGlot](https://github.com/tobymao/sqlglot) - Python transpiler that translates between 24 different SQL dialects including DuckDB.
+
+#### Free (Proprietary / Source-Available)
+
+- [KoliLang](https://editor.kolistat.com) - A SAS language engine (DATA step, macros, PROCs) that translates programs to DuckDB SQL — runs natively or fully in the browser on DuckDB-Wasm. (no published license; free to use)
+
+### Fun & Demos
+
+#### Free & Open Source
+
 - [connections.duckdb](https://github.com/tomjakubowski/connections.duckdb) - Play the New York Times Connections Puzzle with DuckDB.
 - [ReportBurster](https://github.com/flowkraft/reportburster) - Business Intelligence Done Right - ReportBurster uses DuckDB as its in-process analytics database engine, and for larger workloads, supports ClickHouse too.
 - [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
@@ -172,7 +301,11 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
 - [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine.
 - [Totsum Data Explorer](https://www.totsum.app) - Desktop app (Windows, macOS) for a first look at CSV, Excel, JSON and Parquet files: plain-language questions are turned into DuckDB SQL by a language model that runs on the user's own machine. Can work on a computer with no network connection.
+- [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 
+#### Free (Proprietary / Source-Available)
+
+- [DuckDB OPFS Todo List App](https://github.com/markwylde/duckdb-opfs-todo-list) - A fully-functional todo list application that demonstrates DuckDB WASM OPFS (Origin Private File System) persistence using a pure functional programming approach. (no LICENSE file in repo)
 
 ## Backends
 
@@ -483,6 +616,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 - [DuckDB in Action](https://www.manning.com/books/duckdb-in-action) - DuckDB in Action will show you how to quickly get your hands dirty with DuckDB.
 - [Getting Started with DuckDB](https://www.packtpub.com/en-us/product/getting-started-with-duckdb-9781803241005) - A practical guide for accelerating your data science, data analytics, and data engineering workflows.
+- [Local-First Analytics](https://hikmahtechnologies.com/book/) - Building an analytics stack on one machine with DuckDB, Parquet and Arrow: performance, partitioning, data quality and orchestration, with runnable code. Chapter one is free to read online.
 
 ## Contribute
 
