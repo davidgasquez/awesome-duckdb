@@ -6,13 +6,13 @@ on:
     paths:
       - README.md
       - .github/lychee.toml
-      - .github/scripts/check-readme-order.mjs
+      - .github/scripts/check-readme-order*.mjs
       - .github/workflows/linkchecker.yml
   pull_request:
     paths:
       - README.md
       - .github/lychee.toml
-      - .github/scripts/check-readme-order.mjs
+      - .github/scripts/check-readme-order*.mjs
       - .github/workflows/linkchecker.yml
   workflow_dispatch:
 
@@ -29,6 +29,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test entry order checker
+        run: node --test .github/scripts/check-readme-order.test.mjs
 
       - name: Check entry order
         if: github.event_name == 'pull_request'
