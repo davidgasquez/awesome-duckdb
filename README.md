@@ -127,6 +127,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 #### Free & Open Source
 
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
+- [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 
 #### Free (Proprietary / Source-Available)
 
@@ -301,7 +302,6 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
 - [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine.
 - [Totsum Data Explorer](https://www.totsum.app) - Desktop app (Windows, macOS) for a first look at CSV, Excel, JSON and Parquet files: plain-language questions are turned into DuckDB SQL by a language model that runs on the user's own machine. Can work on a computer with no network connection.
-- [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 
 #### Free (Proprietary / Source-Available)
 
