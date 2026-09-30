@@ -8,7 +8,7 @@ if (!basePath || !currentPath) {
   process.exit(2);
 }
 
-const SORTED_SECTION = "Community Extensions";
+const SORTED_SECTION = "Extensions / Community Extensions";
 const IGNORED_SECTIONS = new Set(["Contents"]);
 
 function headingName(markdown) {
@@ -18,12 +18,18 @@ function headingName(markdown) {
 
 function parseSections(path) {
   const sections = new Map();
+  const headings = [];
   let section = null;
 
   for (const line of readFileSync(path, "utf8").split("\n")) {
-    const heading = line.match(/^#{2,3}\s+(.+?)\s*$/);
+    const heading = line.match(/^(#{2,6})\s+(.+?)\s*$/);
     if (heading) {
-      section = headingName(heading[1]);
+      const level = heading[1].length;
+      while (headings.length > 0 && headings.at(-1).level >= level) {
+        headings.pop();
+      }
+      headings.push({ level, name: headingName(heading[2]) });
+      section = headings.map(({ name }) => name).join(" / ");
       if (!sections.has(section)) {
         sections.set(section, []);
       }

@@ -14,7 +14,7 @@ By participating in this project, you agree to abide by its [Contributor Code of
 
 ### Entry order
 
-Most sections preserve insertion order. **Append new entries to the bottom of the relevant list**, even when another entry seems similar. Do not alphabetize or otherwise reposition existing entries.
+Most sections preserve insertion order. **Append new entries to the bottom of the relevant list**, even when another entry seems similar. In **Tools Powered by DuckDB**, append to the bottom of the relevant licensing subgroup within the most specific category, not the bottom of the whole category. Do not alphabetize or otherwise reposition existing entries.
 
 The **Community Extensions** section is the exception: insert extensions in case-insensitive lexicographic order by extension name. Community extension names use backticks, for example:
 ``- [`extension_name`](https://example.com) - A concise description.``
