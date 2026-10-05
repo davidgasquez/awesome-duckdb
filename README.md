@@ -551,6 +551,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [DuckDB.ExtensionKit](https://github.com/Giorgi/DuckDB.ExtensionKit) - Build native DuckDB extensions in C#.
 - [template-duckdb-extension-zig](https://github.com/habedi/template-duckdb-extension-zig): A template for developing DuckDB extensions in Zig using DuckDB's C API.
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
+- [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
 
 ### Extension Statistics
 
