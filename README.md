@@ -507,6 +507,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
 - [`elasticsearch`](https://github.com/tlinhart/duckdb-elasticsearch) - Query Elasticsearch indices directly using SQL.
 - [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
+- [`finetype`](https://github.com/meridian-online/finetype) - Detects the semantic type of text columns and values (emails, dates, IP addresses, currency amounts) and reports the DuckDB type each can be cast to.
 - [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
 - [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
 - [`gpudb`](https://github.com/singhpratech/duckdbgpumetaldbram) - GPU-accelerated plain DuckDB SQL on Apple Silicon Metal and NVIDIA CUDA: GROUP BY, joins, filters and top-k run on the GPU when measured faster, with the same answers.
