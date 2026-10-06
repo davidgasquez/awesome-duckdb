@@ -175,6 +175,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Duckle](https://github.com/SouravRoy-ETL/duckle) - Local-first visual ETL/ELT studio. Drag sources, transforms and sinks onto a canvas; it compiles to plain DuckDB SQL and runs entirely on DuckDB. Open source desktop app, with a built-in MCP server for generating and running pipelines from natural language.
 - [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
+- [Renart](https://getrenart.com/) - Local-first open source data platform for SQL and Python pipelines, notebooks and dashboards, with DuckDB support and declarative workflow definitions in Git.
 
 #### Free (Proprietary / Source-Available)
 
