@@ -238,6 +238,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 - [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open-source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
+- [duck soup](https://github.com/henrik716/duck-soup) - Config-driven geospatial ETL: a YAML pipeline (or visual web editor) of sources, spatial/attribute joins, geoprocessing and field mapping compiles to a chain of DuckDB spatial SQL views and writes GeoPackage or GeoParquet. Reads GeoJSON, Shapefile, FileGDB, WFS, OGC API Features, ArcGIS REST, Parquet, PostgreSQL and more.
 
 ### Observability, Logs & Security
 
