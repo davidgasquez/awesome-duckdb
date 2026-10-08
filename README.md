@@ -499,28 +499,43 @@ Official DuckDB extensions, which can installed via `INSTALL ⟨extension_name�
 Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨extension_name⟩ FROM community`.
 
 - [`3fs`](https://github.com/open3fs/duckdb-3fs) - Integrates DuckDB with DeepSeek 3FS distributed file system.
+- [`a5`](https://query.farm/products/extensions/a5/) - Pentagon-based geospatial indexing with the A5 global grid.
 - [`acp`](https://github.com/sidequery/duckdb-acp) - Embeds AI agents such as Claude Code inside of DuckDB via Agent Client Protocol.
+- [`adbc_scanner`](https://query.farm/products/extensions/adbc_scanner/) - Queries other databases from DuckDB using ADBC drivers.
+- [`airport`](https://query.farm/products/extensions/airport/) - Queries Apache Arrow Flight services from DuckDB SQL.
 - [`bigquery`](https://github.com/hafenkran/duckdb-bigquery) - Integrates DuckDB with Google BigQuery, allowing direct querying and management of BigQuery datasets.
+- [`bitfilters`](https://query.farm/products/extensions/bitfilters/) - Builds and queries probabilistic membership filters, including XOR, binary fuse, quotient and Bloom filters.
 - [`cache_httpfs`](https://github.com/dentiny/duck-read-cache-fs) - Adds a read caching layer to duckdb filesystem to improve query performance and reduce egress cost.
 - [`cache_prewarm`](https://github.com/dentiny/duckdb-cache-prewarm) - A Preloads table data blocks into the buffer pool or OS page cache, inspired by PostgreSQL's pg_prewarm extension.
 - [`chsql`](https://github.com/lmangani/duckdb-extension-clickhouse-sql) - ClickHouse SQL Dialect macros for DuckDB.
-- [`crypto`](https://github.com/rustyconover/duckdb-crypto-extension) - Cryptographic hash functions and HMAC.
+- [`cronjob`](https://query.farm/products/extensions/cronjob/) - Schedules SQL queries with cron expressions while the DuckDB process is running.
+- [`crypto`](https://query.farm/products/extensions/crypto/) - Cryptographic hash functions and HMAC.
 - [`curl_httpfs`](https://github.com/dentiny/duckdb-curl-filesystem) - Enhanced HTTP file system with connection pooling, HTTP/2 support, and asynchronous I/O operations.
 - [`dash`](https://github.com/gropaul/dash) - Fully local data canvas and dashboarding app within DuckDB.
+- [`datasketches`](https://query.farm/products/extensions/datasketches/) - Approximate distinct counts, quantiles and frequent items using Apache DataSketches.
 - [`duckherder`](https://github.com/dentiny/duckdb-distributed-execution) - Distributed execution for DuckDB queries.
 - [`duckpgq`](https://github.com/cwida/duckpgq-extension) - Add supports for SQL/PGQ (Property Graph Queries) introduced in the SQL:2023 standard.
 - [`elasticsearch`](https://github.com/tlinhart/duckdb-elasticsearch) - Query Elasticsearch indices directly using SQL.
-- [`evalexpr_rhai`](https://github.com/rustyconover/duckdb-evalexpr-rhai-extension) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
+- [`evalexpr_rhai`](https://query.farm/products/extensions/evalexpr_rhai/) - Evaluates the [Rhai](https://rhai.rs) scripting language as part of SQL.
+- [`events`](https://query.farm/products/extensions/events/) - Forwards DuckDB query, transaction and connection events to external programs.
 - [`finetype`](https://github.com/meridian-online/finetype) - Detects the semantic type of text columns and values (emails, dates, IP addresses, currency amounts) and reports the DuckDB type each can be cast to.
-- [`fuzzycomplete`](https://github.com/rustyconover/duckdb-fuzzycomplete-extension) - Performs fuzzy string matching for autocompletion.
+- [`fuzzycomplete`](https://query.farm/products/extensions/fuzzycomplete/) - Performs fuzzy string matching for autocompletion.
 - [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
+- [`geosilo`](https://query.farm/products/extensions/geosilo/) - Compact geometry storage with coordinate quantization and delta encoding.
 - [`gpudb`](https://github.com/singhpratech/duckdbgpumetaldbram) - GPU-accelerated plain DuckDB SQL on Apple Silicon Metal and NVIDIA CUDA: GROUP BY, joins, filters and top-k run on the GPU when measured faster, with the same answers.
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
+- [`hashfuncs`](https://query.farm/products/extensions/hashfuncs/) - Non-cryptographic hash functions including xxHash, MurmurHash3 and RapidHash.
 - [`hostfs`](https://github.com/gropaul/hostfs) - Navigate and explore the local filesystem using SQL.
-- [`httpserver`](https://github.com/quackscience/duckdb-extension-httpserver) - DuckDB HTTP API Server and Query Interface.
+- [`http_client`](https://query.farm/products/extensions/http_client/) - Makes HTTP GET and POST requests from SQL.
+- [`httpserver`](https://query.farm/products/extensions/httpserver/) - DuckDB HTTP API Server and Query Interface.
 - [`infera`](https://github.com/CogitatorTech/infera) - A DuckDB extension for in-database inference.
-- [`lindel`](https://github.com/rustyconover/duckdb-lindel-extension) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
+- [`inflector`](https://query.farm/products/extensions/inflector/) - String case conversion, pluralization and singularization functions.
+- [`json_schema`](https://query.farm/products/extensions/json_schema/) - JSON Schema draft-07 validation and default-value enrichment.
+- [`jsonata`](https://query.farm/products/extensions/jsonata/) - Evaluates JSONata expressions against JSON values in SQL.
+- [`lindel`](https://query.farm/products/extensions/lindel/) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
+- [`marisa`](https://query.farm/products/extensions/marisa/) - Builds and queries compact MARISA tries for string lookup and prefix search.
+- [`minijinja`](https://query.farm/products/extensions/minijinja/) - Renders Jinja-compatible templates from SQL using MiniJinja.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
 - [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
@@ -528,10 +543,20 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`pst`](https://github.com/intellekthq/duckdb-pst) - Read Microsoft PST files in-place with rich schemas for emails, contacts, appointments, tasks, and more.
 - [`query_condition_cache`](https://github.com/dentiny/duckdb-query-condition-cache) - Caches query conditions to improve performance for repeated-query workloads.
+- [`quickjs`](https://query.farm/products/extensions/quickjs/) - Runs JavaScript from SQL using the QuickJS-NG engine.
+- [`radio`](https://query.farm/products/extensions/radio/) - WebSocket and Redis Pub/Sub messaging from SQL.
+- [`rapidfuzz`](https://query.farm/products/extensions/rapidfuzz/) - Fuzzy string matching and edit-distance functions using RapidFuzz.
+- [`redis`](https://query.farm/products/extensions/redis/) - Reads and writes Redis data from SQL.
 - [`scrooge`](https://github.com/pdet/Scrooge-McDuck) - A set of aggregation functions and data scanners on financial data.
-- [`shellfs`](https://github.com/rustyconover/duckdb-shellfs-extension) - Allows shell commands to be used for input and output.
+- [`shellfs`](https://query.farm/products/extensions/shellfs/) - Allows shell commands to be used for input and output.
 - [`stats_duck`](https://github.com/KoliStat/the-stats-duck) - Statistics for tabular and clinical data: descriptive tables (`table_one`), linear models with robust/clustered standard errors, meta-analysis, bootstrap, and a grammar-of-graphics `VISUALIZE` clause that turns queries into Vega-Lite charts.
+- [`stochastic`](https://query.farm/products/extensions/stochastic/) - Probability distributions, random sampling and statistical functions.
+- [`tera`](https://query.farm/products/extensions/tera/) - Renders Tera templates from SQL.
+- [`textplot`](https://query.farm/products/extensions/textplot/) - Renders text-based bars, sparklines and density plots in query results.
+- [`tributary`](https://query.farm/products/extensions/tributary/) - Queries Apache Kafka topics from DuckDB SQL.
+- [`tsid`](https://query.farm/products/extensions/tsid/) - Generates time-sorted unique identifiers.
 - [`ulid`](https://github.com/Maxxen/duckdb_ulid) - ULID data type for DuckDB. A ULID is similar to a UUID except that it also contains a timestamp component.
+- [`webmacro`](https://query.farm/products/extensions/webmacro/) - Loads SQL macros from remote URLs.
 - [`yardstick`](https://github.com/sidequery/yardstick) - Implements Measures in SQL paper as a DuckDB extension for centralized metric definitions / en embedded semantic layer.
 
 ### Other Extensions
@@ -554,6 +579,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [template-duckdb-extension-zig](https://github.com/habedi/template-duckdb-extension-zig): A template for developing DuckDB extensions in Zig using DuckDB's C API.
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
 - [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
+- [VGI](https://query.farm/vgi/) - Exposes external workers as DuckDB catalogs, tables and functions using Apache Arrow IPC.
 
 ### Extension Statistics
 
