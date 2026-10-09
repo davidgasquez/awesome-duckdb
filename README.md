@@ -216,6 +216,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 #### Free & Open Source
 
 - [VulcanSQL](https://vulcansql.com/) - DuckDB can be used as a caching layer or a data connector in VulcanSQL, a Data API framework for data folks to create REST APIs by writing SQL templates.
+- [CNEquity](https://github.com/rootSunc/CNEquity) - Self-hosted China A-share market data lake; DuckDB views over its Parquet datasets back SQL queries from the CLI and a read-only `run_sql` tool in its MCP server for AI agents.
 
 ### Product, Web & Application Analytics
 
