@@ -342,6 +342,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [DuckDB.EFCoreProvider](https://github.com/skuirrels/DuckDB.EFCoreProvider) - Entity Framework Core provider for DuckDB and DuckLake, with LINQ, writes, migrations, bulk ingestion, and Parquet-backed tiered storage for .NET.
 - [Vane](https://github.com/AstroVela/vane) - A multimodal-native engine for AI workloads, built on a DuckDB fork with Python and SQL interfaces.
 - [ds-agent-playbook](https://github.com/udbhav-shrinet/ds-agent-playbook) - Autonomous, zero-bloat recipes for Data Science pipelines: automated EDA, deterministic data cleansing, and feature hypothesis synthesis powered by Polars & DuckDB.
+- [SQLProvider](https://github.com/fsprojects/SQLProvider) - F# type provider for SQL databases with a DuckDB provider (SQLProvider.DuckDb): typed LINQ queries and CRUD over the database schema.
 
 ## DuckDB Clients and UIs
 
