@@ -397,6 +397,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [LibreDB Studio](https://github.com/libredb/libredb-studio) - Browser-based SQL IDE that opens DuckDB database files alongside PostgreSQL, MySQL, ClickHouse and other engines, with a schema explorer and JSON EXPLAIN plans. MIT licensed, runs as a container or Helm chart.
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Free, open-source SQL editor and database manager with native support for DuckDB, MySQL, Postgres, SQLite, SQL Server, and more.
 - [VisuaLeaf](https://visualeaf.com/database/duckdb/) - Visual database workspace with DuckDB support, featuring a visual SQL query builder, data editor, ERD diagrams, and database management tools for DuckDB, PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, and more.
+- [DGopher](https://github.com/saanuregh/dgopher) - Free, open-source native desktop database client with DuckDB built in that also connects to PostgreSQL, MySQL, ClickHouse, SQLite and Redis. Drop a CSV, Parquet or JSON file on the window to query it in place. Apache 2.0 licensed, for Linux, macOS and Windows.
 
 ## Projects Powered by DuckDB
 
