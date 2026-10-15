@@ -526,6 +526,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`gaggle`](https://github.com/CogitatorTech/gaggle) - A DuckDB extension for working with Kaggle datasets.
 - [`geosilo`](https://query.farm/products/extensions/geosilo/) - Compact geometry storage with coordinate quantization and delta encoding.
 - [`gpudb`](https://github.com/singhpratech/duckdbgpumetaldbram) - GPU-accelerated plain DuckDB SQL on Apple Silicon Metal and NVIDIA CUDA: GROUP BY, joins, filters and top-k run on the GPU when measured faster, with the same answers.
+- [`gridpin_ext`](https://github.com/gridpin/duckdb-gridpin) - Offline forward and reverse geocoding in SQL from a local per-country data file built from Overture Maps data.
 - [`gsheets`](https://github.com/evidence-dev/duckdb_gsheets) - Read and write Google Sheets using SQL.
 - [`h3`](https://github.com/isaacbrodsky/h3-duckdb) - Adds support for the H3 discrete global grid system.
 - [`hashfuncs`](https://query.farm/products/extensions/hashfuncs/) - Non-cryptographic hash functions including xxHash, MurmurHash3 and RapidHash.
