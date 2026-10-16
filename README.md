@@ -167,6 +167,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally. ([Tobiko Cloud](https://tobikodata.com))
+- [DBTrail](https://github.com/dbtrail/dbtrail) - Keeps MySQL tables as Parquet snapshots updated from the binlog, with a generated `views.sql` so DuckDB queries them as tables. Also keeps every version of every row. ([pricing](https://dbtrail.com/pricing))
 
 #### Free & Open Source
 
