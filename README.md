@@ -210,7 +210,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 #### Commercial
 
-- [Bonnard](https://bonnard.dev) - Governed, multi-tenant MCP access to customer data. Connects DuckDB (and Snowflake, BigQuery, Postgres) to AI agents as a secure, per-customer MCP server. ([pricing](https://bonnard.ai/pricing))
+- [Bonnard](https://bonnard.ai) - Business intelligence in the AI clients a team already uses. Connects to DuckDB on MotherDuck. ([pricing](https://bonnard.ai/pricing))
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB. ([pricing](https://www.fivetran.com/pricing) — Census was acquired by Fivetran)
 
 #### Free & Open Source
