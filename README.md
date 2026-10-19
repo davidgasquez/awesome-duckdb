@@ -210,7 +210,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 #### Commercial
 
-- [Bonnard](https://bonnard.ai) - Business intelligence that your agent will love. Connects to DuckDB on MotherDuck. ([pricing](https://bonnard.ai/pricing))
+- [Bonnard](https://bonnard.ai) - Business intelligence through MCP-compatible AI clients, with charts and dashboards over connected databases, including DuckDB on MotherDuck. ([pricing](https://bonnard.ai/pricing))
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB. ([pricing](https://www.fivetran.com/pricing) — Census was acquired by Fivetran)
 
 #### Free & Open Source
