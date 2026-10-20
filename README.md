@@ -345,6 +345,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 - [Vane](https://github.com/AstroVela/vane) - A multimodal-native engine for AI workloads, built on a DuckDB fork with Python and SQL interfaces.
 - [ds-agent-playbook](https://github.com/udbhav-shrinet/ds-agent-playbook) - Autonomous, zero-bloat recipes for Data Science pipelines: automated EDA, deterministic data cleansing, and feature hypothesis synthesis powered by Polars & DuckDB.
 - [SQLProvider](https://github.com/fsprojects/SQLProvider) - F# type provider for SQL databases with a DuckDB provider (SQLProvider.DuckDb): typed LINQ queries and CRUD over the database schema.
+- [AVA](https://github.com/antvis/AVA) - A TypeScript framework for natural-language data analysis and visualization, using DuckDB for SQL execution and data profiling in Node.js.
 
 ## DuckDB Clients and UIs
 
