@@ -150,6 +150,7 @@ The DuckLake file format was released on 2025-05-27: see the [website](https://d
 
 - [Apple Embedding Atlas](https://apple.github.io/embedding-atlas/) - A tool that provides interactive visualizations for large embeddings. Uses DuckDB.
 - [Cloudspecs](https://cloudspecs.fyi/) - Live visualization tool that enables cloud system architects to answer specific instance selection questions, powered by DuckDB-Wasm.
+- [Dex](https://github.com/exmergo/dex) - Agent skills for profiling DuckDB databases, verifying joins, and mapping schemas through a read-only engine, with a seeded local DuckDB demo.
 
 #### Free (Proprietary / Source-Available)
 
