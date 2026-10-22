@@ -254,6 +254,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Free & Open Source
 
 - [DataCharter](https://github.com/datacharter/datacharter) - Local, contract-governed data explorer. Federates files and databases (Postgres, Snowflake, BigQuery, Excel, and more) through DuckDB — SQL editor, charts, profiling — then hands AI agents a PII-masked, read-only query surface over MCP. Apache-2.0.
+- [DataOps TestGen](https://github.com/DataKitchen/dataops-testgen) - Open-source data quality tool that profiles tables and generates and runs data quality tests; connects to DuckDB databases and uses DuckDB to profile and test CSV, Parquet, and JSON files locally, in Amazon S3, or in Azure Blob Storage. Apache 2.0.
 
 #### Free (Proprietary / Source-Available)
 
