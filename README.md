@@ -454,7 +454,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Enrich.sh](https://enrich.sh) - Lightweight event ingestion that stores JSON events as Parquet in R2, queryable directly from DuckDB.
 - [DuckDB VBA](https://github.com/EtienneLenoir/duckdb-vba) - Excel/VBA integration for DuckDB using the native C API through a lightweight DLL bridge. Supports Range/Array ingestion, dictionary lookups, Parquet/CSV/JSON workflows, SQLite/PostgreSQL connectivity, and Access-to-DuckDB migration.
 - [OrionBelt Semantic Layer](https://github.com/ralfbecher/orionbelt-semantic-layer) - Open-source semantic sidecar that compiles YAML semantic models to optimized SQL across 8 engines including DuckDB. Ships with an `ob-duckdb` driver, REST + Arrow Flight SQL + Postgres wire surfaces, and a baked-in DuckDB quickstart on Colab.
-- [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - Native Excel XLL add-in for DuckDB with parameter binding, async execution and Excel range table functions.
+- [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - A native Microsoft Excel XLL add-in for querying Excel ranges with DuckDB SQL and parameter binding. Supports DuckDB 2.0.
 - [Bruin](https://github.com/bruin-data/bruin) - Data pipeline CLI that runs SQL and Python transformations with built-in quality checks, using DuckDB as one of its supported platforms.
 - [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases and SaaS sources, with DuckDB supported as both a source and a destination.
 - [omniload](https://github.com/panodata/omniload) - Polyglot data loader for ETL, warehousing and more, based on dlt. Supports 140+ source/destination adapters. Derived from ingestr v0 (MIT).
