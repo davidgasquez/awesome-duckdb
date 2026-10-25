@@ -62,6 +62,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DuckDB execution plan visualizer](https://db.cs.uni-tuebingen.de/explain/) - Visualizing and understanding DuckDB EXPLAIN plans made easy.
 - [Awesome DuckLake](https://github.com/esadek/awesome-ducklake) - A curated list of awesome DuckLake tools and resources.
 - [DuckDB in Science](https://duckdb.org/science/) - A collection of scientific papers building on DuckDB.
+- [Prepare.sh DuckDB sandbox](https://prepare.sh/workspaces/duckdb) - Free browser-based sandbox on a dedicated cloud VM with DuckDB 2.0 or 1.5 and 200,000 sample rows as Parquet, CSV and JSON for comparing formats.
 
 ## Installers
 
