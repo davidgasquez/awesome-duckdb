@@ -62,6 +62,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DuckDB execution plan visualizer](https://db.cs.uni-tuebingen.de/explain/) - Visualizing and understanding DuckDB EXPLAIN plans made easy.
 - [Awesome DuckLake](https://github.com/esadek/awesome-ducklake) - A curated list of awesome DuckLake tools and resources.
 - [DuckDB in Science](https://duckdb.org/science/) - A collection of scientific papers building on DuckDB.
+- [Prepare.sh DuckDB sandbox](https://prepare.sh/workspaces/duckdb) - Free browser-based sandbox on a dedicated cloud VM with DuckDB 2.0 or 1.5 and 200,000 sample rows as Parquet, CSV and JSON for comparing formats.
 
 ## Installers
 
@@ -400,6 +401,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [VisuaLeaf](https://visualeaf.com/database/duckdb/) - Visual database workspace with DuckDB support, featuring a visual SQL query builder, data editor, ERD diagrams, and database management tools for DuckDB, PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, and more.
 - [DGopher](https://github.com/saanuregh/dgopher) - Free, open-source native desktop database client with DuckDB built in that also connects to PostgreSQL, MySQL, ClickHouse, SQLite and Redis. Drop a CSV, Parquet or JSON file on the window to query it in place. Apache 2.0 licensed, for Linux, macOS and Windows.
 - [DBine](https://github.com/addlayer-io/dbine) - Free, open-source (Apache 2.0) desktop database manager for macOS, Windows and Linux. It opens DuckDB databases alongside 130+ databases and cloud services, and its notebooks join query results from several databases locally with DuckDB SQL.
+- [SQLly](https://sqlly.app) - Commercial cross-platform SQL client with IntelliSense and schema intelligence that opens DuckDB databases alongside PostgreSQL, MySQL, SQL Server, SQLite, Redis and more.
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 
 ## Projects Powered by DuckDB
@@ -423,6 +425,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [GTFS Scorecard](https://github.com/ChelseaKR/gtfs-scorecard) - Data-quality grades for 2,400+ public transit (GTFS) feed records. DuckDB builds the cross-agency query layer and a public Parquet table that DuckDB can query over HTTP, and the site's SQL page runs DuckDB-WASM in the browser.
 - [PH Catalog](https://github.com/sarthakagrawal927/ph-catalog) - Resumable local Product Hunt catalogue and analytics pipeline that normalizes records into DuckDB and exports verified Parquet snapshots.
 - [AskCSV](https://github.com/Sahilll15/askcsv) - Ask questions about a CSV in plain English. The file is loaded into DuckDB-WASM in the browser, a model writes a read-only DuckDB query from the schema alone, and failed queries are repaired automatically.
+- [GitHub Repo Analytics](https://github.com/exmergo/github-repo-analytics) - GitHub Actions template that collects a repository's traffic, stars, downloads, and issue/PR activity into a DuckDB file, modeled with dbt and MetricFlow, keeping traffic history beyond GitHub's 14-day limit.
 
 ## Integrations
 
@@ -455,7 +458,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Enrich.sh](https://enrich.sh) - Lightweight event ingestion that stores JSON events as Parquet in R2, queryable directly from DuckDB.
 - [DuckDB VBA](https://github.com/EtienneLenoir/duckdb-vba) - Excel/VBA integration for DuckDB using the native C API through a lightweight DLL bridge. Supports Range/Array ingestion, dictionary lookups, Parquet/CSV/JSON workflows, SQLite/PostgreSQL connectivity, and Access-to-DuckDB migration.
 - [OrionBelt Semantic Layer](https://github.com/ralfbecher/orionbelt-semantic-layer) - Open-source semantic sidecar that compiles YAML semantic models to optimized SQL across 8 engines including DuckDB. Ships with an `ob-duckdb` driver, REST + Arrow Flight SQL + Postgres wire surfaces, and a baked-in DuckDB quickstart on Colab.
-- [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - Native Excel XLL add-in for DuckDB with parameter binding, async execution and Excel range table functions.
+- [DuckDBExcelAddin](https://github.com/sonhn85/DuckDBExcelAddin) - A native Microsoft Excel XLL add-in for querying Excel ranges with DuckDB SQL and parameter binding. Supports DuckDB 2.0.
 - [Bruin](https://github.com/bruin-data/bruin) - Data pipeline CLI that runs SQL and Python transformations with built-in quality checks, using DuckDB as one of its supported platforms.
 - [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases and SaaS sources, with DuckDB supported as both a source and a destination.
 - [omniload](https://github.com/panodata/omniload) - Polyglot data loader for ETL, warehousing and more, based on dlt. Supports 140+ source/destination adapters. Derived from ingestr v0 (MIT).
@@ -477,6 +480,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [rawquery](https://rawquery.dev) - Managed analytical platform pairing DuckDB compute with Iceberg storage on S3. Postgres wire protocol, CLI, and Python API.
 - [Layerbase](https://layerbase.com) - Managed DuckDB hosting with a browser query console, REST API and CLI, alongside 17 other database engines under one account. Databases scale to zero when idle and wake on connect.
 - [VillageSQL](https://github.com/villagesql/vsql-duckdb) - Aggregate Parquet, CSV and JSON in object storage from SQL, with DuckDB embedded in MySQL.
+- [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using Warp SQL (HTTP and Apache Arrow), with authentication, concurrent sessions, and ADBC, JDBC, and JavaScript clients.
 
 ## Extensions
 
