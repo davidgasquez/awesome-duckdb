@@ -142,6 +142,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows. ([Enso Cloud](https://www.ensoanalytics.com/pricing))
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light. ([paid cloud](https://latitude.so/pricing))
+- [Kavla](https://github.com/aleda145/kavla) - Infinite canvas for exploratory data analysis. Real time collaboration in the cloud version [kavla.dev](https://kavla.dev)
 
 #### Free & Open Source
 
@@ -153,7 +154,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser. (proprietary app with a free non-commercial tier; its cosmos.gl library is open source)
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit. (proprietary; free tier)
-- [Kavla](https://kavla.dev/) - A collaborative data analysis tool. (proprietary; free to use)
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations. (proprietary; free to use)
 - [Unwrap](https://unwrap.tools/) - Opens unfamiliar CSV, JSON, Excel and ZIP exports in the browser and profiles them locally in an in-memory DuckDB workspace (WebAssembly); file contents are never uploaded. (proprietary; free to use)
 
