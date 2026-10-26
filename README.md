@@ -403,6 +403,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DGopher](https://github.com/saanuregh/dgopher) - Free, open-source native desktop database client with DuckDB built in that also connects to PostgreSQL, MySQL, ClickHouse, SQLite and Redis. Drop a CSV, Parquet or JSON file on the window to query it in place. Apache 2.0 licensed, for Linux, macOS and Windows.
 - [DBine](https://github.com/addlayer-io/dbine) - Free, open-source (Apache 2.0) desktop database manager for macOS, Windows and Linux. It opens DuckDB databases alongside 130+ databases and cloud services, and its notebooks join query results from several databases locally with DuckDB SQL.
 - [SQLly](https://sqlly.app) - Commercial cross-platform SQL client with IntelliSense and schema intelligence that opens DuckDB databases alongside PostgreSQL, MySQL, SQL Server, SQLite, Redis and more.
+- [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 
 ## Projects Powered by DuckDB
 
