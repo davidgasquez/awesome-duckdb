@@ -155,6 +155,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit. (proprietary; free tier)
 - [Kavla](https://kavla.dev/) - A collaborative data analysis tool. (proprietary; free to use)
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations. (proprietary; free to use)
+- [Unwrap](https://unwrap.tools/) - Opens unfamiliar CSV, JSON, Excel and ZIP exports in the browser and profiles them locally in an in-memory DuckDB workspace (WebAssembly); file contents are never uploaded. (proprietary; free to use)
 
 ### ETL, Pipelines & Orchestration
 
