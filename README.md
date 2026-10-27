@@ -142,6 +142,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows. ([Enso Cloud](https://www.ensoanalytics.com/pricing))
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light. ([paid cloud](https://latitude.so/pricing))
+- [Kavla](https://github.com/aleda145/kavla) - Infinite canvas for exploratory data analysis. Real time collaboration in the cloud version [kavla.dev](https://kavla.dev)
 
 #### Free & Open Source
 
@@ -153,7 +154,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Cosmograph](https://cosmograph.app/) - Beautiful visualization and analytics right in the browser. (proprietary app with a free non-commercial tier; its cosmos.gl library is open source)
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit. (proprietary; free tier)
-- [Kavla](https://kavla.dev/) - A collaborative data analysis tool. (proprietary; free to use)
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations. (proprietary; free to use)
 - [Unwrap](https://unwrap.tools/) - Opens unfamiliar CSV, JSON, Excel and ZIP exports in the browser and profiles them locally in an in-memory DuckDB workspace (WebAssembly); file contents are never uploaded. (proprietary; free to use)
 
@@ -189,6 +189,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL. ([pricing](https://streams.dbconvert.com/pricing))
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries. ([pricing](https://www.greybeam.ai/pricing))
 - [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine. ([pricing](https://varan.cloud/pricing))
+- [Altertable](https://altertable.ai/) - A DuckDB-powered context lakehouse combining real-time ingestion, federated SQL, and governed data access for analytics, applications, and AI agents. ([pricing](https://altertable.ai/pricing))
 
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
@@ -405,6 +406,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DBine](https://github.com/addlayer-io/dbine) - Free, open-source (Apache 2.0) desktop database manager for macOS, Windows and Linux. It opens DuckDB databases alongside 130+ databases and cloud services, and its notebooks join query results from several databases locally with DuckDB SQL.
 - [SQLly](https://sqlly.app) - Commercial cross-platform SQL client with IntelliSense and schema intelligence that opens DuckDB databases alongside PostgreSQL, MySQL, SQL Server, SQLite, Redis and more.
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
+- [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
 
 ## Projects Powered by DuckDB
 
@@ -483,6 +485,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Layerbase](https://layerbase.com) - Managed DuckDB hosting with a browser query console, REST API and CLI, alongside 17 other database engines under one account. Databases scale to zero when idle and wake on connect.
 - [VillageSQL](https://github.com/villagesql/vsql-duckdb) - Aggregate Parquet, CSV and JSON in object storage from SQL, with DuckDB embedded in MySQL.
 - [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using Warp SQL (HTTP and Apache Arrow), with authentication, concurrent sessions, and ADBC, JDBC, and JavaScript clients.
+- [SlackerDB](https://github.com/robotslacker/slackerdb) -  Java‑based service layer that puts DuckDB on the network. speaks the PostgreSQL wire protocol. 
 
 ## Extensions
 
