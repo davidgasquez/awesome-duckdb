@@ -260,6 +260,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [DataCharter](https://github.com/datacharter/datacharter) - Local, contract-governed data explorer. Federates files and databases (Postgres, Snowflake, BigQuery, Excel, and more) through DuckDB — SQL editor, charts, profiling — then hands AI agents a PII-masked, read-only query surface over MCP. Apache-2.0.
 - [DataOps TestGen](https://github.com/DataKitchen/dataops-testgen) - Open-source data quality tool that profiles tables and generates and runs data quality tests; connects to DuckDB databases and uses DuckDB to profile and test CSV, Parquet, and JSON files locally, in Amazon S3, or in Azure Blob Storage. Apache 2.0.
+- [Data Contract CLI](https://cli.datacontract.com) - Command-line tool to test data against data contracts in the Open Data Contract Standard (ODCS). Converts from and to formats such as SQL DDL, dbt, Avro, and JSON Schema. Uses DuckDB to run schema and quality checks on sources such as CSV, Parquet and JSON files (local, S3, GCS, Azure), DuckDB databases, Iceberg tables and Kafka topics. MIT.
 
 #### Free (Proprietary / Source-Available)
 
