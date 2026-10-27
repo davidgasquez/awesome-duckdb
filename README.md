@@ -189,6 +189,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DBConvert Streams](https://streams.dbconvert.com/) - Database IDE and migration tool with DuckDB-powered federated SQL. ([pricing](https://streams.dbconvert.com/pricing))
 - [Greybeam](https://www.greybeam.ai/) - Routes your Snowflake queries to a DuckDB powered warehouse to reduce costs and speed up queries. ([pricing](https://www.greybeam.ai/pricing))
 - [Varan](https://varan.cloud) - Desktop SQL client that runs one query across PostgreSQL, MySQL, DuckDB and CSV/Excel files, allowing multi-source JOINs and data versioning powered by a local-first DuckDB engine. ([pricing](https://varan.cloud/pricing))
+- [Altertable](https://altertable.ai/) - A DuckDB-powered context lakehouse combining real-time ingestion, federated SQL, and governed data access for analytics, applications, and AI agents. ([pricing](https://altertable.ai/pricing))
 
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
