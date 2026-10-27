@@ -223,6 +223,10 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 ### Product, Web & Application Analytics
 
+#### Commercial
+
+- [SelfSync](https://selfsync.c100k.eu) - Build a DuckDB database with all the activities (i.e. FIT files) contained in a Garmin data export for local analysis with any compatible client or AI assistants.
+
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
 - [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB. ([HitKeep Cloud](https://hitkeep.com/cloud))
