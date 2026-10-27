@@ -484,6 +484,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Layerbase](https://layerbase.com) - Managed DuckDB hosting with a browser query console, REST API and CLI, alongside 17 other database engines under one account. Databases scale to zero when idle and wake on connect.
 - [VillageSQL](https://github.com/villagesql/vsql-duckdb) - Aggregate Parquet, CSV and JSON in object storage from SQL, with DuckDB embedded in MySQL.
 - [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using Warp SQL (HTTP and Apache Arrow), with authentication, concurrent sessions, and ADBC, JDBC, and JavaScript clients.
+- [SlackerDB](https://github.com/robotslacker/slackerdb) -  Java‑based service layer that puts DuckDB on the network. speaks the PostgreSQL wire protocol. 
 
 ## Extensions
 
