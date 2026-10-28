@@ -200,7 +200,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [DataSpoc Lens](https://github.com/dataspoclab/dataspoc-lens) - Virtual warehouse over cloud Parquet. SQL shell, Jupyter/Marimo notebooks, AI natural language queries, and local cache — all powered by DuckDB.
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
-- [Quackpipe](https://github.com/metrico/quackpipe) - Serverless OLAP API/UI built on top of DuckDB with basic ClickHouse API compatibility and MotherDuck support.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 
 #### Free (Proprietary / Source-Available)
@@ -367,7 +366,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
 - [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
-- [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 - [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
