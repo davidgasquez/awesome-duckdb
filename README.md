@@ -138,6 +138,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Commercial
 
 - [Totsum Data Explorer](https://www.totsum.app) - Desktop app (Windows, macOS) for a first look at CSV, Excel, JSON and Parquet files: plain-language questions are turned into DuckDB SQL by a language model that runs on the user's own machine. Can work on a computer with no network connection. ([pricing](https://www.totsum.app/pricing))
+- [SelfSync](https://selfsync.c100k.eu) - Build a DuckDB database with all the activities (i.e. FIT files) contained in a Garmin data export for local analysis with any compatible client or AI assistants.
 
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
