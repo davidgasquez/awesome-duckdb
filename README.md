@@ -143,6 +143,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Enso Analytics](https://www.ensoanalytics.com/) - Dual visual/textual programming language and analytics platform, allowing DuckDB to be used as a data engine for its visual analytics and low-code workflows. ([Enso Cloud](https://www.ensoanalytics.com/pricing))
 - [Latitude](https://latitude.so) - Latitude uses DuckDB to power data snapshots. Drop a CSV file and query it with SQL at the speed of light. ([paid cloud](https://latitude.so/pricing))
 - [Kavla](https://github.com/aleda145/kavla) - Infinite canvas for exploratory data analysis. Real time collaboration in the cloud version [kavla.dev](https://kavla.dev)
+- [LightlyStudio](https://github.com/lightly-ai/lightly-studio) - Computer vision dataset explorer that uses a local DuckDB file as its default database. ([LightlyStudio Enterprise](https://docs.lightly.ai/studio/enterprise/))
 
 #### Free & Open Source
 
