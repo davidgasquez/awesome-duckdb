@@ -485,7 +485,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [pg_lake](https://github.com/snowflake-labs/pg_lake) - `pg_lake` integrates Iceberg and data lake files into Postgres. Uses DuckDB to execute queries.
 - [AliSQL](https://github.com/alibaba/AliSQL) - A MySQL branch originated from Alibaba Group. Integrates DuckDB as a native storage engine.
 - [rawquery](https://rawquery.dev) - Managed analytical platform pairing DuckDB compute with Iceberg storage on S3. Postgres wire protocol, CLI, and Python API.
-- [Layerbase](https://layerbase.com) - Managed DuckDB hosting with a browser query console, REST API and CLI, alongside 17 other database engines under one account. Databases scale to zero when idle and wake on connect.
+- [Layerbase](https://layerbase.com/db/duckdb) - Managed DuckDB 2 hosting with a browser query console, REST API and CLI, plus [DuckLake](https://layerbase.com/ducklake) with a PostgreSQL catalog and Cloudflare R2 or AWS S3 storage, alongside 18 other database engines under one account. Databases scale to zero when idle and wake on connect.
 - [VillageSQL](https://github.com/villagesql/vsql-duckdb) - Aggregate Parquet, CSV and JSON in object storage from SQL, with DuckDB embedded in MySQL.
 - [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using Warp SQL (HTTP and Apache Arrow), with authentication, concurrent sessions, and ADBC, JDBC, and JavaScript clients.
 - [SlackerDB](https://github.com/robotslacker/slackerdb) - Java-based service that exposes DuckDB over the PostgreSQL wire protocol.
