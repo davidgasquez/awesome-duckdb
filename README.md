@@ -126,6 +126,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
 - [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
+- [CloudBridge](https://github.com/JetSquirrel/cloudbridge) - Open-source desktop app for analyzing cloud and AI costs, with a local DuckDB ledger, spending dashboards, and configurable alerts.
 
 #### Free (Proprietary / Source-Available)
 
@@ -407,6 +408,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [SQLly](https://sqlly.app) - Commercial cross-platform SQL client with IntelliSense and schema intelligence that opens DuckDB databases alongside PostgreSQL, MySQL, SQL Server, SQLite, Redis and more.
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 - [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
+- [DuckLocal](https://github.com/JetSquirrel/DuckLocal) - Open-source desktop workspace built on DuckDB for querying local CSV, Parquet, JSON, Excel, and DuckDB files, with a SQL editor, visualizations, and interactive dashboards.
 
 ## Projects Powered by DuckDB
 
