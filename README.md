@@ -659,6 +659,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [SwanLake](https://www.wangfenjin.com/posts/swanlake-en/) - An Arrow Flight SQL Datalake Service Built on DuckDB + DuckLake
 - [DuckDB-Wasm on a Plain Static Host — Without Breaking AdSense](https://csvtodashboard.com/duckdb-wasm-static-host) - Why a static site ships the single-threaded build: SharedArrayBuffer, COOP/COEP, and the cross-origin isolation tradeoff.
 - [Building duckdb-pst](https://intellekt.fyi/2026/02/03/the-data-warehouse-in-your-email-archive-teaching-duckdb-to-speak-outlook/) - How to go from 0 to a production-ready DuckDB extension for Outlook PSTs, including table functions, MAPI schema serialization, projection/statistics pushdown, concurrent planning, and late materialization.
+- [How to Query Reservoir's Hyperliquid Data](https://hydromancer.xyz/blog/exploring-reservoir) - Using DuckDB's httpfs extension and `read_parquet` to query Hyperliquid fills, candles and order book snapshots stored as Parquet in a requester-pays S3 bucket, pulling only the columns and time ranges a query needs.
 
 ### Books
 
