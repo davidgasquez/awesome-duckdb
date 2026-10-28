@@ -553,12 +553,15 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`lindel`](https://query.farm/products/extensions/lindel/) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`marisa`](https://query.farm/products/extensions/marisa/) - Builds and queries compact MARISA tries for string lookup and prefix search.
 - [`minijinja`](https://query.farm/products/extensions/minijinja/) - Renders Jinja-compatible templates from SQL using MiniJinja.
+- [`ml`](https://github.com/alitrack/duckdb-ml) - Lightweight, columnar-native ML for DuckDB — train + inference, 34 algorithms, zero Python deps.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
 - [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
+- [`orc`](https://github.com/alitrack/duckdb_orc) - Reads Apache ORC files in pure Rust — all primitives, struct, list, map types and every compression codec (Zlib, Snappy, LZO, LZ4, ZSTD).
 - [`pfc`](https://github.com/ImpossibleForge/pfc-duckdb) - Read block-indexed PFC-compressed JSONL logs with timestamp filtering — 25% smaller than gzip with minimal S3 egress.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`pst`](https://github.com/intellekthq/duckdb-pst) - Read Microsoft PST files in-place with rich schemas for emails, contacts, appointments, tasks, and more.
+- [`python_udf`](https://github.com/alitrack/duckdb-python) - Embedded CPython UDFs for DuckDB — py_eval, py_agg, py_scan, py_register, py_call, py_map.
 - [`query_condition_cache`](https://github.com/dentiny/duckdb-query-condition-cache) - Caches query conditions to improve performance for repeated-query workloads.
 - [`quickjs`](https://query.farm/products/extensions/quickjs/) - Runs JavaScript from SQL using the QuickJS-NG engine.
 - [`radio`](https://query.farm/products/extensions/radio/) - WebSocket and Redis Pub/Sub messaging from SQL.
