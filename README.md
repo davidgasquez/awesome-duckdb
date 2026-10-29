@@ -366,7 +366,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
-- [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
+- [dbxlite](https://dbxlite.com/) - Open-source (MIT) SQL workbench for DuckDB. Runs in the browser on DuckDB-Wasm, so queries on local files run on your own machine and the file data is never uploaded. Large CSV and Parquet files are read on demand instead of being loaded into memory. A server mode, started with `npx dbxlite-ui`, makes it the UI for `duckdb -ui`, so queries run on native DuckDB with direct access to files on disk, with no browser memory limit. Available as a Docker image. Also supports BigQuery and Snowflake.
 - [Joinery](https://github.com/joinery-labs/joinery) - Privacy-first local data analytics with a modern SQL editor, multi-format support (CSV, Excel, JSON, Parquet), and parameterized saved queries. Available as browser app and Tauri desktop client.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
@@ -407,6 +407,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [SQLly](https://sqlly.app) - Commercial cross-platform SQL client with IntelliSense and schema intelligence that opens DuckDB databases alongside PostgreSQL, MySQL, SQL Server, SQLite, Redis and more.
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 - [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
+- [dbxlite for VS Code](https://marketplace.visualstudio.com/items?itemName=dbxlite.dbxlite) - Freemium VS Code extension with DuckDB 2.0 bundled. Queries CSV, Parquet, JSON, Excel and DuckDB files and S3, and joins them with PostgreSQL and MySQL sources. Also connects to SQLite and Databricks.
 
 ## Projects Powered by DuckDB
 
