@@ -441,7 +441,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PH Catalog](https://github.com/sarthakagrawal927/ph-catalog) - Resumable local Product Hunt catalogue and analytics pipeline that normalizes records into DuckDB and exports verified Parquet snapshots.
 - [AskCSV](https://github.com/Sahilll15/askcsv) - Ask questions about a CSV in plain English. The file is loaded into DuckDB-WASM in the browser, a model writes a read-only DuckDB query from the schema alone, and failed queries are repaired automatically.
 - [GitHub Repo Analytics](https://github.com/exmergo/github-repo-analytics) - GitHub Actions template that collects a repository's traffic, stars, downloads, and issue/PR activity into a DuckDB file, modeled with dbt and MetricFlow, keeping traffic history beyond GitHub's 14-day limit.
-- [Dublin bikes + weather pipeline](https://malavnaik.com/projects/dublin-bikes-pipeline/) - Example pipeline that loads Dublinbikes station snapshots and Met Éireann weather into DuckDB, models them with dbt into a tested star schema, and publishes the marts as Parquet with an in-browser DuckDB-WASM query console. 
+- [Dublin bikes + weather pipeline](https://malavnaik.com/projects/dublin-bikes-pipeline/) - Example pipeline that loads Dublinbikes station snapshots and Met Éireann weather into DuckDB, models them with dbt into a tested star schema, and publishes the marts as Parquet with an in-browser DuckDB-WASM query console.
 
 ## Integrations
 
