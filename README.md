@@ -223,6 +223,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [CNEquity](https://github.com/rootSunc/CNEquity) - Self-hosted China A-share market data lake; DuckDB views over its Parquet datasets back SQL queries from the CLI and a read-only `run_sql` tool in its MCP server for AI agents.
 - [PocketDuck](https://github.com/mailbus/PocketDuck) - Single-binary backend pairing PocketBase (auth, files, realtime) with an embedded DuckDB runtime: read-only analytics API, cross-source joins over Parquet/CSV/SQLite/PostgreSQL/MySQL, and exports to Parquet, PostgreSQL and Excel.
 - [duckdb-vectors](https://github.com/bernard357/duckdb-vectors) - MCP or embeddable semantic-search building block for agentic systems — hybrid vector + exact-token search over a local DuckDB file, no external vector database.
+- [schemagate](https://github.com/ashishsinha1602/schemagate) - Python library and MCP server for text-to-SQL agents that gives the model only the tables a question needs and the caller may read. Reflects a DuckDB file through duckdb-engine.
 
 ### Product, Web & Application Analytics
 
