@@ -280,6 +280,10 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 ### Notebooks & Embedded Engines
 
+#### Free (Proprietary / Source-Available)
+
+- [SpurLab](https://getspur.dev/spurlab) - Desktop Jupyter notebook for agent-driven data exploration that runs Python, SQL, and DuckDB cells against an embedded local DuckDB. (no published license; free to use)
+
 #### Commercial
 
 - [Hex Dataframe SQL](https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction) - Hex's Dataframe SQL cells are powered by DuckDB. ([pricing](https://hex.tech/pricing))
