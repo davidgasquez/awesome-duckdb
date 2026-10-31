@@ -622,6 +622,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 
 - [DBQuacks](https://dbquacks.com/tutorial/1) - An interactive SQL tutorial powered by DuckDB.
 - [GeoSQL](https://geosql.dev) - Interactive spatial SQL problems powered by DuckDB-WASM, running entirely in the browser.
+- [U.S. bank cohort analysis with DuckDB](https://github.com/anshuman-pandey/us-bank-data/blob/v0.2.0/notebooks/05_polars_duckdb_bank_data.ipynb) - A reproducible notebook using DuckDB to query bank financial Parquet, join institution identities, and check aggregates and null counts against Polars.
 
 ## Media
 
