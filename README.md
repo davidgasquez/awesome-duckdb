@@ -376,7 +376,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
-- [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
+- [dbxlite](https://dbxlite.com/) - Open-source (MIT) SQL workbench for DuckDB that runs in the browser on DuckDB-Wasm, or as the UI for `duckdb -ui` via `npx dbxlite-ui` to query files on disk with native DuckDB. Also supports BigQuery and Snowflake.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 - [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
@@ -417,6 +417,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 - [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
 - [DuckLocal](https://github.com/JetSquirrel/DuckLocal) - Open-source desktop workspace built on DuckDB for querying local CSV, Parquet, JSON, Excel, and DuckDB files, with a SQL editor, visualizations, and interactive dashboards.
+- [dbxlite for VS Code](https://marketplace.visualstudio.com/items?itemName=dbxlite.dbxlite) - Freemium VS Code extension with DuckDB 2.0 bundled. Queries CSV, Parquet, JSON, Excel and DuckDB files and S3, and joins them with PostgreSQL and MySQL sources. Also connects to SQLite and Databricks.
 
 ## Projects Powered by DuckDB
 
