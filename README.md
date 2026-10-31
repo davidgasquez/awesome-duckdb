@@ -115,6 +115,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Commercial
 
 - [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform. ([pricing](https://www.definite.app/pricing))
+- [Basedash](https://www.basedash.com) - AI-native business intelligence platform that turns plain-English questions into SQL, charts and dashboards. Its managed warehouse runs on DuckDB, and MotherDuck can be connected as a data source. ([pricing](https://www.basedash.com/pricing))
 
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
