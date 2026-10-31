@@ -115,6 +115,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Commercial
 
 - [Definite](https://www.definite.app/) - Definite pulls all your data into a single place for analytics and dashboards. No engineering or SQL required. Get a managed data warehouse (DuckDB), ELT, data modeling / transformations and BI in a single platform. ([pricing](https://www.definite.app/pricing))
+- [Basedash](https://www.basedash.com) - AI-native business intelligence platform that turns plain-English questions into SQL, charts and dashboards. Its managed warehouse runs on DuckDB, and MotherDuck can be connected as a data source. ([pricing](https://www.basedash.com/pricing))
 
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
@@ -222,6 +223,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [CNEquity](https://github.com/rootSunc/CNEquity) - Self-hosted China A-share market data lake; DuckDB views over its Parquet datasets back SQL queries from the CLI and a read-only `run_sql` tool in its MCP server for AI agents.
 - [PocketDuck](https://github.com/mailbus/PocketDuck) - Single-binary backend pairing PocketBase (auth, files, realtime) with an embedded DuckDB runtime: read-only analytics API, cross-source joins over Parquet/CSV/SQLite/PostgreSQL/MySQL, and exports to Parquet, PostgreSQL and Excel.
 - [duckdb-vectors](https://github.com/bernard357/duckdb-vectors) - MCP or embeddable semantic-search building block for agentic systems — hybrid vector + exact-token search over a local DuckDB file, no external vector database.
+- [schemagate](https://github.com/ashishsinha1602/schemagate) - Python library and MCP server for text-to-SQL agents that gives the model only the tables a question needs and the caller may read. Reflects a DuckDB file through duckdb-engine.
 
 ### Product, Web & Application Analytics
 
@@ -255,6 +257,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Free & Open Source
 
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process.
+- [Fanout](https://github.com/labstack/fanout) - Self-hosted OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB. Runs as a single binary.
 
 ### Data Quality & Governance
 
@@ -278,6 +281,10 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
 
 ### Notebooks & Embedded Engines
+
+#### Free (Proprietary / Source-Available)
+
+- [SpurLab](https://getspur.dev/spurlab) - Desktop Jupyter notebook for agent-driven data exploration that runs Python, SQL, and DuckDB cells against an embedded local DuckDB. (no published license; free to use)
 
 #### Commercial
 
@@ -369,7 +376,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PondPilot](https://pondpilot.io) - Open-source, 100% client-side data exploration tool that enables users to analyze local and remote data using SQL. Zero-copy direct access to local datasets sets PondPilot apart from similar tools. It runs entirely in the browser—no servers, no cloud uploads, and no setup required.
 - [Preswald](https://github.com/StructuredLabs/preswald) - WASM packager for Python-based interactive data apps.
 - [Medama](https://github.com/medama-io/medama) - Self-hostable, privacy-focused website analytics.
-- [dbxlite](https://dbxlite.com/) - DuckDB workbench for native & browser.
+- [dbxlite](https://dbxlite.com/) - Open-source (MIT) SQL workbench for DuckDB that runs in the browser on DuckDB-Wasm, or as the UI for `duckdb -ui` via `npx dbxlite-ui` to query files on disk with native DuckDB. Also supports BigQuery and Snowflake.
 - [DuckQuery](https://github.com/Chenkeliang/duckdb-query) - Open-source visual SQL workbench to query local files (CSV/Excel/Parquet/JSON) and remote databases (MySQL/PostgreSQL) in one cross-source JOIN, plus AI text-to-SQL. Browser demo runs on DuckDB-Wasm; the full version self-hosts via Docker.
 - [csvtodashboard](https://csvtodashboard.com/csv-sql-query) - Free SQL-on-CSV in the browser via DuckDB-Wasm — no signup, no upload, files stay on-device.
 - [ParquetKit](https://parquetkit.com) - Browser-based Parquet viewer, SQL workbench and converter powered by DuckDB-Wasm. Fully client-side — files never leave your device.
@@ -410,6 +417,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Tabularis](https://github.com/TabularisDB/tabularis) - Free, open-source desktop SQL client for Windows, macOS and Linux. Its installable DuckDB plugin supports local and in-memory databases, schema browsing, SQL queries and row editing.
 - [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
 - [DuckLocal](https://github.com/JetSquirrel/DuckLocal) - Open-source desktop workspace built on DuckDB for querying local CSV, Parquet, JSON, Excel, and DuckDB files, with a SQL editor, visualizations, and interactive dashboards.
+- [dbxlite for VS Code](https://marketplace.visualstudio.com/items?itemName=dbxlite.dbxlite) - Freemium VS Code extension with DuckDB 2.0 bundled. Queries CSV, Parquet, JSON, Excel and DuckDB files and S3, and joins them with PostgreSQL and MySQL sources. Also connects to SQLite and Databricks.
 
 ## Projects Powered by DuckDB
 
@@ -486,10 +494,11 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [pg_lake](https://github.com/snowflake-labs/pg_lake) - `pg_lake` integrates Iceberg and data lake files into Postgres. Uses DuckDB to execute queries.
 - [AliSQL](https://github.com/alibaba/AliSQL) - A MySQL branch originated from Alibaba Group. Integrates DuckDB as a native storage engine.
 - [rawquery](https://rawquery.dev) - Managed analytical platform pairing DuckDB compute with Iceberg storage on S3. Postgres wire protocol, CLI, and Python API.
-- [Layerbase](https://layerbase.com) - Managed DuckDB hosting with a browser query console, REST API and CLI, alongside 17 other database engines under one account. Databases scale to zero when idle and wake on connect.
+- [Layerbase](https://layerbase.com/db/duckdb) - Managed DuckDB 2 hosting with a browser query console, REST API and CLI, plus [DuckLake](https://layerbase.com/ducklake) with a PostgreSQL catalog and Cloudflare R2 or AWS S3 storage, alongside 18 other database engines under one account. Databases scale to zero when idle and wake on connect.
 - [VillageSQL](https://github.com/villagesql/vsql-duckdb) - Aggregate Parquet, CSV and JSON in object storage from SQL, with DuckDB embedded in MySQL.
-- [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using Warp SQL (HTTP and Apache Arrow), with authentication, concurrent sessions, and ADBC, JDBC, and JavaScript clients.
+- [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using [Chargewire](https://github.com/gizmodata/chargewire) (HTTP and Apache Arrow), with authentication, concurrent sessions, a desktop app for macOS and Windows, and ADBC, JDBC, ODBC, and JavaScript clients.
 - [SlackerDB](https://github.com/robotslacker/slackerdb) - Java-based service that exposes DuckDB over the PostgreSQL wire protocol.
+- [GizmoData Cloud](https://gizmodata.com/cloud) - Managed Hardcharger (DuckDB) and GizmoSQL servers on AWS, Google Cloud or Azure. Create DuckLake catalogs or connect an existing Apache Iceberg REST catalog (such as Apache Polaris or Lakekeeper), and mount them on any number of clusters.
 
 ## Extensions
 
@@ -668,6 +677,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [DuckDB-Wasm on a Plain Static Host — Without Breaking AdSense](https://csvtodashboard.com/duckdb-wasm-static-host) - Why a static site ships the single-threaded build: SharedArrayBuffer, COOP/COEP, and the cross-origin isolation tradeoff.
 - [Building duckdb-pst](https://intellekt.fyi/2026/02/03/the-data-warehouse-in-your-email-archive-teaching-duckdb-to-speak-outlook/) - How to go from 0 to a production-ready DuckDB extension for Outlook PSTs, including table functions, MAPI schema serialization, projection/statistics pushdown, concurrent planning, and late materialization.
 - [How to Query Reservoir's Hyperliquid Data](https://hydromancer.xyz/blog/exploring-reservoir) - Using DuckDB's httpfs extension and `read_parquet` to query Hyperliquid fills, candles and order book snapshots stored as Parquet in a requester-pays S3 bucket, pulling only the columns and time ranges a query needs.
+- [DuckDB Explained: When a Database on Your Laptop Beats SQLite, Polars and BigQuery](https://www.alekseialeinikov.com/en/blog/topics/data/duckdb-explained-vs-sqlite-polars-bigquery) - Reproducible benchmark of DuckDB against SQLite, pandas and Polars on 11.2 million NYC taxi trips, where it replaces a warehouse and where it does not, with notes on DuckDB 2.0.
 
 ### Books
 
