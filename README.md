@@ -255,6 +255,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Free & Open Source
 
 - [Sloggo](https://github.com/phare/sloggo) - Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process.
+- [Fanout](https://github.com/labstack/fanout) - Self-hosted OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB. Runs as a single binary.
 
 ### Data Quality & Governance
 
