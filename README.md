@@ -170,7 +170,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
 - [SQLMesh](https://github.com/TobikoData/sqlmesh) - A next-generation data transformation and modeling framework with support for DuckDB connections for state, transformations & running unit tests locally. ([Tobiko Cloud](https://tobikodata.com))
-- [DBTrail](https://github.com/dbtrail/dbtrail) - Keeps MySQL tables as Parquet snapshots updated from the binlog, with a generated `views.sql` so DuckDB queries them as tables. Also keeps every version of every row. ([pricing](https://dbtrail.com/pricing))
+- [DBTrail](https://github.com/dbtrail/dbtrail) - Analytical replica for MySQL: follows the binlog like a replica and keeps the tables as Parquet snapshots in a folder or S3 bucket, with a generated `views.sql` so DuckDB queries them as tables. Also answers the same SQL on a MySQL-protocol port backed by DuckDB, and keeps every version of every row. ([dbtrail.com](https://dbtrail.com))
 
 #### Free & Open Source
 
