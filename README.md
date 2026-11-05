@@ -442,6 +442,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [AskCSV](https://github.com/Sahilll15/askcsv) - Ask questions about a CSV in plain English. The file is loaded into DuckDB-WASM in the browser, a model writes a read-only DuckDB query from the schema alone, and failed queries are repaired automatically.
 - [GitHub Repo Analytics](https://github.com/exmergo/github-repo-analytics) - GitHub Actions template that collects a repository's traffic, stars, downloads, and issue/PR activity into a DuckDB file, modeled with dbt and MetricFlow, keeping traffic history beyond GitHub's 14-day limit.
 - [Dublin bikes + weather pipeline](https://malavnaik.com/projects/dublin-bikes-pipeline/) - Example pipeline that loads Dublinbikes station snapshots and Met Éireann weather into DuckDB, models them with dbt into a tested star schema, and publishes the marts as Parquet with an in-browser DuckDB-WASM query console.
+- [Qiita-MIINT](https://the-miint.github.io/qiita/) - Qiita is a scalable, multi-omic platform for managing, processing, and analyzing microbiome data, built entirely around DuckDB and the MIINT extension.
 
 ## Integrations
 
@@ -565,6 +566,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`jsonata`](https://query.farm/products/extensions/jsonata/) - Evaluates JSONata expressions against JSON values in SQL.
 - [`lindel`](https://query.farm/products/extensions/lindel/) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
 - [`marisa`](https://query.farm/products/extensions/marisa/) - Builds and queries compact MARISA tries for string lookup and prefix search.
+- [`miint`](https://the-miint.github.io/duckdb-miint/) - Open, SQL-native tools for microbiome data, from raw sequence and alignment to phylogeny, diversity, and mass spectrometry, built for the scale of modern multi-omic studies.
 - [`minijinja`](https://query.farm/products/extensions/minijinja/) - Renders Jinja-compatible templates from SQL using MiniJinja.
 - [`ml`](https://github.com/alitrack/duckdb-ml) - Lightweight, columnar-native ML for DuckDB — train + inference, 34 algorithms, zero Python deps.
 - [`netquack`](https://github.com/hatamiarash7/duckdb-netquack) - Parsing, extracting, and analyzing domains, URIs, and paths with ease.
