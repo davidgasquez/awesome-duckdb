@@ -418,6 +418,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Pilotbase](https://github.com/icedsg/pilotbase) - Database client that opens DuckDB files alongside PostgreSQL, MySQL, SQLite, MongoDB and vector databases, with a SQL editor, schema tree and SQL export. MIT licensed, runs in Docker or as a desktop app.
 - [DuckLocal](https://github.com/JetSquirrel/DuckLocal) - Open-source desktop workspace built on DuckDB for querying local CSV, Parquet, JSON, Excel, and DuckDB files, with a SQL editor, visualizations, and interactive dashboards.
 - [dbxlite for VS Code](https://marketplace.visualstudio.com/items?itemName=dbxlite.dbxlite) - Freemium VS Code extension with DuckDB 2.0 bundled. Queries CSV, Parquet, JSON, Excel and DuckDB files and S3, and joins them with PostgreSQL and MySQL sources. Also connects to SQLite and Databricks.
+- [NiceDB](https://github.com/maxib0n/NiceDB) - Open-source desktop database client with DuckDB support, including query plans and Parquet import and export.
 
 ## Projects Powered by DuckDB
 
