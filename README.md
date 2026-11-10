@@ -279,7 +279,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [duckdb.yazi](https://github.com/wylie102/duckdb.yazi) - Preview csv/tsv, json, and Parquet files in the yazi file manager using duckdb. View the raw data, or a "summarized" view with data-types, min, max, avg etc. for all columns.
 - [Huey](https://github.com/rpbouman/huey) - Blazing-fast & intuitive pivot tables on Parquet, CSV, JSON files and DuckDB tables in the browser based on DuckDB-Wasm. open-source (MIT). Zero install!
 - [Parquet Explorer](https://marketplace.visualstudio.com/items?itemName=AdamViola.parquet-explorer) - Visual Studio Code extension for exploring Parquet files with SQL, powered by DuckDB.
-- [Folio](https://github.com/jakubro/folio) - Serves a folder of markdown and data files to the browser as live pages. CSV, TSV, JSON Lines, Parquet and DuckDB files are read by DuckDB inside Folio's process (via `@duckdb/node-api`) and open as tables that sort and filter; SQL queries written in documents are run by DuckDB over the folder's files, confined to the folder. GPL-3.0-only.
+- [Folio](https://github.com/jakubro/folio) - Serves a folder of markdown and data files as browser pages, using DuckDB to open CSV, JSON Lines, Parquet and DuckDB files as sortable tables and to run SQL written in the documents. GPL-3.0.
 
 ### Notebooks & Embedded Engines
 
