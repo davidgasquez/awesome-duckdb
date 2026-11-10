@@ -481,6 +481,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [ingestr](https://github.com/bruin-data/ingestr) - CLI tool to copy data between databases and SaaS sources, with DuckDB supported as both a source and a destination.
 - [omniload](https://github.com/panodata/omniload) - Polyglot data loader for ETL, warehousing and more, based on dlt. Supports 140+ source/destination adapters. Derived from ingestr v0 (MIT).
 - [Scherlok](https://github.com/rbmuller/scherlok) - Data quality monitoring CLI that profiles tables and detects anomalies (volume, freshness, schema drift, NULL rates, distributions) without configuration; DuckDB is one of its connectors and backs its built-in demo.
+- [Filament MotherDuck sink](https://github.com/galaxy-io/filament/blob/main/docs/pages/connectors/sinks/motherduck.mdx) - Load data from databases and SaaS APIs to MotherDuck with Filament, using full, incremental or CDC replication. Writes through DuckDB's native MotherDuck extension and appender.
 
 ## Client-Server Setups
 
