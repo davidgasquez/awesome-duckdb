@@ -128,6 +128,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
 - [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 - [CloudBridge](https://github.com/JetSquirrel/cloudbridge) - Open-source desktop app for analyzing cloud and AI costs, with a local DuckDB ledger, spending dashboards, and configurable alerts.
+- [NoDOM](https://github.com/osullivj/nodom) - open source WASM GUI framework with declarative JSON coded in Modern Data Oriented C++ for a zero alloc zero copy render hotpath. Designed for the trading floor.
 
 #### Free (Proprietary / Source-Available)
 
