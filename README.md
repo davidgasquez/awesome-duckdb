@@ -423,6 +423,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [NiceDB](https://github.com/maxib0n/NiceDB) - Open-source desktop database client with DuckDB support, including query plans and Parquet import and export.
 - [OrcaQ](https://github.com/cin12211/orca-q) - Free, open-source (MIT) desktop database editor that opens DuckDB files alongside PostgreSQL, MySQL, SQLite and more, with streamed query results, schema diff between two DuckDB files and a read-only MCP server.
 - [DbSchema](https://dbschema.com/databases/duckdb/) - Commercial visual database designer with a free Community Edition. Opens DuckDB files to draw ER diagrams of tables and views, run SQL queries and generate HTML schema documentation.
+- [aantje](https://aantje.dev/) - Free, open-source (MIT) VS Code extension for exploring DuckLake catalogs backed by DuckDB, SQLite or PostgreSQL: browse schemas, tables and snapshots, run SQL with IntelliSense, and monitor table health, storage and growth.
 
 ## Projects Powered by DuckDB
 
