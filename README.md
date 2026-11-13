@@ -400,6 +400,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [rsql](https://github.com/theseus-rs/rsql) - CLI for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, SQLite3 and SQL Server.
 - [SQL DATA LENS](https://sqldatalens.com/build-in-support-for-duckdb/) - A lightweight, commercial SQL IDE that supports different DBMS, including DuckDB. The focus is on performance and special DBMS features.
 - [Dataflare](https://dataflare.app) - Simple easy-to-use database manager, supports DuckDB, PostgreSQL, MySQL, SQL Server, SQLite etc.
+- [QoreDB](https://github.com/QoreDB/QoreDB) - Open-core desktop SQL client built with Rust and Tauri that opens DuckDB files and MotherDuck databases and queries local CSV and Parquet files. Its paid tier uses DuckDB to join data across connections to other databases.
 - [rainfrog](https://github.com/achristmascarl/rainfrog) - A database TUI with experimental support for DuckDB.
 - [marimo](https://marimo.io) - Unified data & AI platform that lets you work with SQL and Python with native support for DuckDB.
 - [jupysql](https://pypi.org/project/jupysql/) - Run SQL in Jupyter/IPython via a %sql and %%sql magics, with support for DuckDB.
