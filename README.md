@@ -128,7 +128,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Pondview](https://github.com/paulmupeters/pondview-bi) - Open-source, DuckDB-powered BI workspace for AI-assisted analysis, SQL, charts, and dashboards.
 - [DUX](https://github.com/wikar/dux) - Self-hosted analytics stack with a semantic model, DAX-inspired queries compiled to DuckDB SQL, DuckLake storage and dashboards.
 - [CloudBridge](https://github.com/JetSquirrel/cloudbridge) - Open-source desktop app for analyzing cloud and AI costs, with a local DuckDB ledger, spending dashboards, and configurable alerts.
-- [NoDOM](https://github.com/osullivj/nodom) - open source WASM GUI framework with declarative JSON coded in Modern Data Oriented C++ for a zero alloc zero copy render hotpath. Designed for the trading floor.
 
 #### Free (Proprietary / Source-Available)
 
@@ -388,6 +387,9 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [ExploreMyData](https://exploremydata.com) - Browser-based data explorer on DuckDB-Wasm: open CSV, Excel, JSON, Parquet, Arrow, Avro, SQLite and DuckDB files up to 1GB, chain filter/join/pivot/aggregate steps that each emit DuckDB SQL, write SQL directly, chart, and export. Files never leave the device.
 - [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
 - [Parquetly](https://www.parquetly.com) - Browser-based Parquet viewer on DuckDB-Wasm. Shows the schema, row groups and column chunk statistics, runs SQL over the file, and exports to CSV or JSON. Files are read locally and are not uploaded.
+- [NoDOM](https://github.com/osullivj/nodom) - open source WASM GUI framework with declarative JSON coded in Modern Data Oriented C++ for a zero alloc zero copy render hotpath. NoDOM is tightly integrated with DuckDB-WASM; chart and table widgets operate on columnar data directly for performance. Arbitrary SQL cxan be embedded in the declarative JSON. Enbedded Forth subsystem for widget glue code.
+
+DuckDB-WASM Designed for the trading floor.
 
 ## SQL Clients and IDE that Support DuckDB
 
