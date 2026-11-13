@@ -492,6 +492,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 ## Client-Server Setups
 
 - [Crunchy Data Warehouse](https://www.crunchydata.com/products/warehouse) - Fully managed DBaaS based in PostgreSQL integrated with DuckDB.
+- [ducktape](https://github.com/artie-labs/ducktape) - Lightweight REST API for DuckDB with HTTP/2 streaming support.
 - [MotherDuck](https://motherduck.com/) - A serverless cloud data warehouse powered by DuckDB.
 - [MyDuck Server](https://github.com/apecloud/myduckserver) - A server wrapping DuckDB with MySQL and PostgreSQL wire protocol support.
 - [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB. Integrates easily with ParadeDB.
