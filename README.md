@@ -508,6 +508,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using [Chargewire](https://github.com/gizmodata/chargewire) (HTTP and Apache Arrow), with authentication, concurrent sessions, a desktop app for macOS and Windows, and ADBC, JDBC, ODBC, and JavaScript clients.
 - [SlackerDB](https://github.com/robotslacker/slackerdb) - Java-based service that exposes DuckDB over the PostgreSQL wire protocol.
 - [GizmoData Cloud](https://gizmodata.com/cloud) - Managed Hardcharger (DuckDB) and GizmoSQL servers on AWS, Google Cloud or Azure. Create DuckLake catalogs or connect an existing Apache Iceberg REST catalog (such as Apache Polaris or Lakekeeper), and mount them on any number of clusters.
+- [Quack on Demand](https://github.com/starlake-ai/quack-on-demand) - Multi-tenant gateway serving DuckDB and DuckLake over Arrow Flight SQL and DuckDB's native Quack protocol, with pluggable authentication (DB/JWT/OIDC), table-, row- and column-level security, and read/write-aware routing across pools of DuckDB nodes.
 
 ## Extensions
 
