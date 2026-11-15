@@ -623,6 +623,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
 - [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
 - [VGI](https://query.farm/vgi/) - Exposes external workers as DuckDB catalogs, tables and functions using Apache Arrow IPC.
+- [orkidea](https://github.com/Tnsor-Labs/duckdb-orkidea) - Extension to attach Oracle Database and query, join, and write its tables from DuckDB, running filters, joins, and aggregates in Oracle. Built on a Rust ADBC driver that reads Arrow directly, so it needs no Oracle Instant Client.
 
 ### Extension Statistics
 
