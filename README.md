@@ -585,6 +585,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`observefs`](https://github.com/dentiny/duckdb-filesystem-observability) - I/O observability for DuckDB filesystems with latency statistics and external file cache access insights.
 - [`onager`](https://github.com/CogitatorTech/onager) - A DuckDB extension for graph data analytics.
 - [`orc`](https://github.com/alitrack/duckdb_orc) - Reads Apache ORC files in pure Rust — all primitives, struct, list, map types and every compression codec (Zlib, Snappy, LZO, LZ4, ZSTD).
+- [`orkidea`](https://github.com/Tnsor-Labs/duckdb-orkidea) - Extension to attach Oracle Database and query, join, and write its tables from DuckDB, running filters, joins, and aggregates in Oracle. Built on a Rust ADBC driver that reads Arrow directly, so it needs no Oracle Instant Client.
 - [`pfc`](https://github.com/ImpossibleForge/pfc-duckdb) - Read block-indexed PFC-compressed JSONL logs with timestamp filtering — 25% smaller than gzip with minimal S3 egress.
 - [`prql`](https://github.com/ywelsch/duckdb-prql) - Run PRQL commands directly within DuckDB.
 - [`pst`](https://github.com/intellekthq/duckdb-pst) - Read Microsoft PST files in-place with rich schemas for emails, contacts, appointments, tasks, and more.
@@ -627,7 +628,6 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
 - [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
 - [VGI](https://query.farm/vgi/) - Exposes external workers as DuckDB catalogs, tables and functions using Apache Arrow IPC.
-- [orkidea](https://github.com/Tnsor-Labs/duckdb-orkidea) - Extension to attach Oracle Database and query, join, and write its tables from DuckDB, running filters, joins, and aggregates in Oracle. Built on a Rust ADBC driver that reads Arrow directly, so it needs no Oracle Instant Client.
 
 ### Extension Statistics
 
