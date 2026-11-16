@@ -494,7 +494,6 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 ## Client-Server Setups
 
 - [Crunchy Data Warehouse](https://www.crunchydata.com/products/warehouse) - Fully managed DBaaS based in PostgreSQL integrated with DuckDB.
-- [ducktape](https://github.com/artie-labs/ducktape) - Lightweight REST API for DuckDB with HTTP/2 streaming support.
 - [MotherDuck](https://motherduck.com/) - A serverless cloud data warehouse powered by DuckDB.
 - [MyDuck Server](https://github.com/apecloud/myduckserver) - A server wrapping DuckDB with MySQL and PostgreSQL wire protocol support.
 - [pg_analytics](https://github.com/paradedb/pg_analytics) - PostgreSQL extension embedding DuckDB-in-PostgreSQL for fast on-disk and remote object storage analytics from Postgres. Built as a Foreign Data Wrapper with full query pushdown to DuckDB. Integrates easily with ParadeDB.
@@ -512,6 +511,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [SlackerDB](https://github.com/robotslacker/slackerdb) - Java-based service that exposes DuckDB over the PostgreSQL wire protocol.
 - [GizmoData Cloud](https://gizmodata.com/cloud) - Managed Hardcharger (DuckDB) and GizmoSQL servers on AWS, Google Cloud or Azure. Create DuckLake catalogs or connect an existing Apache Iceberg REST catalog (such as Apache Polaris or Lakekeeper), and mount them on any number of clusters.
 - [Quack on Demand](https://github.com/starlake-ai/quack-on-demand) - Multi-tenant gateway serving DuckDB and DuckLake over Arrow Flight SQL and DuckDB's native Quack protocol, with pluggable authentication (DB/JWT/OIDC), table-, row- and column-level security, and read/write-aware routing across pools of DuckDB nodes.
+- [ducktape](https://github.com/artie-labs/ducktape) - Lightweight REST API for DuckDB with HTTP/2 streaming support.
 
 ## Extensions
 
