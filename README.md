@@ -180,6 +180,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [Renart](https://getrenart.com/) - Local-first open source data platform for SQL and Python pipelines, notebooks and dashboards, with DuckDB support and declarative workflow definitions in Git.
+- [Ternlux](https://github.com/Ternlux/ternlux) - Open-source desktop app for ETL and data analysis. Joins databases, files and APIs in one step, running the join locally in DuckDB or pushing it down to the source database. An AI assistant drafts the plan and SQL for review before anything runs, using your own API key or a local model.
 
 #### Free (Proprietary / Source-Available)
 
