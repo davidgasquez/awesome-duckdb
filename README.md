@@ -226,6 +226,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PocketDuck](https://github.com/mailbus/PocketDuck) - Single-binary backend pairing PocketBase (auth, files, realtime) with an embedded DuckDB runtime: read-only analytics API, cross-source joins over Parquet/CSV/SQLite/PostgreSQL/MySQL, and exports to Parquet, PostgreSQL and Excel.
 - [duckdb-vectors](https://github.com/bernard357/duckdb-vectors) - MCP or embeddable semantic-search building block for agentic systems — hybrid vector + exact-token search over a local DuckDB file, no external vector database.
 - [schemagate](https://github.com/ashishsinha1602/schemagate) - Python library and MCP server for text-to-SQL agents that gives the model only the tables a question needs and the caller may read. Reflects a DuckDB file through duckdb-engine.
+- [sqrail](https://github.com/yhay81/sqrail) - Single-binary C++20 CLI around embedded DuckDB that runs one read-only SQL query over explicitly bound CSV, TSV, JSON, JSONL, and Parquet files with resource limits, streaming JSONL or atomic file output, and a 195-word contract for coding agents. MIT.
 
 ### Product, Web & Application Analytics
 
