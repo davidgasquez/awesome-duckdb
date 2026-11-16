@@ -180,6 +180,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [ETLX](https://github.com/realdatadriven/etlx) - DuckDB-powered ETL tool written in Go, inspired by evidence.dev's syntax. It uses a structured Markdown config where heading levels define nested blocks, yaml code blocks specify metadata, and sql code blocks handle data interactions. Enables clean, code-light orchestration with minimal setup.
 - [yato](https://github.com/Bl3f/yato) - The smallest DuckDB SQL orchestrator on Earth.
 - [Renart](https://getrenart.com/) - Local-first open source data platform for SQL and Python pipelines, notebooks and dashboards, with DuckDB support and declarative workflow definitions in Git.
+- [Ternlux](https://github.com/Ternlux/ternlux) - Open-source desktop app for ETL and data analysis. Joins databases, files and APIs in one step, running the join locally in DuckDB or pushing it down to the source database. An AI assistant drafts the plan and SQL for review before anything runs, using your own API key or a local model.
 
 #### Free (Proprietary / Source-Available)
 
@@ -225,6 +226,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PocketDuck](https://github.com/mailbus/PocketDuck) - Single-binary backend pairing PocketBase (auth, files, realtime) with an embedded DuckDB runtime: read-only analytics API, cross-source joins over Parquet/CSV/SQLite/PostgreSQL/MySQL, and exports to Parquet, PostgreSQL and Excel.
 - [duckdb-vectors](https://github.com/bernard357/duckdb-vectors) - MCP or embeddable semantic-search building block for agentic systems — hybrid vector + exact-token search over a local DuckDB file, no external vector database.
 - [schemagate](https://github.com/ashishsinha1602/schemagate) - Python library and MCP server for text-to-SQL agents that gives the model only the tables a question needs and the caller may read. Reflects a DuckDB file through duckdb-engine.
+- [sqrail](https://github.com/yhay81/sqrail) - Single-binary C++20 CLI around embedded DuckDB that runs one read-only SQL query over explicitly bound CSV, TSV, JSON, JSONL, and Parquet files with resource limits, streaming JSONL or atomic file output, and a 195-word contract for coding agents. MIT.
 
 ### Product, Web & Application Analytics
 
@@ -509,6 +511,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Hardcharger](https://github.com/gizmodata/hardcharger) - An open-source DuckDB server using [Chargewire](https://github.com/gizmodata/chargewire) (HTTP and Apache Arrow), with authentication, concurrent sessions, a desktop app for macOS and Windows, and ADBC, JDBC, ODBC, and JavaScript clients.
 - [SlackerDB](https://github.com/robotslacker/slackerdb) - Java-based service that exposes DuckDB over the PostgreSQL wire protocol.
 - [GizmoData Cloud](https://gizmodata.com/cloud) - Managed Hardcharger (DuckDB) and GizmoSQL servers on AWS, Google Cloud or Azure. Create DuckLake catalogs or connect an existing Apache Iceberg REST catalog (such as Apache Polaris or Lakekeeper), and mount them on any number of clusters.
+- [Quack on Demand](https://github.com/starlake-ai/quack-on-demand) - Multi-tenant gateway serving DuckDB and DuckLake over Arrow Flight SQL and DuckDB's native Quack protocol, with pluggable authentication (DB/JWT/OIDC), table-, row- and column-level security, and read/write-aware routing across pools of DuckDB nodes.
 
 ## Extensions
 
