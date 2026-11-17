@@ -106,6 +106,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Dart](https://github.com/TigerEyeLabs/duckdb-dart)
 - [PHP](https://github.com/satur-io/duckdb-php)
 - [PHP (PDO)](https://github.com/thomas-0816/pdo-duckdb-php)
+- [PHP (Quack Remote Protocol)](https://github.com/thomas-0816/duckdb-quack-protocol-php)
 - [PHP (native extension)](https://github.com/martin-juul/php-duckdb) - Native PHP extension for DuckDB with a typed API, streaming results, and asynchronous queries.
 
 ## Tools Powered by DuckDB
