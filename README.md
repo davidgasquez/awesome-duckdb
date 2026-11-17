@@ -599,6 +599,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://query.farm/products/extensions/shellfs/) - Allows shell commands to be used for input and output.
 - [`stats_duck`](https://github.com/KoliStat/the-stats-duck) - Statistics for tabular and clinical data: descriptive tables (`table_one`), linear models with robust/clustered standard errors, meta-analysis, bootstrap, and a grammar-of-graphics `VISUALIZE` clause that turns queries into Vega-Lite charts.
 - [`stochastic`](https://query.farm/products/extensions/stochastic/) - Probability distributions, random sampling and statistical functions.
+- [`tensorust`](https://duckdb.org/community_extensions/extensions/tensorust) - Table functions over the Tensorust Data API: private credit (BDC) loan marks and lender disagreements, federal awards that pay banned-list vendors, and a catalog of 145 public-records datasets, with free previews without a key.
 - [`tera`](https://query.farm/products/extensions/tera/) - Renders Tera templates from SQL.
 - [`textplot`](https://query.farm/products/extensions/textplot/) - Renders text-based bars, sparklines and density plots in query results.
 - [`tributary`](https://query.farm/products/extensions/tributary/) - Queries Apache Kafka topics from DuckDB SQL.
