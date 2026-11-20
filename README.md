@@ -218,6 +218,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Bonnard](https://bonnard.ai) - Business intelligence through MCP-compatible AI clients, with charts and dashboards over connected databases, including DuckDB on MotherDuck. ([pricing](https://bonnard.ai/pricing))
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB. ([pricing](https://www.fivetran.com/pricing) — Census was acquired by Fivetran)
+- [Offloader](https://offloader.dryga.com/) - Uses DuckDB to serve REST endpoints from published Parquet snapshots with tenant-scoped access and configured filters (BSL 1.1).
 
 #### Free & Open Source
 
