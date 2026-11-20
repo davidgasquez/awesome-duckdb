@@ -579,6 +579,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`json_schema`](https://query.farm/products/extensions/json_schema/) - JSON Schema draft-07 validation and default-value enrichment.
 - [`jsonata`](https://query.farm/products/extensions/jsonata/) - Evaluates JSONata expressions against JSON values in SQL.
 - [`lindel`](https://query.farm/products/extensions/lindel/) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
+- [`llm_prices`](https://duckdb.org/community_extensions/extensions/llm_prices) - Prices LLM API token counts in SQL offline with `llm_cost(model, input_tokens, output_tokens)` over a bundled, dated table of 146 models from 10 providers, each row linked to its pricing page.
 - [`marisa`](https://query.farm/products/extensions/marisa/) - Builds and queries compact MARISA tries for string lookup and prefix search.
 - [`miint`](https://the-miint.github.io/duckdb-miint/) - Open, SQL-native tools for microbiome data, from raw sequence and alignment to phylogeny, diversity, and mass spectrometry, built for the scale of modern multi-omic studies.
 - [`minijinja`](https://query.farm/products/extensions/minijinja/) - Renders Jinja-compatible templates from SQL using MiniJinja.
