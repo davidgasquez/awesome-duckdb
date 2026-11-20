@@ -632,6 +632,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
 - [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
 - [VGI](https://query.farm/vgi/) - Exposes external workers as DuckDB catalogs, tables and functions using Apache Arrow IPC.
+- [Moraine](https://github.com/morainedb/moraine) - DuckLake catalog stored in object storage on SlateDB, no separate catalog database required; also adds column indexes.
 
 ### Extension Statistics
 
