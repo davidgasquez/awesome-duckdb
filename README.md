@@ -234,6 +234,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
 - [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB. ([HitKeep Cloud](https://hitkeep.com/cloud))
+- [Virling](https://github.com/virling/virling) - Open-source web analytics that credits each payment (Stripe, Paddle, Polar, Dodo Payments and others) to the visit and channel that brought it. Single Rust binary with embedded DuckDB. ([hosted](https://virling.com/pricing))
 
 #### Free & Open Source
 
