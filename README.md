@@ -107,6 +107,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [PHP](https://github.com/satur-io/duckdb-php)
 - [PHP (PDO)](https://github.com/thomas-0816/pdo-duckdb-php)
 - [PHP (native extension)](https://github.com/martin-juul/php-duckdb) - Native PHP extension for DuckDB with a typed API, streaming results, and asynchronous queries.
+- [PHP (Quack Remote Protocol)](https://github.com/thomas-0816/duckdb-quack-protocol-php)
 
 ## Tools Powered by DuckDB
 
@@ -208,6 +209,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 - [crossql](https://github.com/hamarshehmhmd/crossql) - CLI that attaches Postgres, MySQL, SQLite and DuckDB databases plus CSV/Parquet/JSON files to DuckDB read-only, so one SQL query can join across them, and snapshots named queries into a SQLite/DuckDB file or Parquet folder for BI tools. (AGPL-3.0)
+- [Igloo](https://github.com/akkio-inc/Igloo) - SQL data warehouse that runs queries on an embedded DuckDB over Apache Iceberg tables in your own object storage. Speaks the PostgreSQL wire protocol and runs SQL written for Snowflake.
 
 #### Free (Proprietary / Source-Available)
 
@@ -219,6 +221,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 
 - [Bonnard](https://bonnard.ai) - Business intelligence through MCP-compatible AI clients, with charts and dashboards over connected databases, including DuckDB on MotherDuck. ([pricing](https://bonnard.ai/pricing))
 - [Census](https://www.getcensus.com/) - Census's dataset diffing for incremental syncs is powered by DuckDB. ([pricing](https://www.fivetran.com/pricing) — Census was acquired by Fivetran)
+- [Offloader](https://offloader.dryga.com/) - Uses DuckDB to serve REST endpoints from published Parquet snapshots with tenant-scoped access and configured filters (BSL 1.1).
 
 #### Free & Open Source
 
@@ -234,6 +237,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 #### Open Core (Free & Open Source + Optional Paid/Hosted Tier)
 
 - [HitKeep](https://github.com/PascaleBeier/hitkeep) - Open-source, privacy-first web analytics for traffic, funnels, ecommerce, Search Console, and AI visibility. Runs as a single Go binary with embedded DuckDB. ([HitKeep Cloud](https://hitkeep.com/cloud))
+- [Virling](https://github.com/virling/virling) - Open-source web analytics that credits each payment (Stripe, Paddle, Polar, Dodo Payments and others) to the visit and channel that brought it. Single Rust binary with embedded DuckDB. ([hosted](https://virling.com/pricing))
 
 #### Free & Open Source
 
@@ -390,6 +394,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [ExploreMyData](https://exploremydata.com) - Browser-based data explorer on DuckDB-Wasm: open CSV, Excel, JSON, Parquet, Arrow, Avro, SQLite and DuckDB files up to 1GB, chain filter/join/pivot/aggregate steps that each emit DuckDB SQL, write SQL directly, chart, and export. Files never leave the device.
 - [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
 - [Parquetly](https://www.parquetly.com) - Browser-based Parquet viewer on DuckDB-Wasm. Shows the schema, row groups and column chunk statistics, runs SQL over the file, and exports to CSV or JSON. Files are read locally and are not uploaded.
+- [NoDOM](https://github.com/osullivj/nodom) - Open-source C++ framework for browser apps that uses DuckDB-Wasm to run SQL for its chart and table widgets.
 
 ## SQL Clients and IDE that Support DuckDB
 
@@ -491,6 +496,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [omniload](https://github.com/panodata/omniload) - Polyglot data loader for ETL, warehousing and more, based on dlt. Supports 140+ source/destination adapters. Derived from ingestr v0 (MIT).
 - [Scherlok](https://github.com/rbmuller/scherlok) - Data quality monitoring CLI that profiles tables and detects anomalies (volume, freshness, schema drift, NULL rates, distributions) without configuration; DuckDB is one of its connectors and backs its built-in demo.
 - [Filament MotherDuck sink](https://github.com/galaxy-io/filament/blob/main/docs/pages/connectors/sinks/motherduck.mdx) - Load data from databases and SaaS APIs to MotherDuck with Filament, using full, incremental or CDC replication. Writes through DuckDB's native MotherDuck extension and appender.
+- [semlayer](https://github.com/semlayer-dev/semlayer) - Infers a semantic layer (join keys, measures, required filters) from a DuckDB file with `semlayer infer duckdb:<file>` and serves it to AI agents over MCP. Also reads Snowflake, BigQuery and PostgreSQL.
 
 ## Client-Server Setups
 
@@ -578,6 +584,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`json_schema`](https://query.farm/products/extensions/json_schema/) - JSON Schema draft-07 validation and default-value enrichment.
 - [`jsonata`](https://query.farm/products/extensions/jsonata/) - Evaluates JSONata expressions against JSON values in SQL.
 - [`lindel`](https://query.farm/products/extensions/lindel/) - Linearization/Delinearization, Z-Order, Hilbert and Morton Curves.
+- [`llm_prices`](https://duckdb.org/community_extensions/extensions/llm_prices) - Prices LLM API token counts in SQL offline with `llm_cost(model, input_tokens, output_tokens)` over a bundled, dated table of 146 models from 10 providers, each row linked to its pricing page.
 - [`marisa`](https://query.farm/products/extensions/marisa/) - Builds and queries compact MARISA tries for string lookup and prefix search.
 - [`miint`](https://the-miint.github.io/duckdb-miint/) - Open, SQL-native tools for microbiome data, from raw sequence and alignment to phylogeny, diversity, and mass spectrometry, built for the scale of modern multi-omic studies.
 - [`minijinja`](https://query.farm/products/extensions/minijinja/) - Renders Jinja-compatible templates from SQL using MiniJinja.
@@ -600,6 +607,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [`shellfs`](https://query.farm/products/extensions/shellfs/) - Allows shell commands to be used for input and output.
 - [`stats_duck`](https://github.com/KoliStat/the-stats-duck) - Statistics for tabular and clinical data: descriptive tables (`table_one`), linear models with robust/clustered standard errors, meta-analysis, bootstrap, and a grammar-of-graphics `VISUALIZE` clause that turns queries into Vega-Lite charts.
 - [`stochastic`](https://query.farm/products/extensions/stochastic/) - Probability distributions, random sampling and statistical functions.
+- [`tensorust`](https://duckdb.org/community_extensions/extensions/tensorust) - Table functions over the Tensorust Data API: private credit (BDC) loan marks and lender disagreements, federal awards that pay banned-list vendors, and a catalog of 145 public-records datasets, with free previews without a key.
 - [`tera`](https://query.farm/products/extensions/tera/) - Renders Tera templates from SQL.
 - [`textplot`](https://query.farm/products/extensions/textplot/) - Renders text-based bars, sparklines and density plots in query results.
 - [`tributary`](https://query.farm/products/extensions/tributary/) - Queries Apache Kafka topics from DuckDB SQL.
@@ -629,6 +637,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [go-duckfs](https://github.com/firetiger-oss/go-duckfs) - A Go library that mounts `io/fs` file systems as DuckDB virtual file systems, sandboxing all I/O through the Go runtime.
 - [duckdb-fxmacrodata](https://github.com/fxmacrodata/duckdb-fxmacrodata) - Rust extension with table functions that return FXMacroData's official-source macroeconomic releases and release calendars as typed rows, with the publication timestamp of each figure.
 - [VGI](https://query.farm/vgi/) - Exposes external workers as DuckDB catalogs, tables and functions using Apache Arrow IPC.
+- [Moraine](https://github.com/morainedb/moraine) - DuckLake catalog stored in object storage on SlateDB, no separate catalog database required; also adds column indexes.
 
 ### Extension Statistics
 
