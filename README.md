@@ -207,6 +207,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Hugr](https://hugr-lab.github.io/) - An data mesh platform and high-performance GraphQL backend powered by DuckDB.
 - [UniverSQL](https://github.com/buremba/universql) - An implementation of Snowflake API, enables running queries on Snowflake tables locally with DuckDB without a running warehouse.
 - [crossql](https://github.com/hamarshehmhmd/crossql) - CLI that attaches Postgres, MySQL, SQLite and DuckDB databases plus CSV/Parquet/JSON files to DuckDB read-only, so one SQL query can join across them, and snapshots named queries into a SQLite/DuckDB file or Parquet folder for BI tools. (AGPL-3.0)
+- [Igloo](https://github.com/akkio-inc/Igloo) - SQL data warehouse that runs queries on an embedded DuckDB over Apache Iceberg tables in your own object storage. Speaks the PostgreSQL wire protocol and runs SQL written for Snowflake.
 
 #### Free (Proprietary / Source-Available)
 
