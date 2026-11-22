@@ -705,6 +705,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [How to Query Reservoir's Hyperliquid Data](https://hydromancer.xyz/blog/exploring-reservoir) - Using DuckDB's httpfs extension and `read_parquet` to query Hyperliquid fills, candles and order book snapshots stored as Parquet in a requester-pays S3 bucket, pulling only the columns and time ranges a query needs.
 - [DuckDB Explained: When a Database on Your Laptop Beats SQLite, Polars and BigQuery](https://www.alekseialeinikov.com/en/blog/topics/data/duckdb-explained-vs-sqlite-polars-bigquery) - Reproducible benchmark of DuckDB against SQLite, pandas and Polars on 11.2 million NYC taxi trips, where it replaces a warehouse and where it does not, with notes on DuckDB 2.0.
 - [Five DuckDB recipes for market data CSV exports](https://sifting.io/blog/duckdb-market-data-csv-five-sql-recipes) - DuckDB 1.x SQL examples using a synthetic CSV to check coverage and timestamp gaps, build UTC daily bars, and calculate close returns and rolling means.
+- [DuckDB 2.0: "Relations no longer have fetchone()" and the other errors, with fixes](https://cybernative.ai/guides/duckdb-2-0-relations-no-longer-have-fetchone/) - Python errors DuckDB 2.0.0 prints for calls removed from relations and `execute()` results, replacements run on 1.4.5, 1.5.6 and 2.0.0, and whether dlt, ibis, narwhals, sqlglot and marimo have a release that fixes those calls (source read).
 
 ### Books
 
