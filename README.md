@@ -460,6 +460,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [GitHub Repo Analytics](https://github.com/exmergo/github-repo-analytics) - GitHub Actions template that collects a repository's traffic, stars, downloads, and issue/PR activity into a DuckDB file, modeled with dbt and MetricFlow, keeping traffic history beyond GitHub's 14-day limit.
 - [Dublin bikes + weather pipeline](https://malavnaik.com/projects/dublin-bikes-pipeline/) - Example pipeline that loads Dublinbikes station snapshots and Met Éireann weather into DuckDB, models them with dbt into a tested star schema, and publishes the marts as Parquet with an in-browser DuckDB-WASM query console.
 - [Qiita-MIINT](https://the-miint.github.io/qiita/) - Qiita is a scalable, multi-omic platform for managing, processing, and analyzing microbiome data, built entirely around DuckDB and the MIINT extension.
+- [OpenMat Live](https://openmatlive.com/) - Offline-first US high school folkstyle wrestling tournament platform that publishes deterministic DuckDB snapshots and queries live brackets and standings in the browser with DuckDB-Wasm and OPFS.
 
 ## Integrations
 
