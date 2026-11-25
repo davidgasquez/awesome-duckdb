@@ -397,6 +397,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [DBConvert Parquet Viewer](https://streams.dbconvert.com/parquet-viewer) - Browser-based Parquet viewer on DuckDB-Wasm. Reads the schema, row groups, compression codecs and column statistics, runs read-only SQL over the file and exports results as CSV. A [JSONL/NDJSON viewer](https://streams.dbconvert.com/jsonl-viewer) uses the same engine. Files are opened through a browser file handle and are not uploaded.
 - [Parquetly](https://www.parquetly.com) - Browser-based Parquet viewer on DuckDB-Wasm. Shows the schema, row groups and column chunk statistics, runs SQL over the file, and exports to CSV or JSON. Files are read locally and are not uploaded.
 - [NoDOM](https://github.com/osullivj/nodom) - Open-source C++ framework for browser apps that uses DuckDB-Wasm to run SQL for its chart and table widgets.
+- [conv.earth](https://conv.earth/sql) - Browser-based spatial SQL on GIS files (Shapefile, GeoJSON, KML, GeoPackage) using DuckDB-Wasm and the spatial extension, alongside a GDAL-based format converter. Files are processed locally.
 
 ## SQL Clients and IDE that Support DuckDB
 
