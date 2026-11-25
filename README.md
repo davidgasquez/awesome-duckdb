@@ -256,6 +256,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Kepler.gl](https://kepler.gl/) - Kepler.gl is a powerful open-source geospatial analysis tool for large-scale data sets, now embeds duckdb wasm to create geospatial layers.
 - [Whereabouts](https://github.com/ajl2718/whereabouts) - Fast, accurate, open-source geocoding in Python, using DuckDB.
 - [duck soup](https://github.com/henrik716/duck-soup) - Config-driven geospatial ETL: a YAML pipeline (or visual web editor) of sources, spatial/attribute joins, geoprocessing and field mapping compiles to a chain of DuckDB spatial SQL views and writes GeoPackage or GeoParquet. Reads GeoJSON, Shapefile, FileGDB, WFS, OGC API Features, ArcGIS REST, Parquet, PostgreSQL and more.
+- [open-business-finder](https://github.com/Pinlyx/open-business-finder) - Command-line tool that queries Overture Maps places in place with DuckDB to list local businesses by country, region, district and category, with no API key.
 
 ### Observability, Logs & Security
 
