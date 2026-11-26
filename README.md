@@ -436,6 +436,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [aantje](https://aantje.dev/) - Free, open-source (MIT) VS Code extension for exploring DuckLake catalogs backed by DuckDB, SQLite or PostgreSQL: browse schemas, tables and snapshots, run SQL with IntelliSense, and monitor table health, storage and growth.
 - [QoreDB](https://github.com/QoreDB/QoreDB) - Open-core desktop SQL client built with Rust and Tauri that opens DuckDB files and MotherDuck databases and queries local CSV and Parquet files. Its paid tier uses DuckDB to join data across connections to other databases.
 - [QueryAST Lens](https://github.com/Hemlig371/queryast-lens) - Cross-platform SQL query workbench that queries DuckDB files and visualizes the parsed statement as an AST graph with dependency highlighting.
+- [TauSQL](https://tauleap.com/product/tausql/) - Desktop app for macOS (Apple Silicon) that imports CSV, TSV and Parquet files into a local DuckDB file and runs SQL on them, with result export to CSV/TSV/Parquet and remote connections to Quack and DuckLake. (proprietary; free core, paid Pro)
 
 ## Projects Powered by DuckDB
 
