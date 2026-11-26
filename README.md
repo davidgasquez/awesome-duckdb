@@ -653,6 +653,7 @@ Community-contributed DuckDB extensions, which can be installed via `INSTALL ⟨
 - [GeoSQL](https://geosql.dev) - Interactive spatial SQL problems powered by DuckDB-WASM, running entirely in the browser.
 - [U.S. bank cohort analysis with DuckDB](https://github.com/anshuman-pandey/us-bank-data/blob/v0.2.0/notebooks/05_polars_duckdb_bank_data.ipynb) - A reproducible notebook using DuckDB to query bank financial Parquet, join institution identities, and check aggregates and null counts against Polars.
 - [The Work Gym SQL practice](https://theworkgym.com/sql/) - Checked SQL exercises that run on DuckDB-WASM in the browser, from SELECT and joins to window functions; first unit free.
+- - [QueryCase](https://querycase.com) - SQL course taught through detective cases, with each query run and checked on DuckDB-WASM in the browser, plus a sandbox for querying your own CSV files. First rank free.
 
 ## Media
 
