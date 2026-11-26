@@ -161,6 +161,7 @@ DuckDB 2.0.0 was released on 2026-10-21: see the [announcement blog post](https:
 - [Datakit](https://datakit.page/) - The privacy-first data analysis toolkit. (proprietary; free tier)
 - [OpenSheet](https://opensheet.app) - Spreadsheet-style data tool with visual canvas, inline editing, and AI commands for SQL transformations. (proprietary; free to use)
 - [Unwrap](https://unwrap.tools/) - Opens unfamiliar CSV, JSON, Excel and ZIP exports in the browser and profiles them locally in an in-memory DuckDB workspace (WebAssembly); file contents are never uploaded. (proprietary; free to use)
+- [Alginte](https://www.alginte.com) - Self-hosted Kafka console with a SQL Query page. DuckDB runs inside the console, and table functions read a bounded range of a Kafka topic, optionally decoded through the schema registry, or a Kafka Streams state store. One query can aggregate them and join them with each other or with a CSV, Parquet or JSON file. ([docs](https://docs.alginte.com/guides/sql)) (proprietary; free Community edition)
 
 ### ETL, Pipelines & Orchestration
 
